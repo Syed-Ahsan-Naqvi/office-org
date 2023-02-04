@@ -7,9 +7,10 @@ import img5 from "../images/image2-removebg-preview.png"
 import img7 from "../images/image3-removebg-preview.png"
 import img8 from "../images/image4-removebg-preview.png"
 
-import { SiGmail } from "react-icons/si";
-import { RiInstagramFill } from "react-icons/ri";
-import { BsCodeSlash, BsFacebook, BsLinkedin, BsTwitter } from "react-icons/bs";
+import Footer from "../components/footer"
+
+import Particle from './Particle'
+
 export default function Teamus() {
     return (
         // <div className='w-screen h-screen bg-black' >
@@ -18,13 +19,15 @@ export default function Teamus() {
                 <SideNav />
                 <div className='absolute' >
                     <Btn />
+                    <Particle />
                 </div>
 
-                <div className='bg-black h-screen'>
-                    <h1 className='text-center text-white pt-64 text-2xl font-bold '  > <span className='text-5xl text-yellow-600 font-bold'>OUR TEAM</span> </h1>
+                <div className='bg-black h-screen flex justify-center items-center '>
+                    <h1 data-aos="fade-up" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" className='text-center text-white text-2xl font-bold '  > <span className='text-5xl text-yellow-600 font-bold'>OUR TEAM</span> </h1>
                 </div>
 
-                <section className="  bg-yellow-600 text-gray-600 body-font">
+                <section className="   text-gray-600 body-font">
                     <div className="container px-5 py-24 mx-auto">
                         <div className="flex flex-col text-center w-full mb-20">
                             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Master Cleanse Reliac Heirloom</h1>
@@ -128,7 +131,7 @@ export default function Teamus() {
 
 
             </div>
-            <div className='  flex justify-center pt-10 pb-10 pr-5 pl-5 md:pl-0 md:pr-0' >
+            <div className='  flex justify-center pt-10 pb-10 pr-5 pl-5 md:pl-0 md:pr-0 items-center md:h-[100vh] ' >
                 <div >
                     <div className='block md:hidden' >
                         <img data-aos="fade-up" data-aos-easing="ease-out-cubic"
@@ -146,39 +149,19 @@ export default function Teamus() {
                     </div>
                 </div>
             </div >
+
+            {/* parallex starts */}
+
+
+
+            {/* parallex ends */}
+
+
             {/* Footer starts */}
             <div className='h-auto w-auto'>
-                <div className='h-1/2 w-screen pt-14 pb-14 grid justify-center bg-yellow-600' >
-                    <div className='text-center' >
-                        {/* <p className='text-3xl'> HashStackDeveloper</p>
-                   <p className='text-2xl'>Main Akbar Market Canal Bank Housing ibn-e-saeed Block Lahore, Pakistan</p>
-                   <P>hashstackdeveloper@gmail.com</P> */}
-                        <div className=''><img src="" alt="" /></div>
-                    </div>
-                    <br />
-                    <div className='grid justify-center' >
-                        <div className='grid' >
-                            <input type="text" placeholder='Email' />
-                            <br />
-                            <textarea type="text" placeholder='Your Message' />
-                            {/* <div> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div> */}
-                            <br />
 
-                        </div>
-                        <div className=' text-center inline bg-blue-600 ' >
-                            <button>Button</button>
-                        </div>
-                    </div>
-                    <br />
-                    <div className='flex justify-around' >
-                        <div><SiGmail /></div>
-                        <div >< BsFacebook /></div>
-                        <div><RiInstagramFill /></div>
-                        <div><BsTwitter /></div>
-                        <div><BsLinkedin /></div>
-                    </div>
 
-                </div>
+                <Footer />
 
 
 

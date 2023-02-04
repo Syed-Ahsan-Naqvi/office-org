@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 import UseAnimations from "react-useanimations";
 import menu4 from 'react-useanimations/lib/menu4';
 import React, { useRef, useEffect, useState } from 'react'
-import img1 from "../images/WhatsApp_Image_2023-01-12_at_3.05.36_PM-removebg-preview.png"
+// import img1 from "../images/WhatsApp_Image_2023-01-12_at_3.05.36_PM-removebg-preview.png"
 // import Particle from './Particle2'
 
 
@@ -43,6 +43,7 @@ export default function SideNav() {
             }
 
         }
+        // setcolor1(!color1)
     }
 
 
@@ -57,7 +58,12 @@ export default function SideNav() {
         }
     })
     const [first, setfirst] = useState("default")
+    // const [color1, setcolor1] = useState("true")
+    // const [color2, setcolor2] = useState("white")
+
+
     console.warn(first)
+
 
     return (
         <>
@@ -86,7 +92,7 @@ export default function SideNav() {
                         first === "team" && <div className=" z-10 flex justify-center items-center h-screen w-screen" ><div   ><h1 className="text-white text-7xl md:text-9xl tracking-[60px] md:tracking-[80px] opacity-10  transition-transform duration-700 cursor-not-allowed " >Team</h1></div></div>
                     }
                     {
-                        first === "partners" && <div className=" z-10 flex justify-center items-center h-screen w-screen" ><div   ><h1 className="text-white text-7xl md:text-9xl tracking-[60px] md:tracking-[80px] opacity-10  transition-transform duration-700 cursor-not-allowed " >Partners</h1></div></div>
+                        first === "partners" && <div className=" z-10 flex justify-center items-center h-screen w-screen" ><div   ><h1 className="text-white text-7xl md:text-9xl tracking-[60px] md:tracking-[80px] opacity-10  transition-transform duration-700 cursor-not-allowed " >Contact</h1></div></div>
                     }
 
 
@@ -182,7 +188,7 @@ export default function SideNav() {
                                 onMouseEnter={() => {
                                     setfirst("partners")
                                 }}
-                                onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-black" to="/partbers" >Contact</Link></ button>
+                                onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-black" to="/partners" >Contact</Link></ button>
                         </div> : <div className="ml-0 md:ml-10 flex flex-col justify-start items-start" >
                             <span className="z-20 font-mono text-xl " >05</span>
                             <button

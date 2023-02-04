@@ -28,7 +28,7 @@ export default function BottomTop() {
     }, [])
     return (
         <div  >
-            <button onClick={() => { scrollToTop() }} className={isVisible === true ? "opacity-100 fixed w-12 h-12 z-20 flex justify-center items-center rounded-full bottom-6 right-6  sm:bottom-10  sm:right-20 bg-black hover:bg-yellow-600 text-yellow-600 " : "opacity-0"} ><BiArrowFromBottom className="h-6 w-6" aria-hidden="true" /></button>
+            <button onClick={() => { scrollToTop() }} className={isVisible === true ? "opacity-100 fixed w-12 h-12 z-20 flex justify-center items-center rounded-full bottom-6 right-6  sm:bottom-10  sm:right-20 bg-black hover:bg-yellow-600 text-yellow-600 hover:text-black " : "opacity-0"} ><BiArrowFromBottom className="h-6 w-6" aria-hidden="true" /></button>
         </div>
     )
 }

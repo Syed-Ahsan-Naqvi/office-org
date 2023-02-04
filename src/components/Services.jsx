@@ -7,10 +7,10 @@ import SideNav from './SideNav';
 import img5 from "../images/image2-removebg-preview.png"
 import img7 from "../images/image3-removebg-preview.png"
 import img8 from "../images/image4-removebg-preview.png"
+import Footer from "../components/footer"
 
-import { SiGmail } from "react-icons/si";
-import { RiInstagramFill } from "react-icons/ri";
-import { BsCodeSlash, BsFacebook, BsLinkedin, BsTwitter } from "react-icons/bs";
+import Particle from './Particle'
+
 
 export default function ServicesPage() {
     useEffect(() => {
@@ -23,20 +23,24 @@ export default function ServicesPage() {
 
             {/* <div className='w-screen h-screen bg-black' > */}
             <div >
-                <div className=' bg-yellow-600 '>
+                <div className='  '>
 
                     <SideNav />
+
                     <div className='absolute' >
-                        <Btn />
+                        <div className="text-yellow-600" >
+                            <Btn />
+                            <Particle />
+                        </div>
                     </div>
 
 
-                    <div className='bg-black h-[100vh]'>
+                    <div className='bg-black h-[100vh] flex justify-center items-center '>
                         <h1 data-aos="fade-up" data-aos-easing="ease-out-cubic"
-                            data-aos-duration="2000" className='text-center text-white pt-64 text-2xl font-bold '  > <span className='text-5xl text-yellow-600 font-bold'>Our Services</span> </h1>
+                            data-aos-duration="2000" className='text-center text-white  text-2xl font-bold '  > <span className='text-5xl text-yellow-600 font-bold'>Our Services</span> </h1>
                     </div>
 
-                    <section className=" bg-yellow-600 text-gray-600 body-font">
+                    <section className="  text-gray-600 body-font">
                         <div className="container px-5 py-24 mx-auto flex flex-wrap">
                             <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                                 <div className="w-full sm:p-4 px-4 mb-6">
@@ -67,7 +71,7 @@ export default function ServicesPage() {
                     </section>
 
 
-                    <section className=" bg-yellow-600 text-gray-600 body-font">
+                    <section className="  text-gray-600 body-font">
                         <div className="container px-5 py-24 mx-auto flex flex-wrap">
                             <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                                 <div className="w-full sm:p-4 px-4 mb-6">
@@ -98,7 +102,7 @@ export default function ServicesPage() {
                     </section>
 
 
-                    <section className=" bg-yellow-600 text-gray-600 body-font">
+                    <section className="  text-gray-600 body-font">
                         <div className="container px-5 py-24 mx-auto flex flex-wrap">
                             <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                                 <div className="w-full sm:p-4 px-4 mb-6">
@@ -129,7 +133,7 @@ export default function ServicesPage() {
                     </section>
 
 
-                    <section className=" bg-yellow-600 text-gray-600 body-font">
+                    <section className="  text-gray-600 body-font">
                         <div className="container px-5 py-24 mx-auto flex flex-wrap">
                             <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                                 <div className="w-full sm:p-4 px-4 mb-6">
@@ -160,7 +164,7 @@ export default function ServicesPage() {
                     </section>
 
 
-                    <section className=" bg-yellow-600 text-gray-600 body-font">
+                    <section className="  text-gray-600 body-font">
                         <div className="container px-5 py-24 mx-auto flex flex-wrap">
                             <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                                 <div className="w-full sm:p-4 px-4 mb-6">
@@ -191,7 +195,7 @@ export default function ServicesPage() {
                     </section>
 
 
-                    <section className=" bg-yellow-600 text-gray-600 body-font">
+                    <section className="  text-gray-600 body-font">
                         <div className="container px-5 py-24 mx-auto flex flex-wrap">
                             <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                                 <div className="w-full sm:p-4 px-4 mb-6">
@@ -223,7 +227,7 @@ export default function ServicesPage() {
 
 
                 </div>
-                <div className='  flex justify-center pt-10 pb-10 pr-5 pl-5 md:pl-0 md:pr-0' >
+                <div className='  flex justify-center pt-10 pb-10 pr-5 pl-5 md:pl-0 md:pr-0 items-center md:h-[100vh] ' >
                     <div >
                         <div className='block md:hidden' >
                             <img data-aos="fade-up" data-aos-easing="ease-out-cubic"
@@ -243,37 +247,9 @@ export default function ServicesPage() {
                 </div >
                 {/* Footer starts */}
                 <div className='h-auto w-auto'>
-                    <div className='h-1/2 w-screen pt-14 pb-14 grid justify-center bg-yellow-600' >
-                        <div className='text-center' >
-                            {/* <p className='text-3xl'> HashStackDeveloper</p>
-                   <p className='text-2xl'>Main Akbar Market Canal Bank Housing ibn-e-saeed Block Lahore, Pakistan</p>
-                   <P>hashstackdeveloper@gmail.com</P> */}
-                            <div className=''><img src="" alt="" /></div>
-                        </div>
-                        <br />
-                        <div className='grid justify-center' >
-                            <div className='grid' >
-                                <input type="text" placeholder='Email' />
-                                <br />
-                                <textarea type="text" placeholder='Your Message' />
-                                {/* <div> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div> */}
-                                <br />
 
-                            </div>
-                            <div className=' text-center inline bg-blue-600 ' >
-                                <button>Button</button>
-                            </div>
-                        </div>
-                        <br />
-                        <div className='flex justify-around' >
-                            <div><SiGmail /></div>
-                            <div >< BsFacebook /></div>
-                            <div><RiInstagramFill /></div>
-                            <div><BsTwitter /></div>
-                            <div><BsLinkedin /></div>
-                        </div>
 
-                    </div>
+                    <Footer />
 
 
 

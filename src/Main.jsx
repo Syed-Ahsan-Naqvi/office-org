@@ -7,6 +7,8 @@ import Team from "./components/Team"
 import Partners from "./components/Partners"
 
 
+
+
 export default function Main() {
 
     return (
