@@ -1,14 +1,15 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 export default function footer() {
     return (
         <div>
             <footer class="text-center bg-black text-white">
                 <div class="container px-6 pt-6">
-                    <p className=' text-2xl md:text-5xl text-yellow-600'> HASHSTACK DEVELOPERS</p>
+                    <p className=' text-2xl md:text-5xl text-yellow-600'> <span className='font-extrabold'>HASHSTACK  </span>DEVELOPERS</p>
                     <br />
                     <div class="flex justify-center mb-6">
-                        <a href="#!" type="button" class="rounded-full border-2 border-yellow-600 text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+                        <a href="https://www.facebook.com/hashstackdevelopers?mibextid=ZbWKwL" type="button" class="rounded-full border-2 border-yellow-600 text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
                             <svg aria-hidden="true"
                                 focusable="false"
                                 data-prefix="fab"
@@ -25,7 +26,7 @@ export default function footer() {
                             </svg>
                         </a>
 
-                        <a href="#!" type="button" class="rounded-full border-2 border-yellow-600 text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+                        <a href="https://twitter.com/hashstack_Pk?s=09" type="button" class="rounded-full border-2 border-yellow-600 text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
                             <svg aria-hidden="true"
                                 focusable="false"
                                 data-prefix="fab"
@@ -42,7 +43,7 @@ export default function footer() {
                             </svg>
                         </a>
 
-                        <a href="#!" type="button" class="rounded-full border-2 border-yellow-600 text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+                        <a href="mailto:hashstackdevelopers@gmail.com" type="button" class="rounded-full border-2 border-yellow-600 text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
                             <svg aria-hidden="true"
                                 focusable="false"
                                 data-prefix="fab"
@@ -59,7 +60,7 @@ export default function footer() {
                             </svg>
                         </a>
 
-                        <a href="#!" type="button" class="rounded-full border-2 border-yellow-600 text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+                        <a href="https://instagram.com/hashstackdevelopers?igshid=NDk5N2NlZjQ=" type="button" class="rounded-full border-2 border-yellow-600 text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
                             <svg aria-hidden="true"
                                 focusable="false"
                                 data-prefix="fab"
@@ -76,7 +77,7 @@ export default function footer() {
                             </svg>
                         </a>
 
-                        <a href="#!" type="button" class="rounded-full border-2 border-yellow-600 text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+                        <a href="https://www.linkedin.com/company/hashstack-developers/" type="button" class="rounded-full border-2 border-yellow-600 text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
                             <svg aria-hidden="true"
                                 focusable="false"
                                 data-prefix="fab"
@@ -93,7 +94,7 @@ export default function footer() {
                             </svg>
                         </a>
 
-                        <a href="#!" type="button" class="rounded-full border-2 border-yellow-600 text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+                        <a href="https://github.com/Hashstack-Developers" type="button" class="rounded-full border-2 border-yellow-600 text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
                             <svg aria-hidden="true"
                                 focusable="false"
                                 data-prefix="fab"

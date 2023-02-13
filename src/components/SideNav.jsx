@@ -16,6 +16,7 @@ export default function SideNav() {
     useEffect(() => {
         AOS.init({ duration: 800 });
 
+
     }, []);
     const toe = useRef();
     const mit = useRef();
@@ -65,11 +66,22 @@ export default function SideNav() {
     console.warn(first)
 
 
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        })
+    }
+
+    // console.warn(scrollToTop())
+
+
+
     return (
         <>
 
 
-            <div ref={mit} className=' z-20 fixed top-5 right-5 md:top-1/2 md:left-10 translate-x-0  md:translate-x-0 transition-transform duration-1000 ease-in-out '  >
+            <div ref={mit} className=' z-20 fixed top-5 right-5 md:top-1/2 md:right-[92%] translate-x-0  md:translate-x-0 transition-transform duration-1000 ease-in-out '  >
                 <button onClick={toggleCart}  >  <UseAnimations fillColor='white' strokeColor="#ffffff" animation={menu4} size={50} /></button>
             </div>
 
@@ -107,7 +119,8 @@ export default function SideNav() {
                             setfirst("home")
                         }} className="  flex flex-col justify-start items-start" >
                             <span className="z-20 font-mono text-xl text-white" >01</span>
-                            <Link className=" z-20 no-underline text-black" to="/" >
+                            {/* <Link className=" z-20 no-underline text-black" to="/" onClick={scrollToTop()} > */}
+                            <Link className=" z-20 no-underline text-black" to="/"  >
                                 <button
 
                                     onClick={toggleCart} className=" text-4xl md:text-5xl  font-serif font-[500]" > Home</ button>
@@ -182,20 +195,20 @@ export default function SideNav() {
                     </div>
 
                     <div className="hidden md:block" >
-                        {data.pathname === "/partners" ? <div className=" ml-10 flex flex-col justify-start items-start" >
+                        {data.pathname === "/contact" ? <div className=" ml-10 flex flex-col justify-start items-start" >
                             <span className="z-20 font-mono text-xl text-white " >05</span>
                             <button
                                 onMouseEnter={() => {
                                     setfirst("partners")
                                 }}
-                                onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-black" to="/partners" >Contact</Link></ button>
+                                onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-black" to="/contact" >Contact</Link></ button>
                         </div> : <div className="ml-0 md:ml-10 flex flex-col justify-start items-start" >
                             <span className="z-20 font-mono text-xl " >05</span>
                             <button
                                 onMouseEnter={() => {
                                     setfirst("partners")
                                 }}
-                                onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-white" to="/partners" >Contact</Link></ button>
+                                onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-white" to="/contact" >Contact</Link></ button>
                         </div>}
                     </div>
 
@@ -293,20 +306,20 @@ export default function SideNav() {
                         </div>
                         <div className="block md:hidden" >
 
-                            {data.pathname === "/partners" ? <div className=" ml-0 md:ml-10 flex flex-col justify-start items-start" >
+                            {data.pathname === "/contact" ? <div className=" ml-0 md:ml-10 flex flex-col justify-start items-start" >
                                 <span className="z-20 font-mono text-xl text-white " >05</span>
                                 <button
                                     onMouseEnter={() => {
                                         setfirst("partners")
                                     }}
-                                    onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-black" to="/partbers" >Contact</Link></ button>
+                                    onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-black" to="/contact" >Contact</Link></ button>
                             </div> : <div className="ml-0 md:ml-10 flex flex-col justify-start items-start" >
                                 <span className="z-20 font-mono text-xl " >05</span>
                                 <button
                                     onMouseEnter={() => {
                                         setfirst("partners")
                                     }}
-                                    onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-white" to="/partners" >Contact</Link></ button>
+                                    onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-white" to="/contact" >Contact</Link></ button>
                             </div>}
 
                         </div>

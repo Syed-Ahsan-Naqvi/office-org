@@ -1,4 +1,4 @@
-html {
+/* html {
     --font-sans-serif: -apple-system, BlinkMacSystemFont, avenir next, avenir,
       segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
     --font-serif: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman,
@@ -59,4 +59,101 @@ html {
     border: 2px solid black;
     -webkit-tap-highlight-color: transparent;
   }
+   */
+
+   /* SERVICES SECTION STARTS */
+   
+.service1:hover{
+background-color: black;
+}
+.service1:hover .service1_icon{
+  color: #CA8A04;
+}
+.service1:hover h1{
+  color: #CA8A04;
+}
+
+.service2:hover{
+  background-color: black;
+  }
+  .service2:hover .service2_icon{
+    color: #CA8A04;
+  }
+  .service2:hover h1{
+    color: #CA8A04;
+  }
   
+  .service3:hover{
+    background-color: black;
+    }
+    .service3:hover .service3_icon{
+      color: #CA8A04;
+    }
+    .service3:hover h1{
+      color: #CA8A04;
+    }
+.service3:hover{
+    background-color: black;
+    }
+    .service3:hover .service3_icon{
+      color: #CA8A04;
+    }
+    .service3:hover h1{
+      color: #CA8A04;
+    }
+    .service4:hover{
+      background-color: black;
+      }
+      .service4:hover .service4_icon{
+        color: #CA8A04;
+      }
+      .service4:hover h1{
+        color: #CA8A04;
+      }
+
+      .service5:hover{
+        background-color: black;
+        }
+        .service5:hover .service5_icon{
+          color: #CA8A04;
+        }
+        .service5:hover h1{
+          color: #CA8A04;
+        }
+   /* SERVICES SECTION ENDS */
+
+   /* TEAM SECTION STARTS */
+
+.team1:hover{
+  background-color: black;
+}
+.team1:hover div h2{
+  color: #CA8A04;
+}
+
+
+   /* TEAM SECTION ENDS */
+
+   /* COUNTER SECTION STARTS */
+
+.counter1:hover{
+  background-color: black;
+}
+
+.counter1:hover svg{
+  color: #CA8A04;
+}
+
+.counter1:hover h2{
+  color: #CA8A04;
+}
+.counter1:hover h2 div{
+  color: #CA8A04;
+}
+.counter1:hover p{
+  color: #CA8A04;
+}
+
+
+
+   /* COUNTER SECTION ENDS */

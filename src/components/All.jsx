@@ -26,10 +26,14 @@ import 'react-awesome-slider/dist/styles.css';
 import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 
+import team1 from "../images/haseeb.jpeg"
+import team2 from "../images/mateen.jpeg"
+import team3 from "../images/ahsan.jpeg"
+import team4 from "../images/haris.jpeg"
+import team5 from "../images/junaid.jpeg"
 
 
-
-
+import "../style/test.css"
 
 export default function All() {
     useEffect(() => {
@@ -65,10 +69,14 @@ export default function All() {
 
     return (
 
-        <div className=' overscroll-y-none ' >
-            <SideNav />
-            <div className='absolute' >
-                <Btn />
+        <div className=' overscroll-y-none overscroll-x-none ' >
+            <div className='relative z-20  ' >
+                <SideNav />
+            </div>
+            <div className='absolute    ' >
+                <div className='absolute z-10' >
+                    <Btn />
+                </div>
                 <Particle />
             </div>
 
@@ -107,8 +115,8 @@ export default function All() {
                     <span className=' hidden md:block text-center text-white  text-2xl font-bold pl-2 pr-2 md:pl-0 md:pr-0 '  > <span className='  text-2xl md:text-5xl   text-yellow-600 font-bold'>LET'S JOIN</span> The  New Universe Of Technology</span>
                     <p className='text-center text-white mt-4 text-xl'> We Develop Innovative <span className='text-yellow-600'> &</span> Creative Product <span className='text-yellow-600'> &</span> Services That Provide Total Communication <span className='text-yellow-600'> &</span> Information Solution</p>
                     <div className=' text-center mt-12 relative '>
-                        <button className="  relative focus:outline-none text-white  bg-yellow-600 hover:bg-yellow-600 focus:ring-4 focus:ring-yellow-300  rounded-lg text-xl px-5 py-2.5 mr-2 mb-2 dark:focus:ring-yellow-900 font-bold">learn More</button>
-                        <button className=" relative text-black hover:text-stone-50 bg-white  focus:ring-4 focus:ring-blue-300  rounded-lg text-xl px-5 py-2.5 mr-2 mb-2   dark:hover:bg-black focus:outline-none dark:focus:ring-blue-800 font-bold">Contact Us</button>
+                        <Link to={"/about"} >    <button className="  relative focus:outline-none text-white  bg-yellow-600 hover:bg-yellow-600 focus:ring-4 focus:ring-yellow-300  rounded-lg text-xl px-5 py-2.5 mr-2 mb-2 dark:focus:ring-yellow-900 font-bold">learn More</button></Link>
+                        <Link to={"/contact"} >  <button className=" relative text-black hover:text-stone-50 bg-white  focus:ring-4 focus:ring-blue-300  rounded-lg text-xl px-5 py-2.5 mr-2 mb-2   dark:hover:bg-black focus:outline-none dark:focus:ring-blue-800 font-bold">Contact Us</button> </Link  >
                         {/* <button className="  relative focus:outline-none text-white  bg-yellow-600 hover:bg-yellow-600 focus:ring-4 focus:ring-yellow-300  rounded-lg text-xl px-5 py-2.5 mr-2 mb-2 dark:focus:ring-yellow-900 font-bold">About Us</button> */}
                     </div>
 
@@ -162,7 +170,7 @@ export default function All() {
                 </div> */}
                 {/*  */}
                 <div data-aos="zoom-in" data-aos-easing="ease-out-cubic"
-                    data-aos-duration="3000" className='pt-16' >  <div className="flex justify-center items-center text-5xl md:text-6xl " > <span className="    " ><hr className=" w-14 md:w-20  border-2 border-yellow-600 " /></span>Services <span className="" ><hr className="  w-14 md:w-20 border-2  border-yellow-600 " /></span></div>
+                    data-aos-duration="3000" className='pt-16' >  <div className=" flex justify-center items-center text-5xl md:text-6xl " > <span className="    " ><hr className=" w-14 md:w-20  border-2 border-yellow-600 " /></span>Services <span className="" ><hr className="  w-14 md:w-20 border-2  border-yellow-600 " /></span></div>
                 </div>
 
                 {/*  */}
@@ -175,23 +183,51 @@ export default function All() {
 
                         <div className="flex flex-wrap -m-4">
 
+
+
+
+                            {/* div1 starts */}
+                            {/* onMouseEnter={() => { console.warn("Enter") }} onMouseLeave={() => { console.warn("Leave") }} */}
+
+                            {/* <div className='w-[90vw] h-[55.4vh] bg-pink-500  lg:w-1/3 ' >
+                                <div data-aos="fade-right" data-aos-once="false" data-aos-easing="ease-out-cubic"
+                                    data-aos-duration="2000" className=" ">
+                                    <div className=" hover:bg-black h-full overflow-x: hidden; bg-yellow-600 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                                        <div className=' flex justify-center'> <span className='text-6xl text-black animate-spin '><BsCodeSlash /></span> </div>
+
+                                        <br />
+
+                                        <h1 className="title-font sm:text-2xl text-xl font-medium  mb-3 text-black">WEBSITE DEVELOPMENT</h1>
+                                        <p className="leading-relaxed mb-3 text-white">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                    </div>
+                                </div>
+                            </div> */}
+
+                            {/* div1 ends */}
+
+                            {/* div2 starts */}
+
                             <div data-aos="fade-right" data-aos-once="false" data-aos-easing="ease-out-cubic"
-                                data-aos-duration="2000" className="p-4 lg:w-1/3">
-                                <div className="h-full overflow-x: hidden; bg-yellow-600 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                                data-aos-duration="2000" className="p-4 lg:w-1/3  ">
+                                <div className=" shadow-2xl service1 h-full overflow-x: hidden; bg-yellow-600 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                                     {/* <div className=' flex justify-center'> <span className='text-6xl text-black '><BsCodeSlash /> </span> </div> */}
                                     {/* <div className=' flex justify-center'> <span className='text-6xl text-black '><UseAnimations animation={activity} size={56} /></span> </div> */}
-                                    <div className=' flex justify-center'> <span className='text-6xl text-black animate-spin '><BsCodeSlash /></span> </div>
+                                    <div className=' flex justify-center'> <span className=' service1_icon text-6xl text-black animate-spin '><BsCodeSlash /></span> </div>
 
                                     <br />
 
                                     <h1 className="title-font sm:text-2xl text-xl font-medium  mb-3 text-black">WEBSITE DEVELOPMENT</h1>
+
                                     <p className="leading-relaxed mb-3 text-white">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                                 </div>
                             </div>
+
+                            {/* div2 ends */}
+
                             <div data-aos="fade-up" data-aos-easing="ease-out-cubic"
                                 data-aos-duration="2000" className="p-4 lg:w-1/3">
-                                <div className="h-full overflow-x: hidden;  bg-yellow-600  px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-                                    <div className=' flex justify-center'> <span className='text-6xl text-black animate-spin  '>< GoDeviceMobile /> </span> </div>
+                                <div className="service2 h-full overflow-x: hidden;  bg-yellow-600  px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                                    <div className=' flex justify-center'> <span className='text-6xl service2_icon text-black animate-spin  '>< GoDeviceMobile /> </span> </div>
                                     <br />
 
                                     <h1 className="title-font sm:text-2xl text-xl font-medium text-black mb-3">APPLIACTION DEVELOPMENT</h1>
@@ -201,8 +237,8 @@ export default function All() {
                             </div>
                             <div data-aos="fade-left" data-aos-easing="ease-out-cubic"
                                 data-aos-duration="2000" className="p-4 lg:w-1/3">
-                                <div className="h-full overflow-x: hidden;  bg-yellow-600   px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-                                    <div className=' flex justify-center'> <span className='text-6xl text-black animate-spin '>< HiShoppingBag /> </span> </div>
+                                <div className=" service3 h-full overflow-x: hidden;  bg-yellow-600   px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                                    <div className=' flex justify-center'> <span className='text-6xl service3_icon text-black animate-spin '>< HiShoppingBag /> </span> </div>
                                     <br />
 
                                     <h1 className="title-font sm:text-2xl text-xl font-medium text-black mb-3 ">WORDPRESS & SHOPIFY</h1>
@@ -215,8 +251,8 @@ export default function All() {
                         <div className="flex flex-wrap mt-4 -m-4">
                             <div className="p-4 lg:w-1/3">
                                 <div data-aos="fade-right" data-aos-easing="ease-out-cubic"
-                                    data-aos-duration="2000" className="h-full overflow-x: hidden; bg-yellow-600 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-                                    <div className=' flex justify-center'> <span className='text-6xl text-black animate-spin '><FaChartLine /> </span> </div>
+                                    data-aos-duration="2000" className=" service4 h-full overflow-x: hidden; bg-yellow-600 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                                    <div className=' flex justify-center'> <span className='text-6xl text-black  service4_icon animate-spin '><FaChartLine /> </span> </div>
                                     <br />
 
                                     <h1 className="title-font sm:text-2xl text-xl font-medium  mb-3  text-black ">DIGITAL MARKERTING</h1>
@@ -225,8 +261,8 @@ export default function All() {
                             </div>
                             <div data-aos="fade-up" data-aos-easing="ease-out-cubic"
                                 data-aos-duration="2000" className="p-4 lg:w-1/3">
-                                <div className="h-full overflow-x: hidden; bg-yellow-600 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-                                    <div className=' flex justify-center'> <span className='text-6xl text-black animate-spin '><GiMagnifyingGlass /> </span> </div>
+                                <div className="h-full service4  overflow-x: hidden; bg-yellow-600 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                                    <div className=' flex justify-center'> <span className='text-6xl text-black service4_icon animate-spin '><GiMagnifyingGlass /> </span> </div>
                                     <br />
 
                                     <h1 className="title-font sm:text-2xl text-xl font-medium  text-black mb-3">SEO</h1>
@@ -236,8 +272,8 @@ export default function All() {
                             </div>
                             <div data-aos="fade-left" data-aos-easing="ease-out-cubic"
                                 data-aos-duration="2000" className="p-4 lg:w-1/3">
-                                <div className="h-full overflow-x: hidden; bg-yellow-600 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-                                    <div className=' flex justify-center'> <span className='text-6xl text-black animate-spin '>< FaPencilAlt /> </span> </div>
+                                <div className="h-full service5 overflow-x: hidden; bg-yellow-600 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                                    <div className=' flex justify-center'> <span className='text-6xl text-black service5_icon animate-spin '>< FaPencilAlt /> </span> </div>
                                     <br />
 
                                     <h1 className="title-font sm:text-2xl text-xl font-medium  text-black mb-3 ">GRAPHIC DESIGNING</h1>
@@ -277,83 +313,110 @@ export default function All() {
                         </div>
                         <div class="flex flex-wrap -m-2">
                             <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                                <div data-aos="flip-down" data-aos-duration="2000" class="h-full flex items-center border-gray-200 bg-yellow-600 border p-4 rounded-lg relative">
-                                    <img alt="team" class="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80" />
+                                <div data-aos="flip-down" data-aos-duration="2000" class=" team1 h-full flex items-center border-gray-200 bg-yellow-600 border p-4 rounded-lg relative">
+                                    <img alt="team" class="w-16 h-16  rounded-full mr-4" src={team1} />
                                     <div class="flex-grow">
-                                        <h2 class="text-gray-900 title-font font-medium">Holden Caulfield</h2>
-                                        <p class="text-white">UI Designer</p>
+                                        <h2 class="text-gray-900 title-font font-medium">CH Haseeb Mehmood</h2>
+                                        <p class="text-white">FOUNDER CEO</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                                <div data-aos="flip-down" data-aos-duration="2000" class="h-full flex items-center border-gray-200 bg-yellow-600 border p-4 rounded-lg relative ">
-                                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/84x84" />
+                                <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 bg-yellow-600 border p-4 rounded-lg relative ">
+                                    <img alt="team" class="w-16 h-16 bg-gray-100 rounded-full mr-4" src={team2} />
                                     <div class="flex-grow">
-                                        <h2 class="text-gray-900 title-font font-medium">Henry Letham</h2>
-                                        <p class="text-white">CTO</p>
+                                        <h2 class="text-gray-900 title-font font-medium">Muhammad Mateen Imran</h2>
+                                        <p class="text-white">CHIEF FOUNDER DIRECTOR</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                                <div data-aos="flip-down" data-aos-duration="2000" class="h-full flex items-center border-gray-200 border bg-yellow-600 p-4 rounded-lg relative ">
-                                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/88x88" />
+                                <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 border bg-yellow-600 p-4 rounded-lg relative ">
+                                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={team3} />
                                     <div class="flex-grow">
-                                        <h2 class="text-gray-900 title-font font-medium">Oskar Blinde</h2>
-                                        <p class="text-white">Founder</p>
+                                        <h2 class="text-gray-900 title-font font-medium">Syed Ahsan Naqvi</h2>
+                                        <p class="text-white">ENGINEERNING MANAGER</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                                <div data-aos="flip-down" data-aos-duration="2000" class="h-full flex items-center border-gray-200 border bg-yellow-600 p-4 rounded-lg relative ">
-                                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/90x90" />
+                                <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 border bg-yellow-600 p-4 rounded-lg relative ">
+                                    <img alt="team" class="w-16 h-16 bg-gray-100 rounded-full mr-4" src={team4} />
                                     <div class="flex-grow">
-                                        <h2 class="text-gray-900 title-font font-medium">John Doe</h2>
-                                        <p class="text-white">DevOps</p>
+                                        <h2 class="text-gray-900 title-font font-medium">Syed Haris Mahmood</h2>
+                                        <p class="text-white">HR - MANAGER</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                                <div data-aos="flip-down" data-aos-duration="2000" class="h-full flex items-center border-gray-200 border bg-yellow-600 p-4 rounded-lg relative ">
-                                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/94x94" />
+                                <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 border bg-yellow-600 p-4 rounded-lg relative ">
+                                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={team5} />
                                     <div class="flex-grow">
-                                        <h2 class="text-gray-900 title-font font-medium">Martin Eden</h2>
-                                        <p class="text-white">Software Engineer</p>
+                                        <h2 class="text-gray-900 title-font font-medium">Muhammad Junaid</h2>
+                                        <p class="text-white">IT - MANAGER</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                                <div data-aos="flip-down" data-aos-duration="2000" class="h-full flex items-center border-gray-200 border bg-yellow-600  p-4 rounded-lg relative ">
+                                <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 border bg-yellow-600  p-4 rounded-lg relative ">
                                     <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
                                     <div class="flex-grow">
-                                        <h2 class="text-gray-900 title-font font-medium">Boris Kitua</h2>
-                                        <p class="text-white">UX Researcher</p>
+                                        <h2 class="text-gray-900 title-font font-medium">Zeeshan Rasheed</h2>
+                                        <p class="text-white">PROJECT - MANAGER</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                                <div data-aos="flip-down" data-aos-duration="2000" class="h-full flex items-center border-gray-200 bg-yellow-600 border p-4 rounded-lg relative ">
+                                <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 bg-yellow-600 border p-4 rounded-lg relative ">
                                     <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/100x90" />
                                     <div class="flex-grow">
-                                        <h2 class="text-gray-900 title-font font-medium">Atticus Finch</h2>
-                                        <p class="text-white">QA Engineer</p>
+                                        <h2 class="text-gray-900 title-font font-medium">Arooj Raja</h2>
+                                        <p class="text-white">MARKETING - MANAGER</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                                <div data-aos="flip-down" data-aos-duration="2000" class="h-full flex items-center border-gray-200 bg-yellow-600 border p-4 rounded-lg relative ">
+                                <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 bg-yellow-600 border p-4 rounded-lg relative ">
                                     <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/104x94" />
                                     <div class="flex-grow">
-                                        <h2 class="text-gray-900 title-font font-medium">Alper Kamu</h2>
-                                        <p class="text-white">System</p>
+                                        <h2 class="text-gray-900 title-font font-medium">Hooriya Ansari</h2>
+                                        <p class="text-white">BUSINESS ANALYLIST</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                                <div data-aos="flip-down" data-aos-duration="2000" class="h-full flex items-center border-gray-200 bg-yellow-600 border p-4 rounded-lg relative ">
+                                <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 bg-yellow-600 border p-4 rounded-lg relative ">
                                     <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/108x98" />
                                     <div class="flex-grow">
-                                        <h2 class="text-gray-900 title-font font-medium">Rodrigo Monchi</h2>
-                                        <p class="text-white">Product Manager</p>
+                                        <h2 class="text-gray-900 title-font font-medium">Hiba Shafiq</h2>
+                                        <p class="text-white">ADMINISTRATOR</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                                <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 border bg-yellow-600  p-4 rounded-lg relative ">
+                                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
+                                    <div class="flex-grow">
+                                        <h2 class="text-gray-900 title-font font-medium">Dilawaiz </h2>
+                                        <p class="text-white">RELATIONAL MANAGER</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                                <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 bg-yellow-600 border p-4 rounded-lg relative ">
+                                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/100x90" />
+                                    <div class="flex-grow">
+                                        <h2 class="text-gray-900 title-font font-medium">Zainab Raja</h2>
+                                        <p class="text-white">FINANCE MANAGER</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                                <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 bg-yellow-600 border p-4 rounded-lg relative ">
+                                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/104x94" />
+                                    <div class="flex-grow">
+                                        <h2 class="text-gray-900 title-font font-medium">Shafaq Fatima</h2>
+                                        <p class="text-white">SUPERVISOR</p>
                                     </div>
                                 </div>
                             </div>
@@ -367,17 +430,17 @@ export default function All() {
 
             <div className='  flex justify-center pt-10 pb-10 pr-5 pl-5 md:pl-0 md:pr-0' >
                 <div >
-                    <div className='block md:hidden' >
-                        <img data-aos="fade-up" data-aos-easing="ease-out-cubic"
+                    <div className='block md:hidden relative ' >
+                        <img className='relative' data-aos="fade-up" data-aos-easing="ease-out-cubic"
                             data-aos-duration="2000" src={img8} alt="" />
                         {/* <img src={img3} alt="" /> */}
                     </div>
                     <div className='hidden md:block '>
-                        <div className='flex' >
+                        <div className='flex relative ' >
                             <img data-aos="fade-right" data-aos-easing="ease-out-cubic"
-                                data-aos-duration="2000" src={img7} alt="" />
+                                data-aos-duration="2000" className='relative' src={img7} alt="" />
                             <img data-aos="fade-up" data-aos-easing="ease-out-cubic"
-                                data-aos-duration="2000" src={img5} alt="" />
+                                data-aos-duration="2000" className='relative' src={img5} alt="" />
 
                         </div>
                     </div>
@@ -405,32 +468,33 @@ export default function All() {
 
                         <div className="flex flex-wrap -m-4 text-center">
                             <div className="  p-4 md:w-1/4 sm:w-1/2 w-full">
-                                <div className=" relative border-2 bg-yellow-600 border-gray-200 px-4 py-6 rounded-lg">
+                                <div className="counter1 relative border-2 bg-yellow-600 border-gray-200 px-4 py-6 rounded-lg">
                                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="text-gray-900 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
                                         <path d="M8 17l4 4 4-4m-4-5v9"></path>
                                         <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"></path>
                                     </svg>
                                     <h2 className="title-font font-medium text-3xl text-gray-900">
-                                        <CountUp end={100} redraw={true}>
-                                            {({
-                                                countUpRef, start
-                                            }) => (
-                                                <VisibilitySensor onChange={start} delayedcall>
-                                                    <span ref={countUpRef} />
-                                                </VisibilitySensor>
-                                            )}
-                                        </CountUp>K</h2>
-                                    <p className="leading-relaxed text-white">Downloads</p>
+                                        <div className='inline-block' >
+                                            <CountUp end={5} redraw={true}>
+                                                {({
+                                                    countUpRef, start
+                                                }) => (
+                                                    <VisibilitySensor onChange={start} delayedcall>
+                                                        <span ref={countUpRef} />
+                                                    </VisibilitySensor>
+                                                )}
+                                            </CountUp></div>K</h2>
+                                    <p className="leading-relaxed text-white">Projects </p>
                                 </div>
                             </div>
                             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-                                <div className=" relative border-2 bg-yellow-600 border-gray-200 px-4 py-6 rounded-lg">
+                                <div className=" counter1 relative border-2 bg-yellow-600 border-gray-200 px-4 py-6 rounded-lg">
                                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="text-gray-900 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
                                         <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
                                         <circle cx="9" cy="7" r="4"></circle>
                                         <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
                                     </svg>
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">    <CountUp end={100} redraw={true}>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">    <CountUp end={5} redraw={true}>
                                         {({
                                             countUpRef, start
                                         }) => (
@@ -439,16 +503,16 @@ export default function All() {
                                             </VisibilitySensor>
                                         )}
                                     </CountUp>K</h2>
-                                    <p className="leading-relaxed text-white">Users</p>
+                                    <p className="leading-relaxed text-white">Happy Customer</p>
                                 </div>
                             </div>
                             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-                                <div className=" relative border-2 bg-yellow-600 border-gray-200 px-4 py-6 rounded-lg">
+                                <div className=" counter1 relative border-2 bg-yellow-600 border-gray-200 px-4 py-6 rounded-lg">
                                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="text-gray-900 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
                                         <path d="M3 18v-6a9 9 0 0118 0v6"></path>
                                         <path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"></path>
                                     </svg>
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">    <CountUp end={100} redraw={true}>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">    <CountUp end={25} redraw={true}>
                                         {({
                                             countUpRef, start
                                         }) => (
@@ -457,15 +521,15 @@ export default function All() {
                                             </VisibilitySensor>
                                         )}
                                     </CountUp></h2>
-                                    <p className="leading-relaxed text-white">Files</p>
+                                    <p className="leading-relaxed text-white">Departments </p>
                                 </div>
                             </div>
                             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-                                <div className=" relative border-2 bg-yellow-600 border-gray-200 px-4 py-6 rounded-lg">
+                                <div className="counter1 relative border-2 bg-yellow-600 border-gray-200 px-4 py-6 rounded-lg">
                                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="text-gray-900 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
                                         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                                     </svg>
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">    <CountUp end={100} redraw={true}>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">    <CountUp end={150} redraw={true}>
                                         {({
                                             countUpRef, start
                                         }) => (
@@ -474,7 +538,7 @@ export default function All() {
                                             </VisibilitySensor>
                                         )}
                                     </CountUp></h2>
-                                    <p className="leading-relaxed text-white">Places</p>
+                                    <p className="leading-relaxed text-white">Employee</p>
                                 </div>
                             </div>
                         </div>
@@ -489,8 +553,17 @@ export default function All() {
 
             {/* testimonial 2 starts */}
 
-            <div className='bg-white h-[100vh] flex ' >
+            <div data-aos="zoom-in" data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000" className='pt-16' >  <div className="flex justify-center items-center text-5xl md:text-6xl " > <span className="    " ><hr className=" w-14 md:w-20  border-2 border-yellow-600 " /></span>Our Partners <span className="" ><hr className="  w-14 md:w-20 border-2  border-yellow-600 " /></span></div>
+            </div>
+            {/*  */}
+            <br />
+            {/* <br /> */}
+            {/* <p class="lg:w-2/3 mx-auto leading-relaxed text-base pt-10">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p> */}
+            <br />
 
+
+            <div className='bg-white h-[100vh] flex ' >
 
 
                 {/* <AwesomeSlider className='bg-white  ' bullets={false} interval={1000} infinite={true} autoplay={true} startup={true} buttons={true} >
@@ -561,8 +634,8 @@ export default function All() {
                                     <img alt="testimonial" class="w-32 h-32 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={img6}></img>
                                     <p class="leading-relaxed text-lg">Edison  cleanse direct trade indigo juice before they sold out gentrify plaid gastropub normcore XOXO 90's pickled cindigo jean shorts. Slow-carb next level shoindigoitch ethical authentic, yr scenester sriracha forage franzen organic drinking vinegar.</p>
                                     <span class="inline-block h-1 w-10 rounded bg-yellow-600 mt-8 mb-6"></span>
-                                    <h2 class="  text-gray-900 font-medium title-font tracking-wider text-sm">HOLDEN CAULFIELD</h2>
-                                    <p class="  text-gray-500">Senior Product Designer</p>
+                                    <h2 class="  text-gray-900 font-medium title-font tracking-wider text-sm">PROGRAMMER LOGICS</h2>
+                                    <p class="  text-gray-500">Rana Zain</p>
                                 </div>
                             </div>
                         </section></div>
@@ -575,8 +648,8 @@ export default function All() {
                                     <img alt="testimonial" class="w-32 h-32 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={img6}></img>
                                     <p class="leading-relaxed text-lg">Edison  cleanse direct trade indigo juice before they sold out gentrify plaid gastropub normcore XOXO 90's pickled cindigo jean shorts. Slow-carb next level shoindigoitch ethical authentic, yr scenester sriracha forage franzen organic drinking vinegar.</p>
                                     <span class="inline-block h-1 w-10 rounded bg-yellow-600 mt-8 mb-6"></span>
-                                    <h2 class="  text-gray-900 font-medium title-font tracking-wider text-sm">HOLDEN CAULFIELD</h2>
-                                    <p class="  text-gray-500">Senior Product Designer</p>
+                                    <h2 class="  text-gray-900 font-medium title-font tracking-wider text-sm">FOURDEVS</h2>
+                                    <p class="  text-gray-500"> Haris Mahmood</p>
                                 </div>
                             </div>
                         </section></div>
@@ -589,8 +662,8 @@ export default function All() {
                                     <img alt="testimonial" class="w-32 h-32 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={img6}></img>
                                     <p class="leading-relaxed text-lg">Edison  cleanse direct trade indigo juice before they sold out gentrify plaid gastropub normcore XOXO 90's pickled cindigo jean shorts. Slow-carb next level shoindigoitch ethical authentic, yr scenester sriracha forage franzen organic drinking vinegar.</p>
                                     <span class="inline-block h-1 w-10 rounded bg-yellow-600 mt-8 mb-6"></span>
-                                    <h2 class="  text-gray-900 font-medium title-font tracking-wider text-sm">HOLDEN CAULFIELD</h2>
-                                    <p class="  text-gray-500">Senior Product Designer</p>
+                                    <h2 class="  text-gray-900 font-medium title-font tracking-wider text-sm">GENERATION SOFT</h2>
+                                    <p class="  text-gray-500">Mohsin Naqvi</p>
                                 </div>
                             </div>
                         </section></div>
@@ -603,12 +676,69 @@ export default function All() {
                                     <img alt="testimonial" class="w-32 h-32 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={img6}></img>
                                     <p class="leading-relaxed text-lg">Edison  cleanse direct trade indigo juice before they sold out gentrify plaid gastropub normcore XOXO 90's pickled cindigo jean shorts. Slow-carb next level shoindigoitch ethical authentic, yr scenester sriracha forage franzen organic drinking vinegar.</p>
                                     <span class="inline-block h-1 w-10 rounded bg-yellow-600 mt-8 mb-6"></span>
-                                    <h2 class="  text-gray-900 font-medium title-font tracking-wider text-sm">HOLDEN CAULFIELD</h2>
-                                    <p class="  text-gray-500">Senior Product Designer</p>
+                                    <h2 class="  text-gray-900 font-medium title-font tracking-wider text-sm">TECNO BRAINZ</h2>
+                                    <p class="  text-gray-500">Syed Ali</p>
                                 </div>
                             </div>
                         </section></div>
                     </div>
+                    <div style={{ background: "none" }} >
+                        <div style={{ background: "none" }} >  <section class="text-gray-600 body-font">
+                            <div class="container px-5 py-10 mx-auto">
+                                <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+
+                                    <img alt="testimonial" class="w-32 h-32 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={img6}></img>
+                                    <p class="leading-relaxed text-lg">Edison  cleanse direct trade indigo juice before they sold out gentrify plaid gastropub normcore XOXO 90's pickled cindigo jean shorts. Slow-carb next level shoindigoitch ethical authentic, yr scenester sriracha forage franzen organic drinking vinegar.</p>
+                                    <span class="inline-block h-1 w-10 rounded bg-yellow-600 mt-8 mb-6"></span>
+                                    <h2 class="  text-gray-900 font-medium title-font tracking-wider text-sm">BLINKERS DEVELOPER</h2>
+                                    <p class="  text-gray-500">Muhammad Junaid</p>
+                                </div>
+                            </div>
+                        </section></div>
+                    </div>
+                    <div style={{ background: "none" }} >
+                        <div style={{ background: "none" }} >  <section class="text-gray-600 body-font">
+                            <div class="container px-5 py-10 mx-auto">
+                                <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+
+                                    <img alt="testimonial" class="w-32 h-32 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={img6}></img>
+                                    <p class="leading-relaxed text-lg">Edison  cleanse direct trade indigo juice before they sold out gentrify plaid gastropub normcore XOXO 90's pickled cindigo jean shorts. Slow-carb next level shoindigoitch ethical authentic, yr scenester sriracha forage franzen organic drinking vinegar.</p>
+                                    <span class="inline-block h-1 w-10 rounded bg-yellow-600 mt-8 mb-6"></span>
+                                    <h2 class="  text-gray-900 font-medium title-font tracking-wider text-sm">AURLIAN ORIGINS</h2>
+                                    <p class="  text-gray-500">SAAF ULLAH SADDIQ</p>
+                                </div>
+                            </div>
+                        </section></div>
+                    </div>
+                    <div style={{ background: "none" }} >
+                        <div style={{ background: "none" }} >  <section class="text-gray-600 body-font">
+                            <div class="container px-5 py-10 mx-auto">
+                                <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+
+                                    <img alt="testimonial" class="w-32 h-32 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={img6}></img>
+                                    <p class="leading-relaxed text-lg">Edison  cleanse direct trade indigo juice before they sold out gentrify plaid gastropub normcore XOXO 90's pickled cindigo jean shorts. Slow-carb next level shoindigoitch ethical authentic, yr scenester sriracha forage franzen organic drinking vinegar.</p>
+                                    <span class="inline-block h-1 w-10 rounded bg-yellow-600 mt-8 mb-6"></span>
+                                    <h2 class="  text-gray-900 font-medium title-font tracking-wider text-sm">EBRYX</h2>
+                                    <p class="  text-gray-500">Ahrar Naqvi</p>
+                                </div>
+                            </div>
+                        </section></div>
+                    </div>
+                    <div style={{ background: "none" }} >
+                        <div style={{ background: "none" }} >  <section class="text-gray-600 body-font">
+                            <div class="container px-5 py-10 mx-auto">
+                                <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+
+                                    <img alt="testimonial" class="w-32 h-32 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={img6}></img>
+                                    <p class="leading-relaxed text-lg">Edison  cleanse direct trade indigo juice before they sold out gentrify plaid gastropub normcore XOXO 90's pickled cindigo jean shorts. Slow-carb next level shoindigoitch ethical authentic, yr scenester sriracha forage franzen organic drinking vinegar.</p>
+                                    <span class="inline-block h-1 w-10 rounded bg-yellow-600 mt-8 mb-6"></span>
+                                    <h2 class="  text-gray-900 font-medium title-font tracking-wider text-sm">Abacus Soft</h2>
+                                    <p class="  text-gray-500">Sajad Haider</p>
+                                </div>
+                            </div>
+                        </section></div>
+                    </div>
+
                 </AutoplaySlider>
             </div>
 

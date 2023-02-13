@@ -2,7 +2,7 @@ import React from "react";
 // import ReactDOM from "react-dom";
 // import UseAnimations from "react-useanimations";
 // import menu2 from "react-useanimations/lib/menu2";
-// import twitter from "react-useanimations/lib/twitter";
+// import twitter from "reactw-useanimations/lib/twitter";
 // import Particle from './Particle'
 
 
