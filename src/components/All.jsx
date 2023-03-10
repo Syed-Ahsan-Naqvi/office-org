@@ -361,7 +361,7 @@ export default function All() {
                                 <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 border bg-yellow-600  p-4 rounded-lg relative ">
                                     <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
                                     <div class="flex-grow">
-                                        <h2 class="text-gray-900 title-font font-medium"></h2>
+                                        {/* <h2 className="text-gray-900 title-font font-medium"></h2> */}
                                         <p class="text-white">PROJECT - MANAGER</p>
                                     </div>
                                 </div>
