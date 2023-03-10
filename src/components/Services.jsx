@@ -4,6 +4,8 @@ import 'aos/dist/aos.css';
 import Btn from "./Btn"
 import SideNav from './SideNav';
 
+import wal1 from "../images/wal1.avif"
+
 import img5 from "../images/image2-removebg-preview.png"
 import img7 from "../images/image3-removebg-preview.png"
 import img8 from "../images/image4-removebg-preview.png"
@@ -63,7 +65,7 @@ export default function ServicesPage() {
                                 </div>
                             </div>
                             <div className="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
-                                <img className="object-cover object-center w-full h-full" src="https://dummyimage.com/600x300" alt="stats" />
+                                <img className="object-cover object-center w-full h-full" src={wal1} alt="stats" />
                             </div>
                         </div>
                     </section>
@@ -94,7 +96,7 @@ export default function ServicesPage() {
                                 </div>
                             </div>
                             <div className="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
-                                <img className="object-cover object-center w-full h-full" src="https://dummyimage.com/600x300" alt="stats" />
+                                <img className="object-cover object-center w-full h-full" src={wal1} alt="stats" />
                             </div>
                         </div>
                     </section>
@@ -125,7 +127,7 @@ export default function ServicesPage() {
                                 </div>
                             </div>
                             <div className="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
-                                <img className="object-cover object-center w-full h-full" src="https://dummyimage.com/600x300" alt="stats" />
+                                <img className="object-cover object-center w-full h-full" src={wal1} alt="stats" />
                             </div>
                         </div>
                     </section>
@@ -156,7 +158,7 @@ export default function ServicesPage() {
                                 </div>
                             </div>
                             <div className="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
-                                <img className="object-cover object-center w-full h-full" src="https://dummyimage.com/600x300" alt="stats" />
+                                <img className="object-cover object-center w-full h-full" src={wal1} alt="stats" />
                             </div>
                         </div>
                     </section>
@@ -187,7 +189,7 @@ export default function ServicesPage() {
                                 </div>
                             </div>
                             <div className="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
-                                <img className="object-cover object-center w-full h-full" src="https://dummyimage.com/600x300" alt="stats" />
+                                <img className="object-cover object-center w-full h-full" src={wal1} alt="stats" />
                             </div>
                         </div>
                     </section>
@@ -218,7 +220,7 @@ export default function ServicesPage() {
                                 </div>
                             </div>
                             <div className="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
-                                <img className="object-cover object-center w-full h-full" src="https://dummyimage.com/600x300" alt="stats" />
+                                <img className="object-cover object-center w-full h-full" src={wal1} alt="stats" />
                             </div>
                         </div>
                     </section>

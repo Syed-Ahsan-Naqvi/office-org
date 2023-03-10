@@ -7,7 +7,7 @@ import { GiMagnifyingGlass } from "react-icons/gi";
 import { FaChartLine } from "react-icons/fa";
 import CountUp from 'react-countup'
 import VisibilitySensor from 'react-visibility-sensor'
-import "../style/main.css"
+// import "../style/main.css"
 import img5 from "../images/image2-removebg-preview.png"
 import img7 from "../images/image3-removebg-preview.png"
 import img8 from "../images/image4-removebg-preview.png"
@@ -361,7 +361,7 @@ export default function All() {
                                 <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 border bg-yellow-600  p-4 rounded-lg relative ">
                                     <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
                                     <div class="flex-grow">
-                                        <h2 class="text-gray-900 title-font font-medium">Zeeshan Rasheed</h2>
+                                        <h2 class="text-gray-900 title-font font-medium"></h2>
                                         <p class="text-white">PROJECT - MANAGER</p>
                                     </div>
                                 </div>
@@ -379,7 +379,7 @@ export default function All() {
                                 <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 bg-yellow-600 border p-4 rounded-lg relative ">
                                     <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/104x94" />
                                     <div class="flex-grow">
-                                        <h2 class="text-gray-900 title-font font-medium">Hooriya Ansari</h2>
+                                        <h2 class="text-gray-900 title-font font-medium">Ali</h2>
                                         <p class="text-white">BUSINESS ANALYLIST</p>
                                     </div>
                                 </div>
@@ -393,7 +393,7 @@ export default function All() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            {/* <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                                 <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 border bg-yellow-600  p-4 rounded-lg relative ">
                                     <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
                                     <div class="flex-grow">
@@ -419,7 +419,7 @@ export default function All() {
                                         <p class="text-white">SUPERVISOR</p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </section>

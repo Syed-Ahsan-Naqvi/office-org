@@ -2,10 +2,17 @@ import React from 'react'
 import SideNav from './SideNav'
 import Btn from './Btn'
 // import 'bootstrap/dist/css/bootstrap.min.css';
-
+import img1 from "../images/haris.jpeg"
+import img2 from "../images/ahsan.jpeg"
+import img3 from "../images/haseeb.jpeg"
+import img4 from "../images/image2.jpeg"
+import img9 from "../images/junaid.jpeg"
+import img10 from "../images/mateen.jpeg"
 import img5 from "../images/image2-removebg-preview.png"
 import img7 from "../images/image3-removebg-preview.png"
 import img8 from "../images/image4-removebg-preview.png"
+
+
 
 import Footer from "../components/footer"
 
@@ -27,108 +34,243 @@ export default function Teamus() {
                         data-aos-duration="2000" className='text-center text-white text-2xl font-bold '  > <span className='text-5xl text-yellow-600 font-bold'>OUR TEAM</span> </h1>
                 </div>
 
-                <section className="   text-gray-600 body-font">
-                    <div className="container px-5 py-24 mx-auto">
-                        <div className="flex flex-col text-center w-full mb-20">
-                            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Master Cleanse Reliac Heirloom</h1>
-                            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
-                        </div>
-                        <div className=" flex flex-wrap -m-4">
-                            <div className="lg:w-1/3 sm:w-1/2 p-4">
-                                <div className="flex relative">
-                                    <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/600x360" />
-                                    <div className="px-8 py-10 relative  w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                        <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-                                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
-                                        <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="lg:w-1/3 sm:w-1/2 p-4">
-                                <div className="flex relative">
-                                    <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/601x361" />
-                                    <div className="px-8 py-10 relative  w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                        <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-                                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-                                        <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="lg:w-1/3 sm:w-1/2 p-4">
-                                <div className="flex relative">
-                                    <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363" />
-                                    <div className="px-8 py-10 relative w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                        <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-                                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
-                                        <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="lg:w-1/3 sm:w-1/2 p-4">
-                                <div className="flex relative">
-                                    <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/602x362" />
-                                    <div className="px-8 py-10 relative w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                        <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-                                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Neptune</h1>
-                                        <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="lg:w-1/3 sm:w-1/2 p-4">
-                                <div className="flex relative">
-                                    <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/605x365" />
-                                    <div className="px-8 py-10 relative w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                        <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-                                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Holden Caulfield</h1>
-                                        <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="lg:w-1/3 sm:w-1/2 p-4">
-                                <div className="flex relative">
-                                    <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/606x366" />
-                                    <div className="px-8 py-10 relative w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                        <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-                                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Alper Kamu</h1>
-                                        <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="lg:w-1/3 sm:w-1/2 p-4">
-                                <div className="flex relative">
-                                    <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/606x366" />
-                                    <div className="px-8 py-10 relative  w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                        <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-                                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Alper Kamu</h1>
-                                        <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="lg:w-1/3 sm:w-1/2 p-4">
-                                <div className="flex relative">
-                                    <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/606x366" />
-                                    <div className="px-8 py-10 relative  w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                        <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-                                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Alper Kamu</h1>
-                                        <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="lg:w-1/3 sm:w-1/2 p-4">
-                                <div className="flex relative">
-                                    <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/606x366" />
-                                    <div className="px-8 py-10 relative  w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                        <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-                                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Alper Kamu</h1>
-                                        <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                                    </div>
-                                </div>
-                            </div>
 
+                <section className="  text-gray-600 body-font">
+                    <div className="  container px-5 py-24 justify-around mx-auto flex flex-wrap">
+                        <div className="  flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+                            <div className="w-full sm:p-4 px-4 mb-6">
+                                <h1 className="title-font font-medium text-xl mb-2 text-gray-900">Moon hashtag pop-up try-hard offal truffaut</h1>
+                                <div className="leading-relaxed">Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar neutra sustainable fingerstache kickstarter.</div>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">2.7K</h2>
+                                <p className="leading-relaxed">Users</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">1.8K</h2>
+                                <p className="leading-relaxed">Subscribes</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">35</h2>
+                                <p className="leading-relaxed">Downloads</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">4</h2>
+                                <p className="leading-relaxed">Products</p>
+                            </div>
+                        </div>
+                        <div className="lg:w-1/4 sm:w-1/3 h-[430px] sm:h-[60vh] w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
+                            <img className="object-cover object-center w-full h-full" src={img1} alt="stats" />
                         </div>
                     </div>
                 </section>
 
+                <section className="  text-gray-600 body-font">
+                    <div className=" bg-yellow-600  container px-5 py-24 justify-around mx-auto flex flex-wrap">
+                        <div className="  flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+                            <div className="w-full sm:p-4 px-4 mb-6">
+                                <h1 className="title-font font-medium text-xl mb-2 text-gray-900">Moon hashtag pop-up try-hard offal truffaut</h1>
+                                <div className="leading-relaxed">Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar neutra sustainable fingerstache kickstarter.</div>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">2.7K</h2>
+                                <p className="leading-relaxed">Users</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">1.8K</h2>
+                                <p className="leading-relaxed">Subscribes</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">35</h2>
+                                <p className="leading-relaxed">Downloads</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">4</h2>
+                                <p className="leading-relaxed">Products</p>
+                            </div>
+                        </div>
+                        <div className="lg:w-1/4 sm:w-1/3 h-[430px] sm:h-[60vh] w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
+                            <img className="object-cover object-center w-full h-full" src={img3} alt="stats" />
+                        </div>
+                    </div>
+                </section>
+
+                <section className="  text-gray-600 body-font">
+                    <div className="  container px-5 py-24 justify-around mx-auto flex flex-wrap">
+                        <div className="  flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+                            <div className="w-full sm:p-4 px-4 mb-6">
+                                <h1 className="title-font font-medium text-xl mb-2 text-gray-900">Moon hashtag pop-up try-hard offal truffaut</h1>
+                                <div className="leading-relaxed">Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar neutra sustainable fingerstache kickstarter.</div>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">2.7K</h2>
+                                <p className="leading-relaxed">Users</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">1.8K</h2>
+                                <p className="leading-relaxed">Subscribes</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">35</h2>
+                                <p className="leading-relaxed">Downloads</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">4</h2>
+                                <p className="leading-relaxed">Products</p>
+                            </div>
+                        </div>
+                        <div className="lg:w-1/4 sm:w-1/3 h-[430px] sm:h-[60vh] w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
+                            <img className="object-cover object-center w-full h-full" src={img2} alt="stats" />
+                        </div>
+                    </div>
+                </section>
+                <section className="  text-gray-600 body-font">
+                    <div className=" bg-yellow-600  container px-5 py-24 justify-around mx-auto flex flex-wrap">
+                        <div className="  flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+                            <div className="w-full sm:p-4 px-4 mb-6">
+                                <h1 className="title-font font-medium text-xl mb-2 text-gray-900">Moon hashtag pop-up try-hard offal truffaut</h1>
+                                <div className="leading-relaxed">Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar neutra sustainable fingerstache kickstarter.</div>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">2.7K</h2>
+                                <p className="leading-relaxed">Users</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">1.8K</h2>
+                                <p className="leading-relaxed">Subscribes</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">35</h2>
+                                <p className="leading-relaxed">Downloads</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">4</h2>
+                                <p className="leading-relaxed">Products</p>
+                            </div>
+                        </div>
+                        <div className="lg:w-1/4 sm:w-1/3 h-[430px] sm:h-[60vh] w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
+                            <img className="object-cover object-center w-full h-full" src={img10} alt="stats" />
+                        </div>
+                    </div>
+                </section>
+
+                <section className="  text-gray-600 body-font">
+                    <div className="  container px-5 py-24 justify-around mx-auto flex flex-wrap">
+                        <div className="  flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+                            <div className="w-full sm:p-4 px-4 mb-6">
+                                <h1 className="title-font font-medium text-xl mb-2 text-gray-900">Moon hashtag pop-up try-hard offal truffaut</h1>
+                                <div className="leading-relaxed">Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar neutra sustainable fingerstache kickstarter.</div>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">2.7K</h2>
+                                <p className="leading-relaxed">Users</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">1.8K</h2>
+                                <p className="leading-relaxed">Subscribes</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">35</h2>
+                                <p className="leading-relaxed">Downloads</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">4</h2>
+                                <p className="leading-relaxed">Products</p>
+                            </div>
+                        </div>
+                        <div className="lg:w-1/4 sm:w-1/3 h-[430px] sm:h-[60vh] w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
+                            <img className="object-cover object-center w-full h-full" src={img1} alt="stats" />
+                        </div>
+                    </div>
+                </section>
+                <section className="  text-gray-600 body-font">
+                    <div className=" bg-yellow-600  container px-5 py-24 justify-around mx-auto flex flex-wrap">
+                        <div className="  flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+                            <div className="w-full sm:p-4 px-4 mb-6">
+                                <h1 className="title-font font-medium text-xl mb-2 text-gray-900">Moon hashtag pop-up try-hard offal truffaut</h1>
+                                <div className="leading-relaxed">Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar neutra sustainable fingerstache kickstarter.</div>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">2.7K</h2>
+                                <p className="leading-relaxed">Users</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">1.8K</h2>
+                                <p className="leading-relaxed">Subscribes</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">35</h2>
+                                <p className="leading-relaxed">Downloads</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">4</h2>
+                                <p className="leading-relaxed">Products</p>
+                            </div>
+                        </div>
+                        <div className="lg:w-1/4 sm:w-1/3 h-[430px] sm:h-[60vh] w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
+                            <img className="object-cover object-center w-full h-full" src={img10} alt="stats" />
+                        </div>
+                    </div>
+                </section>
+
+                <section className="  text-gray-600 body-font">
+                    <div className="  container px-5 py-24 justify-around mx-auto flex flex-wrap">
+                        <div className="  flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+                            <div className="w-full sm:p-4 px-4 mb-6">
+                                <h1 className="title-font font-medium text-xl mb-2 text-gray-900">Moon hashtag pop-up try-hard offal truffaut</h1>
+                                <div className="leading-relaxed">Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar neutra sustainable fingerstache kickstarter.</div>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">2.7K</h2>
+                                <p className="leading-relaxed">Users</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">1.8K</h2>
+                                <p className="leading-relaxed">Subscribes</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">35</h2>
+                                <p className="leading-relaxed">Downloads</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">4</h2>
+                                <p className="leading-relaxed">Products</p>
+                            </div>
+                        </div>
+                        <div className="lg:w-1/4 sm:w-1/3 h-[430px] sm:h-[60vh] w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
+                            <img className="object-cover object-center w-full h-full" src={img1} alt="stats" />
+                        </div>
+                    </div>
+                </section>
+                <section className="  text-gray-600 body-font">
+                    <div className=" bg-yellow-600  container px-5 py-24 justify-around mx-auto flex flex-wrap">
+                        <div className="  flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+                            <div className="w-full sm:p-4 px-4 mb-6">
+                                <h1 className="title-font font-medium text-xl mb-2 text-gray-900">Moon hashtag pop-up try-hard offal truffaut</h1>
+                                <div className="leading-relaxed">Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar neutra sustainable fingerstache kickstarter.</div>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">2.7K</h2>
+                                <p className="leading-relaxed">Users</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">1.8K</h2>
+                                <p className="leading-relaxed">Subscribes</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">35</h2>
+                                <p className="leading-relaxed">Downloads</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">4</h2>
+                                <p className="leading-relaxed">Products</p>
+                            </div>
+                        </div>
+                        <div className="lg:w-1/4 sm:w-1/3 h-[430px] sm:h-[60vh] w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
+                            <img className="object-cover object-center w-full h-full" src={img10} alt="stats" />
+                        </div>
+                    </div>
+                </section>
 
             </div>
             <div className='  flex justify-center pt-10 pb-10 pr-5 pl-5 md:pl-0 md:pr-0 items-center md:h-[100vh] ' >

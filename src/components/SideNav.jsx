@@ -119,8 +119,8 @@ export default function SideNav() {
                             setfirst("home")
                         }} className="  flex flex-col justify-start items-start" >
                             <span className="z-20 font-mono text-xl text-white" >01</span>
-                            {/* <Link className=" z-20 no-underline text-black" to="/" onClick={scrollToTop()} > */}
-                            <Link className=" z-20 no-underline text-black" to="/"  >
+                            {/* <Link className=" z-20 no-underline text-black" to="/" onClick={scrollToTop} > */}
+                            <Link className=" z-20 no-underline text-black" to="/" onClick={scrollToTop}  >
                                 <button
 
                                     onClick={toggleCart} className=" text-4xl md:text-5xl  font-serif font-[500]" > Home</ button>
@@ -131,9 +131,9 @@ export default function SideNav() {
                             <span className="z-20 font-mono text-xl " >01</span>
                             <button
 
-                                onClick={toggleCart} className="z-20 text-4xl md:text-5xl  font-serif font-[500]" > <Link className="no-underline text-white" to="/" >Home</Link></ button>
+                                onClick={toggleCart} className="z-20 text-4xl md:text-5xl  font-serif font-[500]" >
+                                <Link className="no-underline text-white" to="/" onClick={scrollToTop}  >Home</Link></ button>
                         </div>}
-
                     </div>
                     <div className="hidden md:block" >
                         {data.pathname === "/about" ? <div className="ml-10 flex flex-col justify-start items-start" >
@@ -142,14 +142,14 @@ export default function SideNav() {
                                 onMouseEnter={() => {
                                     setfirst("about")
                                 }}
-                                onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-black" to="/about" >About Us</Link></ button>
+                                onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-black" to="/about" onClick={scrollToTop} >About Us</Link></ button>
                         </div> : <div className=" ml-0 md:ml-10 flex flex-col justify-start items-start" >
                             <span className="z-20 font-mono text-xl  " >02</span>
                             <button
                                 onMouseEnter={() => {
                                     setfirst("about")
                                 }}
-                                onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-white" to="/about" >About Us</Link></ button>
+                                onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-white" to="/about" onClick={scrollToTop} >About Us</Link></ button>
                         </div>}
 
 
@@ -162,14 +162,14 @@ export default function SideNav() {
                                 onMouseEnter={() => {
                                     setfirst("services")
                                 }}
-                                onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-black" to="/services" >Services</Link></ button>
+                                onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-black" to="/services" onClick={scrollToTop} >Services</Link></ button>
                         </div> : <div className="ml-0 md:ml-10 flex flex-col justify-start items-start" >
                             <span className="z-20 font-mono text-xl " >03</span>
                             <button
                                 onMouseEnter={() => {
                                     setfirst("services")
                                 }}
-                                onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-white" to="/services" >Services</Link></ button>
+                                onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-white" to="/services" onClick={scrollToTop} >Services</Link></ button>
                         </div>}
 
 
@@ -182,14 +182,14 @@ export default function SideNav() {
                                 onMouseEnter={() => {
                                     setfirst("team")
                                 }}
-                                onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-black" to="/team" >Team</Link></ button>
+                                onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-black" to="/team" onClick={scrollToTop} >Team</Link></ button>
                         </div> : <div className=" ml-0 md:ml-10 flex flex-col justify-start items-start" >
                             <span className="z-20 font-mono text-xl " >04</span>
                             <button
                                 onMouseEnter={() => {
                                     setfirst("team")
                                 }}
-                                onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-white" to="/team" >Team</Link></ button>
+                                onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-white" to="/team" onClick={scrollToTop} >Team</Link></ button>
                         </div>}
 
                     </div>
@@ -201,14 +201,14 @@ export default function SideNav() {
                                 onMouseEnter={() => {
                                     setfirst("partners")
                                 }}
-                                onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-black" to="/contact" >Contact</Link></ button>
+                                onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-black" to="/contact" onClick={scrollToTop} >Contact</Link></ button>
                         </div> : <div className="ml-0 md:ml-10 flex flex-col justify-start items-start" >
                             <span className="z-20 font-mono text-xl " >05</span>
                             <button
                                 onMouseEnter={() => {
                                     setfirst("partners")
                                 }}
-                                onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-white" to="/contact" >Contact</Link></ button>
+                                onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-white" to="/contact" onClick={scrollToTop} >Contact</Link></ button>
                         </div>}
                     </div>
 
@@ -233,7 +233,7 @@ export default function SideNav() {
                                 setfirst("home")
                             }} className="  flex flex-col justify-start items-start" >
                                 <span className="z-20 font-mono text-xl text-white" >01</span>
-                                <Link className=" z-20 no-underline text-black" to="/" >
+                                <Link className=" z-20 no-underline text-black" to="/" onClick={scrollToTop}  >
                                     <button onClick={toggleCart} className=" text-4xl md:text-5xl  font-serif font-[500]" > Home</ button>
                                 </Link>
                             </div> : <div onMouseOver={() => {
@@ -253,14 +253,14 @@ export default function SideNav() {
                                     onMouseEnter={() => {
                                         setfirst("about")
                                     }}
-                                    onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-black" to="/about" >About Us</Link></ button>
+                                    onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-black" to="/about" onClick={scrollToTop} >About Us</Link></ button>
                             </div> : <div className=" ml-0 md:ml-10 flex flex-col justify-start items-start" >
                                 <span className="z-20 font-mono text-xl  " >02</span>
                                 <button
                                     onMouseEnter={() => {
                                         setfirst("about")
                                     }}
-                                    onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-white" to="/about" >About Us</Link></ button>
+                                    onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-white" to="/about" onClick={scrollToTop} >About Us</Link></ button>
                             </div>}
 
                         </div>
@@ -273,14 +273,14 @@ export default function SideNav() {
                                     onMouseEnter={() => {
                                         setfirst("services")
                                     }}
-                                    onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-black" to="/services" >Services</Link></ button>
+                                    onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-black" to="/services" onClick={scrollToTop} >Services</Link></ button>
                             </div> : <div className="ml-0 md:ml-10 flex flex-col justify-start items-start" >
                                 <span className="z-20 font-mono text-xl " >03</span>
                                 <button
                                     onMouseEnter={() => {
                                         setfirst("services")
                                     }}
-                                    onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-white" to="/services" >Services</Link></ button>
+                                    onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-white" to="/services" onClick={scrollToTop} >Services</Link></ button>
                             </div>}
                         </div>
 
@@ -293,14 +293,14 @@ export default function SideNav() {
                                     onMouseEnter={() => {
                                         setfirst("team")
                                     }}
-                                    onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-black" to="/team" >Team</Link></ button>
+                                    onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-black" to="/team" onClick={scrollToTop} >Team</Link></ button>
                             </div> : <div className=" ml-0 md:ml-10 flex flex-col justify-start items-start" >
                                 <span className="z-20 font-mono text-xl " >04</span>
                                 <button
                                     onMouseEnter={() => {
                                         setfirst("team")
                                     }}
-                                    onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-white" to="/team" >Team</Link></ button>
+                                    onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-white" to="/team" onClick={scrollToTop} >Team</Link></ button>
                             </div>}
 
                         </div>
@@ -312,14 +312,14 @@ export default function SideNav() {
                                     onMouseEnter={() => {
                                         setfirst("partners")
                                     }}
-                                    onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-black" to="/contact" >Contact</Link></ button>
+                                    onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-black" to="/contact" onClick={scrollToTop} >Contact</Link></ button>
                             </div> : <div className="ml-0 md:ml-10 flex flex-col justify-start items-start" >
                                 <span className="z-20 font-mono text-xl " >05</span>
                                 <button
                                     onMouseEnter={() => {
                                         setfirst("partners")
                                     }}
-                                    onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-white" to="/contact" >Contact</Link></ button>
+                                    onClick={toggleCart} className=" z-20  text-white text-4xl md:text-5xl font-serif font-[500]  " > <Link className="no-underline text-white" to="/contact" onClick={scrollToTop} >Contact</Link></ button>
                             </div>}
 
                         </div>
