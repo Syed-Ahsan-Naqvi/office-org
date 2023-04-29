@@ -4,11 +4,20 @@ import 'aos/dist/aos.css';
 import Btn from "./Btn"
 import SideNav from './SideNav';
 
-import wal1 from "../images/wal1.avif"
-
+// import wal1 from "../images/wal1.avif"
+import ser1 from "../images/ser1.jpeg"
+import ser2 from "../images/ser2.jpeg"
+import ser3 from "../images/ser3.jpeg"
+import ser4 from "../images/ser4.jpeg"
+import ser5 from "../images/ser5.jpeg"
+import ser7 from "../images/ser7.jpeg"
 import img5 from "../images/image2-removebg-preview.png"
 import img7 from "../images/image3-removebg-preview.png"
 import img8 from "../images/image4-removebg-preview.png"
+
+
+
+
 import Footer from "../components/footer"
 
 import Particle from './Particle'
@@ -44,28 +53,28 @@ export default function ServicesPage() {
                         <div className="  container px-5 py-24 mx-auto flex flex-wrap">
                             <div className="  flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                                 <div className="w-full sm:p-4 px-4 mb-6">
-                                    <h1 className="title-font font-medium text-xl mb-2 text-gray-900">Moon hashtag pop-up try-hard offal truffaut</h1>
+                                    <h1 className="title-font font-medium text-xl mb-2 text-gray-900">Website Development</h1>
                                     <div className="leading-relaxed">Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar neutra sustainable fingerstache kickstarter.</div>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">2.7K</h2>
-                                    <p className="leading-relaxed">Users</p>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">150+</h2>
+                                    <p className="leading-relaxed">Projects</p>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">1.8K</h2>
-                                    <p className="leading-relaxed">Subscribes</p>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">60</h2>
+                                    <p className="leading-relaxed">Active Projects</p>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">35</h2>
-                                    <p className="leading-relaxed">Downloads</p>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">75+</h2>
+                                    <p className="leading-relaxed">Complete Projects</p>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">4</h2>
-                                    <p className="leading-relaxed">Products</p>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">5 star</h2>
+                                    <p className="leading-relaxed">Service Ranking</p>
                                 </div>
                             </div>
                             <div className="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
-                                <img className="object-cover object-center w-full h-full" src={wal1} alt="stats" />
+                                <img className=" relative object-cover object-center w-full h-full" src={ser3} alt="stats" />
                             </div>
                         </div>
                     </section>
@@ -75,12 +84,12 @@ export default function ServicesPage() {
                         <div className=" bg-yellow-600 container px-5 py-24 mx-auto flex flex-wrap">
                             <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                                 <div className="w-full sm:p-4 px-4 mb-6">
-                                    <h1 className="title-font font-medium text-xl mb-2 text-gray-900">Moon hashtag pop-up try-hard offal truffaut</h1>
+                                    <h1 className="title-font font-medium text-xl mb-2 text-gray-900">Application Development</h1>
                                     <div className="leading-relaxed">Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar neutra sustainable fingerstache kickstarter.</div>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">2.7K</h2>
-                                    <p className="leading-relaxed">Users</p>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">90+</h2>
+                                    <p className="leading-relaxed">Projects</p>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
                                     <h2 className="title-font font-medium text-3xl text-gray-900">1.8K</h2>
@@ -96,7 +105,7 @@ export default function ServicesPage() {
                                 </div>
                             </div>
                             <div className="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
-                                <img className="object-cover object-center w-full h-full" src={wal1} alt="stats" />
+                                <img className=" relative object-cover object-center w-full h-full" src={ser2} alt="stats" />
                             </div>
                         </div>
                     </section>
@@ -106,7 +115,7 @@ export default function ServicesPage() {
                         <div className="  container px-5 py-24 mx-auto flex flex-wrap">
                             <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                                 <div className="w-full sm:p-4 px-4 mb-6">
-                                    <h1 className="title-font font-medium text-xl mb-2 text-gray-900">Moon hashtag pop-up try-hard offal truffaut</h1>
+                                    <h1 className="title-font font-medium text-xl mb-2 text-gray-900">Wordpress & Shopify</h1>
                                     <div className="leading-relaxed">Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar neutra sustainable fingerstache kickstarter.</div>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
@@ -127,7 +136,7 @@ export default function ServicesPage() {
                                 </div>
                             </div>
                             <div className="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
-                                <img className="object-cover object-center w-full h-full" src={wal1} alt="stats" />
+                                <img className=" relative object-cover object-center w-full h-full" src={ser7} alt="stats" />
                             </div>
                         </div>
                     </section>
@@ -137,7 +146,7 @@ export default function ServicesPage() {
                         <div className=" bg-yellow-600 container px-5 py-24 mx-auto flex flex-wrap">
                             <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                                 <div className="w-full sm:p-4 px-4 mb-6">
-                                    <h1 className="title-font font-medium text-xl mb-2 text-gray-900">Moon hashtag pop-up try-hard offal truffaut</h1>
+                                    <h1 className="title-font font-medium text-xl mb-2 text-gray-900">Digital Marketing</h1>
                                     <div className="leading-relaxed">Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar neutra sustainable fingerstache kickstarter.</div>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
@@ -158,7 +167,7 @@ export default function ServicesPage() {
                                 </div>
                             </div>
                             <div className="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
-                                <img className="object-cover object-center w-full h-full" src={wal1} alt="stats" />
+                                <img className=" relative object-cover object-center w-full h-full" src={ser4} alt="stats" />
                             </div>
                         </div>
                     </section>
@@ -168,7 +177,7 @@ export default function ServicesPage() {
                         <div className="  container px-5 py-24 mx-auto flex flex-wrap">
                             <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                                 <div className="w-full sm:p-4 px-4 mb-6">
-                                    <h1 className="title-font font-medium text-xl mb-2 text-gray-900">Moon hashtag pop-up try-hard offal truffaut</h1>
+                                    <h1 className="title-font font-medium text-xl mb-2 text-gray-900">Search Engine Optimization</h1>
                                     <div className="leading-relaxed">Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar neutra sustainable fingerstache kickstarter.</div>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
@@ -189,7 +198,7 @@ export default function ServicesPage() {
                                 </div>
                             </div>
                             <div className="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
-                                <img className="object-cover object-center w-full h-full" src={wal1} alt="stats" />
+                                <img className=" relative object-cover object-center w-full h-full" src={ser1} alt="stats" />
                             </div>
                         </div>
                     </section>
@@ -199,7 +208,7 @@ export default function ServicesPage() {
                         <div className=" bg-yellow-600 container px-5 py-24 mx-auto flex flex-wrap">
                             <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                                 <div className="w-full sm:p-4 px-4 mb-6">
-                                    <h1 className="title-font font-medium text-xl mb-2 text-gray-900">Moon hashtag pop-up try-hard offal truffaut</h1>
+                                    <h1 className="title-font font-medium text-xl mb-2 text-gray-900">Graphics Designing</h1>
                                     <div className="leading-relaxed">Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar neutra sustainable fingerstache kickstarter.</div>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
@@ -220,7 +229,7 @@ export default function ServicesPage() {
                                 </div>
                             </div>
                             <div className="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
-                                <img className="object-cover object-center w-full h-full" src={wal1} alt="stats" />
+                                <img className=" relative object-cover object-center w-full h-full" src={ser5} alt="stats" />
                             </div>
                         </div>
                     </section>

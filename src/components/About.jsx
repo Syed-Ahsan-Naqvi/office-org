@@ -6,12 +6,14 @@ import img3 from "../images/image3.jpeg"
 import SideNav from './SideNav'
 import Btn from "./Btn"
 
-import img1 from "../images/haris.jpeg"
-import img2 from "../images/ahsan.jpeg"
-import img12 from "../images/haseeb.jpeg"
-import img4 from "../images/image2.jpeg"
-import img9 from "../images/junaid.jpeg"
-import img10 from "../images/mateen.jpeg"
+import img1 from "../images/hash1.jpeg"
+import img2 from "../images/hash2.jpeg"
+import img12 from "../images/hash3.jpeg"
+import img10 from "../images/hash4.jpeg"
+import img9 from "../images/hash5.jpeg"
+import img4 from "../images/hash6.jpeg"
+import img13 from "../images/hash7.jpeg"
+import img14 from "../images/hash8.jpeg"
 import img5 from "../images/image2-removebg-preview.png"
 import img7 from "../images/image3-removebg-preview.png"
 import img8 from "../images/image4-removebg-preview.png"
@@ -19,7 +21,7 @@ import Footer from "../components/footer"
 // import { SiGmail } from "react-icons/si";
 // import { RiInstagramFill } from "react-icons/ri";
 // import { BsCodeSlash, BsFacebook, BsLinkedin, BsTwitter } from "react-icons/bs";
-
+import PhotoAlbum from "react-photo-album";
 
 
 export default function About() {
@@ -28,6 +30,23 @@ export default function About() {
 
 
     }, []);
+
+
+
+    const photos = [
+        { src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg", width: 500, height: 500 },
+        { src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg", width: 1200, height: 500 },
+        { src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg", width: 500, height: 500 },
+        // { src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg", width: 800, height: 1000 },
+    ];
+
+    const pics = [
+        { src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg", width: 800, height: 600 },
+        { src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg", width: 1600, height: 900 },
+        { src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg", width: 1600, height: 900 },
+    ];
+
+
     return (
         // <div className='w-screen h-screen bg-black' >
         <div>
@@ -60,13 +79,13 @@ export default function About() {
                                     data-aos-duration="2000" className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Microdosing synth tattooed vexillologist</h1>
                                 <p data-aos="fade-up" data-aos-easing="ease-out-cubic"
                                     data-aos-duration="2000" className="mb-8 leading-relaxed">Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing tousled..Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing tousled.Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing tousled.Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing tousled.Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing tousled.</p>
-                                <div data-aos="fade-up" data-aos-easing="ease-out-cubic"
+                                {/* <div data-aos="fade-up" data-aos-easing="ease-out-cubic"
                                     data-aos-duration="2000" className="flex justify-center">
                                     <button data-aos="flip-down" data-aos-easing="ease-out-cubic"
                                         data-aos-duration="1000" className="  relative focus:outline-none text-white  bg-yellow-600 hover:bg-yellow-600 focus:ring-4 focus:ring-yellow-300  rounded-lg text-xl px-5 py-2.5 mr-2 mb-2 dark:focus:ring-yellow-700 font-bold" >Button</button>
                                     <button data-aos="flip-down" data-aos-easing="ease-out-cubic"
                                         data-aos-duration="1000" className="  relative focus:outline-none text-white  bg-yellow-600 hover:bg-yellow-600 focus:ring-4 focus:ring-yellow-300  rounded-lg text-xl px-5 py-2.5 mr-2 mb-2 dark:focus:ring-yellow-900 font-bold">Button</button>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -80,7 +99,7 @@ export default function About() {
 
                 {/*  */}
                 <div data-aos="zoom-in" data-aos-easing="ease-out-cubic"
-                    data-aos-duration="3000" className='pt-16' >  <div className="flex justify-center items-center text-5xl md:text-6xl " > <span className="    " ><hr className=" w-14 md:w-20  border-2 border-yellow-600 " /></span> Our Team <span className="" ><hr className="  w-14 md:w-20 border-2  border-yellow-600 " /></span></div>
+                    data-aos-duration="3000" className='pt-16' >  <div className="flex justify-center items-center text-5xl md:text-6xl " > <span className="    " ><hr className=" w-14 md:w-20  border-2 border-yellow-600 " /></span> Gallery <span className="" ><hr className="  w-14 md:w-20 border-2  border-yellow-600 " /></span></div>
                 </div>
                 {/*  */}
 
@@ -266,7 +285,7 @@ export default function About() {
                             </div>
                             <div className="lg:w-1/4 sm:w-1/2 p-4">
                                 <div className="flex relative w-full h-[430px] sm:h-[60vh] ">
-                                    <img alt="gallery" className="absolute inset-0 w-full h-full " src={img10} />
+                                    <img alt="gallery" className="absolute inset-0 w-full h-full " src={img13} />
                                     <div className="px-8 py-10 relative  w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                                         <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
                                         <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
@@ -276,7 +295,7 @@ export default function About() {
                             </div>
                             <div className="lg:w-1/4 sm:w-1/2 p-4">
                                 <div className="flex relative w-full h-[430px] sm:h-[60vh] ">
-                                    <img alt="gallery" className="absolute inset-0 w-full h-full " src={img1} />
+                                    <img alt="gallery" className="absolute inset-0 w-full h-full " src={img14} />
                                     <div className="px-8 py-10 relative  w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                                         <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
                                         <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
@@ -308,7 +327,13 @@ export default function About() {
                         </div>
                     </div>
                 </section>
-
+                {/* 
+                <section className='px-5 hidden md:block '  >
+                    <PhotoAlbum layout="rows" photos={photos} />
+                    <br />
+                    <PhotoAlbum layout="rows" photos={photos} />
+                </section>
+ */}
 
 
             </div>

@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import PhotoAlbum from "react-photo-album";
 import { Link } from "react-router-dom";
 import { GoDeviceMobile } from "react-icons/go";
 import { HiShoppingBag } from "react-icons/hi";
@@ -17,6 +18,11 @@ import Btn from "./Btn"
 import { BsCodeSlash } from "react-icons/bs";
 
 import img6 from "../images/image3.jpeg"
+import img9 from "../images/prog-logic2.jpeg"
+import img10 from "../images/fourdev.jpeg"
+import img11 from "../images/tecno.jpeg"
+import img12 from "../images/blinkers.jpeg"
+import img13 from "../images/ao.jpeg"
 import SideNav from './SideNav'
 import Footer from "../components/footer"
 import Particle from './Particle'
@@ -26,11 +32,12 @@ import 'react-awesome-slider/dist/styles.css';
 import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 
-import team1 from "../images/haseeb.jpeg"
-import team2 from "../images/mateen.jpeg"
+import team1 from "../images/haseeb4.jpeg"
+import team2 from "../images/mateen2.jpeg"
 import team3 from "../images/ahsan.jpeg"
-import team4 from "../images/haris.jpeg"
-import team5 from "../images/junaid.jpeg"
+import team4 from "../images/talha3.jpeg"
+import team5 from "../images/dig2.jpeg"
+import team6 from "../images/arooj.png"
 
 
 import "../style/test.css"
@@ -67,9 +74,14 @@ export default function All() {
     //     }
     // }
 
+
+
+
+
     return (
 
         <div className=' overscroll-y-none overscroll-x-none ' >
+
             <div className='relative z-20  ' >
                 <SideNav />
             </div>
@@ -107,7 +119,9 @@ export default function All() {
 
             {/* Main starts*/}
 
+            {/* <PhotoAlbum layout="rows" photos={pics} /> */}
             <div className='h-[100vh] bg-black flex justify-center items-center ' >
+
                 {/* <Particle /> */}
                 <div className="   visible bg-black "  >
                     <span className=' block md:hidden text-center text-yellow-600  text-4xl  font-bold pl-2 pr-2 md:pl-0 md:pr-0 '  >LET'S JOIN</span>
@@ -230,7 +244,7 @@ export default function All() {
                                     <div className=' flex justify-center'> <span className='text-6xl service2_icon text-black animate-spin  '>< GoDeviceMobile /> </span> </div>
                                     <br />
 
-                                    <h1 className="title-font sm:text-2xl text-xl font-medium text-black mb-3">APPLIACTION DEVELOPMENT</h1>
+                                    <h1 className="title-font sm:text-2xl text-xl font-medium text-black mb-3">APPLICATION DEVELOPMENT</h1>
                                     <p className="leading-relaxed mb-3 text-white ">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
 
                                 </div>
@@ -255,7 +269,7 @@ export default function All() {
                                     <div className=' flex justify-center'> <span className='text-6xl text-black  service4_icon animate-spin '><FaChartLine /> </span> </div>
                                     <br />
 
-                                    <h1 className="title-font sm:text-2xl text-xl font-medium  mb-3  text-black ">DIGITAL MARKERTING</h1>
+                                    <h1 className="title-font sm:text-2xl text-xl font-medium  mb-3  text-black ">DIGITAL MARKETING</h1>
                                     <p className="leading-relaxed mb-3 text-white ">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                                 </div>
                             </div>
@@ -326,7 +340,7 @@ export default function All() {
                                     <img alt="team" class="w-16 h-16 bg-gray-100 rounded-full mr-4" src={team2} />
                                     <div class="flex-grow">
                                         <h2 class="text-gray-900 title-font font-medium">Muhammad Mateen Imran</h2>
-                                        <p class="text-white">CHIEF FOUNDER DIRECTOR</p>
+                                        <p class="text-white">FOUNDER CHIEF DIRECTOR</p>
                                     </div>
                                 </div>
                             </div>
@@ -335,7 +349,7 @@ export default function All() {
                                     <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={team3} />
                                     <div class="flex-grow">
                                         <h2 class="text-gray-900 title-font font-medium">Syed Ahsan Naqvi</h2>
-                                        <p class="text-white">ENGINEERNING MANAGER</p>
+                                        <p class="text-white">ENGINEERING MANAGER</p>
                                     </div>
                                 </div>
                             </div>
@@ -343,7 +357,7 @@ export default function All() {
                                 <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 border bg-yellow-600 p-4 rounded-lg relative ">
                                     <img alt="team" class="w-16 h-16 bg-gray-100 rounded-full mr-4" src={team4} />
                                     <div class="flex-grow">
-                                        <h2 class="text-gray-900 title-font font-medium">Syed Haris Mahmood</h2>
+                                        <h2 class="text-gray-900 title-font font-medium">Mirza Talha Rizwan</h2>
                                         <p class="text-white">HR - MANAGER</p>
                                     </div>
                                 </div>
@@ -352,30 +366,29 @@ export default function All() {
                                 <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 border bg-yellow-600 p-4 rounded-lg relative ">
                                     <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={team5} />
                                     <div class="flex-grow">
-                                        <h2 class="text-gray-900 title-font font-medium">Muhammad Junaid</h2>
+                                        <h2 class="text-gray-900 title-font font-medium">Muzzamil Mughal</h2>
                                         <p class="text-white">IT - MANAGER</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            {/* <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                                 <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 border bg-yellow-600  p-4 rounded-lg relative ">
                                     <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
                                     <div class="flex-grow">
-                                        {/* <h2 className="text-gray-900 title-font font-medium"></h2> */}
                                         <p class="text-white">PROJECT - MANAGER</p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                                 <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 bg-yellow-600 border p-4 rounded-lg relative ">
-                                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/100x90" />
+                                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={team6} />
                                     <div class="flex-grow">
                                         <h2 class="text-gray-900 title-font font-medium">Arooj Raja</h2>
                                         <p class="text-white">MARKETING - MANAGER</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            {/* <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                                 <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 bg-yellow-600 border p-4 rounded-lg relative ">
                                     <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/104x94" />
                                     <div class="flex-grow">
@@ -383,8 +396,8 @@ export default function All() {
                                         <p class="text-white">BUSINESS ANALYLIST</p>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            </div> */}
+                            {/* <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                                 <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 bg-yellow-600 border p-4 rounded-lg relative ">
                                     <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/108x98" />
                                     <div class="flex-grow">
@@ -392,7 +405,7 @@ export default function All() {
                                         <p class="text-white">ADMINISTRATOR</p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             {/* <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                                 <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 border bg-yellow-600  p-4 rounded-lg relative ">
                                     <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
@@ -421,14 +434,14 @@ export default function All() {
                                 </div>
                             </div> */}
                         </div>
-                    </div>
-                </section>
-            </div>
+                    </div >
+                </section >
+            </div >
             {/* Team ends */}
-            <br />
+            < br />
             {/* Parallex effect starts */}
 
-            <div className='  flex justify-center pt-10 pb-10 pr-5 pl-5 md:pl-0 md:pr-0' >
+            <div div className='  flex justify-center pt-10 pb-10 pr-5 pl-5 md:pl-0 md:pr-0' >
                 <div >
                     <div className='block md:hidden relative ' >
                         <img className='relative' data-aos="fade-up" data-aos-easing="ease-out-cubic"
@@ -447,9 +460,9 @@ export default function All() {
                 </div>
             </div >
             {/* Parallex effect ends */}
-            <br />
+            < br />
             {/* Counter starts */}
-            <div className='' >
+            <div div className='' >
                 <section className="text-gray-600 body-font  md:h-[100vh] ">
                     <div className="container px-5 py-24 mx-auto">
 
@@ -512,7 +525,7 @@ export default function All() {
                                         <path d="M3 18v-6a9 9 0 0118 0v6"></path>
                                         <path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"></path>
                                     </svg>
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">    <CountUp end={25} redraw={true}>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">    <CountUp end={15} redraw={true}>
                                         {({
                                             countUpRef, start
                                         }) => (
@@ -544,7 +557,7 @@ export default function All() {
                         </div>
                     </div>
                 </section>
-            </div>
+            </div >
             {/* Counter ends */}
 
             {/* Testimonials starts */}
@@ -554,7 +567,7 @@ export default function All() {
             {/* testimonial 2 starts */}
 
             <div data-aos="zoom-in" data-aos-easing="ease-out-cubic"
-                data-aos-duration="3000" className='pt-16' >  <div className="flex justify-center items-center text-5xl md:text-6xl " > <span className="    " ><hr className=" w-14 md:w-20  border-2 border-yellow-600 " /></span>Our Partners <span className="" ><hr className="  w-14 md:w-20 border-2  border-yellow-600 " /></span></div>
+                data-aos-duration="3000" className='pt-16' >  <div className="flex justify-center items-center text-5xl md:text-6xl " > <span className="    " ><hr className=" w-14 md:w-20  border-2 border-yellow-600 " /></span> Partners <span className="" ><hr className="  w-14 md:w-20 border-2  border-yellow-600 " /></span></div>
             </div>
             {/*  */}
             <br />
@@ -631,7 +644,7 @@ export default function All() {
                             <div class="container px-5 py-10 mx-auto">
                                 <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
 
-                                    <img alt="testimonial" class="w-32 h-32 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={img6}></img>
+                                    <img alt="testimonial" class="w-32 h-32 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={img9}></img>
                                     <p class="leading-relaxed text-lg">Edison  cleanse direct trade indigo juice before they sold out gentrify plaid gastropub normcore XOXO 90's pickled cindigo jean shorts. Slow-carb next level shoindigoitch ethical authentic, yr scenester sriracha forage franzen organic drinking vinegar.</p>
                                     <span class="inline-block h-1 w-10 rounded bg-yellow-600 mt-8 mb-6"></span>
                                     <h2 class="  text-gray-900 font-medium title-font tracking-wider text-sm">PROGRAMMER LOGICS</h2>
@@ -645,7 +658,7 @@ export default function All() {
                             <div class="container px-5 py-10 mx-auto">
                                 <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
 
-                                    <img alt="testimonial" class="w-32 h-32 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={img6}></img>
+                                    <img alt="testimonial" class="w-32 h-32 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={img10}></img>
                                     <p class="leading-relaxed text-lg">Edison  cleanse direct trade indigo juice before they sold out gentrify plaid gastropub normcore XOXO 90's pickled cindigo jean shorts. Slow-carb next level shoindigoitch ethical authentic, yr scenester sriracha forage franzen organic drinking vinegar.</p>
                                     <span class="inline-block h-1 w-10 rounded bg-yellow-600 mt-8 mb-6"></span>
                                     <h2 class="  text-gray-900 font-medium title-font tracking-wider text-sm">FOURDEVS</h2>
@@ -673,7 +686,7 @@ export default function All() {
                             <div class="container px-5 py-10 mx-auto">
                                 <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
 
-                                    <img alt="testimonial" class="w-32 h-32 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={img6}></img>
+                                    <img alt="testimonial" class="w-32 h-32 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={img11}></img>
                                     <p class="leading-relaxed text-lg">Edison  cleanse direct trade indigo juice before they sold out gentrify plaid gastropub normcore XOXO 90's pickled cindigo jean shorts. Slow-carb next level shoindigoitch ethical authentic, yr scenester sriracha forage franzen organic drinking vinegar.</p>
                                     <span class="inline-block h-1 w-10 rounded bg-yellow-600 mt-8 mb-6"></span>
                                     <h2 class="  text-gray-900 font-medium title-font tracking-wider text-sm">TECNO BRAINZ</h2>
@@ -687,7 +700,7 @@ export default function All() {
                             <div class="container px-5 py-10 mx-auto">
                                 <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
 
-                                    <img alt="testimonial" class="w-32 h-32 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={img6}></img>
+                                    <img alt="testimonial" class="w-32 h-32 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={img12}></img>
                                     <p class="leading-relaxed text-lg">Edison  cleanse direct trade indigo juice before they sold out gentrify plaid gastropub normcore XOXO 90's pickled cindigo jean shorts. Slow-carb next level shoindigoitch ethical authentic, yr scenester sriracha forage franzen organic drinking vinegar.</p>
                                     <span class="inline-block h-1 w-10 rounded bg-yellow-600 mt-8 mb-6"></span>
                                     <h2 class="  text-gray-900 font-medium title-font tracking-wider text-sm">BLINKERS DEVELOPER</h2>
@@ -701,7 +714,7 @@ export default function All() {
                             <div class="container px-5 py-10 mx-auto">
                                 <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
 
-                                    <img alt="testimonial" class="w-32 h-32 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={img6}></img>
+                                    <img alt="testimonial" class="w-32 h-32 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={img13}></img>
                                     <p class="leading-relaxed text-lg">Edison  cleanse direct trade indigo juice before they sold out gentrify plaid gastropub normcore XOXO 90's pickled cindigo jean shorts. Slow-carb next level shoindigoitch ethical authentic, yr scenester sriracha forage franzen organic drinking vinegar.</p>
                                     <span class="inline-block h-1 w-10 rounded bg-yellow-600 mt-8 mb-6"></span>
                                     <h2 class="  text-gray-900 font-medium title-font tracking-wider text-sm">AURLIAN ORIGINS</h2>
@@ -710,7 +723,7 @@ export default function All() {
                             </div>
                         </section></div>
                     </div>
-                    <div style={{ background: "none" }} >
+                    {/* <div style={{ background: "none" }} >
                         <div style={{ background: "none" }} >  <section class="text-gray-600 body-font">
                             <div class="container px-5 py-10 mx-auto">
                                 <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
@@ -723,8 +736,8 @@ export default function All() {
                                 </div>
                             </div>
                         </section></div>
-                    </div>
-                    <div style={{ background: "none" }} >
+                    </div> */}
+                    {/* <div style={{ background: "none" }} >
                         <div style={{ background: "none" }} >  <section class="text-gray-600 body-font">
                             <div class="container px-5 py-10 mx-auto">
                                 <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
@@ -737,7 +750,7 @@ export default function All() {
                                 </div>
                             </div>
                         </section></div>
-                    </div>
+                    </div> */}
 
                 </AutoplaySlider>
             </div>
