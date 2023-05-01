@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import PhotoAlbum from "react-photo-album";
+// import PhotoAlbum from "react-photo-album";
 import { Link } from "react-router-dom";
 import { GoDeviceMobile } from "react-icons/go";
 import { HiShoppingBag } from "react-icons/hi";

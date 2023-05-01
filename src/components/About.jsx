@@ -21,7 +21,7 @@ import Footer from "../components/footer"
 // import { SiGmail } from "react-icons/si";
 // import { RiInstagramFill } from "react-icons/ri";
 // import { BsCodeSlash, BsFacebook, BsLinkedin, BsTwitter } from "react-icons/bs";
-import PhotoAlbum from "react-photo-album";
+// import PhotoAlbum from "react-photo-album";
 
 
 export default function About() {
@@ -33,18 +33,18 @@ export default function About() {
 
 
 
-    const photos = [
-        { src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg", width: 500, height: 500 },
-        { src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg", width: 1200, height: 500 },
-        { src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg", width: 500, height: 500 },
-        // { src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg", width: 800, height: 1000 },
-    ];
+    // const photos = [
+    //     { src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg", width: 500, height: 500 },
+    //     { src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg", width: 1200, height: 500 },
+    //     { src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg", width: 500, height: 500 },
+    //     // { src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg", width: 800, height: 1000 },
+    // ];
 
-    const pics = [
-        { src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg", width: 800, height: 600 },
-        { src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg", width: 1600, height: 900 },
-        { src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg", width: 1600, height: 900 },
-    ];
+    // const pics = [
+    //     { src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg", width: 800, height: 600 },
+    //     { src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg", width: 1600, height: 900 },
+    //     { src: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg", width: 1600, height: 900 },
+    // ];
 
 
     return (

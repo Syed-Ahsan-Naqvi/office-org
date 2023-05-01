@@ -1,16 +1,16 @@
 import React from 'react'
-import { Fragment, useState, useEffect } from "react";
+import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Btn from "./Btn"
 import Particle from './Particle'
 import Footer from "./footer"
 
-import {
-    Accordion,
-    AccordionHeader,
-    AccordionBody,
-} from "@material-tailwind/react";
+// import {
+//     Accordion,
+//     AccordionHeader,
+//     AccordionBody,
+// } from "@material-tailwind/react";
 
 import img5 from "../images/image2-removebg-preview.png"
 import img7 from "../images/image3-removebg-preview.png"
@@ -23,11 +23,11 @@ export default function Example() {
 
 
     }, []);
-    const [open, setOpen] = useState(1);
+    // const [open, setOpen] = useState(1);
 
-    const handleOpen = (value) => {
-        setOpen(open === value ? 0 : value);
-    };
+    // const handleOpen = (value) => {
+    //     setOpen(open === value ? 0 : value);
+    // };
 
     return (
 
