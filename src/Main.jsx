@@ -6,6 +6,7 @@ import Services from "./components/Services"
 import Team from "./components/Team"
 import Partners from "./components/Partners"
 import FaQ from "./components/FaQ"
+import News from "./components/News"
 
 
 
@@ -24,6 +25,7 @@ export default function Main() {
                     <Route path='/team' element={<Team />} ></Route>
                     <Route path='/contact' element={<Partners />} ></Route>
                     <Route path='/faq' element={<FaQ />} ></Route>
+                    <Route path='/news' element={<News />} ></Route>
 
                 </Routes>
             </BrowserRouter>
