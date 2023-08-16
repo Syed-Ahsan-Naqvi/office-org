@@ -76,9 +76,13 @@ export default function About() {
                                 data-aos-duration="3000" className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src={img3} />
                             <div className="text-center lg:w-2/3 w-full">
                                 <h1 data-aos="fade-up" data-aos-easing="ease-out-cubic"
-                                    data-aos-duration="2000" className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Microdosing synth tattooed vexillologist</h1>
+                                    data-aos-duration="2000" className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Welcome to HashStack Developers!</h1>
                                 <p data-aos="fade-up" data-aos-easing="ease-out-cubic"
-                                    data-aos-duration="2000" className="mb-8 leading-relaxed">Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing tousled..Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing tousled.Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing tousled.Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing tousled.Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing tousled.</p>
+                                    data-aos-duration="2000" className="mb-8 leading-relaxed">
+
+                                    HashStack Developers, where innovation merges seamlessly with technology. We're not just a software house; we're architects of digital solutions that redefine industries. Our team thrives on turning ideas into reality, crafting custom software that empowers businesses to conquer the challenges of tomorrow. With an unwavering commitment to quality and a passion for pushing boundaries, we specialize in transforming concepts into cutting-edge applications. At HashStack Developers, we believe in code that not only functions flawlessly but also enriches user experiences. Join us on this journey of creativity, technology, and limitless possibilities. Your vision is our code.
+
+                                </p>
                                 {/* <div data-aos="fade-up" data-aos-easing="ease-out-cubic"
                                     data-aos-duration="2000" className="flex justify-center">
                                     <button data-aos="flip-down" data-aos-easing="ease-out-cubic"
@@ -217,8 +221,8 @@ export default function About() {
                 <section className="   text-gray-600 body-font">
                     <div className="container px-5 py-24 mx-auto">
                         <div className="flex flex-col text-center w-full mb-20">
-                            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Master Cleanse Reliac Heirloom</h1>
-                            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
+                            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Welcome to HashStack Developers Gallery</h1>
+                            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">HashStack Developers' visual realm. Our gallery is a symphony of pixels, showcasing the alchemy of creativity and technology. Dive into a snapshot of our software house, where innovation comes to life.</p>
                         </div>
                         <div className=" flex flex-wrap -m-4">
                             <div className="lg:w-1/4 sm:w-1/2 p-4 ">

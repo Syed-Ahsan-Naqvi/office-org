@@ -81,7 +81,7 @@ export default function SideNav() {
         <>
 
 
-            <div ref={mit} className=' z-20 fixed top-5 right-5 md:top-1/2 md:right-[92%] translate-x-0  md:translate-x-0 transition-transform duration-1000 ease-in-out '  >
+            <div ref={mit} className=' z-20 fixed top-10 right-5 md:top-1/2 md:right-[92%] translate-x-0  md:translate-x-0 transition-transform duration-1000 ease-in-out '  >
                 <button onClick={toggleCart}  >  <UseAnimations fillColor='white' strokeColor="#ffffff" animation={menu4} size={50} /></button>
             </div>
 

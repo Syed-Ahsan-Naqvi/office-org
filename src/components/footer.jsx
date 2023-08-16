@@ -157,9 +157,7 @@ export default function footer() {
 
                     <div class="mb-6">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-                            repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-                            eum harum corrupti dicta, aliquam sequi voluptate quas.
+                            Empower your digital ambitions with HashStackDevelopers. Transforming ideas into reality, one innovation at a time. Reach us at Hashstackdevelopers and let's embark on a journey of technological excellence together.
                         </p>
                     </div>
 

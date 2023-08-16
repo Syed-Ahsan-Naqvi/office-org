@@ -5,6 +5,7 @@ import 'aos/dist/aos.css';
 import Btn from "./Btn"
 import Particle from './Particle'
 import Footer from "../components/footer"
+
 // import {
 //     Accordion,
 //     AccordionHeader,
@@ -28,7 +29,10 @@ for (i = 0; i < acc.length; i++) {
         }
     });
 }
+
+
 export default function Example() {
+
     useEffect(() => {
         AOS.init({ duration: 800 });
 
@@ -43,6 +47,10 @@ export default function Example() {
     return (
 
         <div>
+
+
+
+
             <div className='absolute' >
                 <Btn />
                 <Particle />
@@ -98,7 +106,11 @@ export default function Example() {
 
                 <Footer />
             </div>
+
         </div>
 
+
     );
+
 }
+

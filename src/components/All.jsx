@@ -37,10 +37,11 @@ import team2 from "../images/mateen2.jpeg"
 import team3 from "../images/ahsan.jpeg"
 import team4 from "../images/talha3.jpeg"
 import team5 from "../images/dig2.jpeg"
-import team6 from "../images/arooj.png"
+import team6 from "../images/faizan.jpeg"
 
 
 import "../style/test.css"
+import Flag from 'react-world-flags'
 
 export default function All() {
     useEffect(() => {
@@ -81,6 +82,36 @@ export default function All() {
     return (
 
         <div className=' overscroll-y-none overscroll-x-none ' >
+
+            {/* headerBar Starts */}
+
+            <div className='h-8 w-full bg-yellow-600 absolute z-10 ' >
+
+                <div className='flex justify-end ' >
+                    <div className='w-full text-white flex justify-between ' >
+
+
+                        <div className=' hidden pt-[2px]   w-full md:flex justify-center' >
+                            <span className='flex  ' ><Flag code="ca" width="30" height="5" /> &nbsp; : +44 7405 000045 </span>
+                            <span className='flex ml-12 ' ><Flag code="DE" width="30" height="5" /> &nbsp; : +49 162 9775400 </span>
+                            <span className='flex ml-12 ' ><Flag code="pak" width="30" height="5" /> &nbsp; : +123456789 </span>
+                            {/* <span className='ml-8' >Germany: +49 162 9775400</span> */}
+                        </div>
+
+
+                        <marquee behavior="" direction="" className=" flex md:hidden justify-between" >
+                            <div className='flex pt-[2px]' >
+                                <span className='flex  ' ><Flag code="ca" width="30" height="5" /> &nbsp; : +44 7405 000045 </span>
+                                <span className='flex ml-12 ' ><Flag code="DE" width="30" height="5" /> &nbsp; : +49 162 9775400 </span>
+                                <span className='flex ml-12 ' ><Flag code="pak" width="30" height="5" /> &nbsp; : +123456789 </span>
+
+                            </div>
+                        </marquee>
+                    </div>
+                </div>
+            </div>
+
+            {/* headerBar Ends */}
 
             <div className='relative z-20  ' >
                 <SideNav />
@@ -155,7 +186,8 @@ export default function All() {
                         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center ">
                             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-yellow-600">HASHSTACKDEVELOER
                             </h1>
-                            <p className="mb-4 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+                            <p className="mb-4 leading-relaxed">
+                                Welcome to HashStackDevelopers, where innovation meets excellence. Our team of experts crafts cutting-edge digital solutions tailored to your needs. Join us to turn your ideas into reality and stay ahead in the tech evolution.</p>
                             {/* <div className="flex justify-center"> */}
                             {/* <button className="inline-flex text-white bg-yellow-600 border-2 py-2 px-6  hover:bg-white hover:border-yellow-600 hover:text-black rounded text-lg">About Us</button> */}
                             <Link to={"/about"} >
@@ -190,7 +222,8 @@ export default function All() {
                 {/*  */}
                 <br />
 
-                <p class="lg:w-2/3 px-5 text-center mx-auto leading-relaxed text-base ">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p>
+                <p class="lg:w-2/3 px-5 text-center mx-auto leading-relaxed text-base ">
+                    Welcome to HashStackDevelopers' realm of services, where innovation knows no bounds. Let us be your compass through the digital landscape, as we craft, guide, and elevate your tech ventures to new heights.</p>
 
                 <section className="text-gray-600 body-font">
                     <div className="container px-5 py-24 mx-auto">
@@ -232,7 +265,8 @@ export default function All() {
 
                                     <h1 className="title-font sm:text-2xl text-xl font-medium  mb-3 text-black">WEBSITE DEVELOPMENT</h1>
 
-                                    <p className="leading-relaxed mb-3 text-white">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                    <p className="leading-relaxed mb-3 text-white">Engage and impress your audience with responsive and user-centric web applications that enhance your online presence.
+                                    </p>
                                 </div>
                             </div>
 
@@ -245,7 +279,7 @@ export default function All() {
                                     <br />
 
                                     <h1 className="title-font sm:text-2xl text-xl font-medium text-black mb-3">APPLICATION DEVELOPMENT</h1>
-                                    <p className="leading-relaxed mb-3 text-white ">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                    <p className="leading-relaxed mb-3 text-white ">Harness the power of mobile technology with our standout app development, available on iOS, Android, and cross-platform solutions.</p>
 
                                 </div>
                             </div>
@@ -256,7 +290,7 @@ export default function All() {
                                     <br />
 
                                     <h1 className="title-font sm:text-2xl text-xl font-medium text-black mb-3 ">WORDPRESS & SHOPIFY</h1>
-                                    <p className="leading-relaxed mb-3 text-white">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                    <p className="leading-relaxed mb-3 text-white">Elevate your digital presence with HashStackDevelopers. We expertly craft WordPress websites and seamlessly integrate Spotify, creating dynamic experiences that captivate your audience. Reach new heights in innovation with us.</p>
 
 
                                 </div>
@@ -270,7 +304,7 @@ export default function All() {
                                     <br />
 
                                     <h1 className="title-font sm:text-2xl text-xl font-medium  mb-3  text-black ">DIGITAL MARKETING</h1>
-                                    <p className="leading-relaxed mb-3 text-white ">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                    <p className="leading-relaxed mb-3 text-white ">Boost your brand with HashStackDevelopers' digital marketing. From SEO to social media, we've got you covered. Let's conquer the digital landscape.</p>
                                 </div>
                             </div>
                             <div data-aos="fade-up" data-aos-easing="ease-out-cubic"
@@ -280,7 +314,7 @@ export default function All() {
                                     <br />
 
                                     <h1 className="title-font sm:text-2xl text-xl font-medium  text-black mb-3">SEO</h1>
-                                    <p className="leading-relaxed mb-3 text-white">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                    <p className="leading-relaxed mb-3 text-white">Amplify your online reach with HashStackDevelopers' SEO magic. Climb search rankings, connect with your audience, and thrive in the digital realm.</p>
 
                                 </div>
                             </div>
@@ -291,7 +325,7 @@ export default function All() {
                                     <br />
 
                                     <h1 className="title-font sm:text-2xl text-xl font-medium  text-black mb-3 ">GRAPHIC DESIGNING</h1>
-                                    <p className="leading-relaxed mb-3 text-white">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                    <p className="leading-relaxed mb-3 text-white">Experience captivating design with HashStackDevelopers. We transform ideas into visuals that inspire and engage, creating a lasting impact for your brand.</p>
 
 
                                 </div>
@@ -323,7 +357,7 @@ export default function All() {
                             </div>
                             {/*  */}
                             <br /><br />
-                            <p class="lg:w-2/3 mx-auto leading-relaxed text-base pt-10">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p>
+                            <p class="lg:w-2/3 mx-auto leading-relaxed text-base pt-10">Meet the driving force behind HashStackDevelopers – our passionate and skilled team. With diverse expertise and unwavering dedication, we collaborate to turn visions into reality. Together, we're committed to delivering exceptional results that propel your digital journey to new heights.</p>
                         </div>
                         <div class="flex flex-wrap -m-2">
                             <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
@@ -337,10 +371,10 @@ export default function All() {
                             </div>
                             <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                                 <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 bg-yellow-600 border p-4 rounded-lg relative ">
-                                    <img alt="team" class="w-16 h-16 bg-gray-100 rounded-full mr-4" src={team2} />
+                                    <img alt="team" class="w-16 h-16 object-cover object-top bg-gray-100 rounded-full mr-4" src={team2} />
                                     <div class="flex-grow">
                                         <h2 class="text-gray-900 title-font font-medium">Muhammad Mateen Imran</h2>
-                                        <p class="text-white">FOUNDER CHIEF DIRECTOR</p>
+                                        <p class="text-white">FOUNDER COO</p>
                                     </div>
                                 </div>
                             </div>
@@ -349,7 +383,7 @@ export default function All() {
                                     <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={team3} />
                                     <div class="flex-grow">
                                         <h2 class="text-gray-900 title-font font-medium">Syed Ahsan Naqvi</h2>
-                                        <p class="text-white">ENGINEERING MANAGER</p>
+                                        <p class="text-white">CIO</p>
                                     </div>
                                 </div>
                             </div>
@@ -358,7 +392,7 @@ export default function All() {
                                     <img alt="team" class="w-16 h-16 bg-gray-100 rounded-full mr-4" src={team4} />
                                     <div class="flex-grow">
                                         <h2 class="text-gray-900 title-font font-medium">Mirza Talha Rizwan</h2>
-                                        <p class="text-white">HR - MANAGER</p>
+                                        <p class="text-white">CMO</p>
                                     </div>
                                 </div>
                             </div>
@@ -381,9 +415,9 @@ export default function All() {
                             </div> */}
                             <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                                 <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 bg-yellow-600 border p-4 rounded-lg relative ">
-                                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={team6} />
+                                    <img alt="team" class="w-16 h-16 bg-gray-100 object-contain object-top flex-shrink-0 rounded-full mr-4" src={team6} />
                                     <div class="flex-grow">
-                                        <h2 class="text-gray-900 title-font font-medium">Arooj Raja</h2>
+                                        <h2 class="text-gray-900 title-font font-medium">Muhammad Faizan Imran</h2>
                                         <p class="text-white">MARKETING - MANAGER</p>
                                     </div>
                                 </div>
@@ -392,7 +426,7 @@ export default function All() {
                                 <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 bg-yellow-600 border p-4 rounded-lg relative ">
                                     <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/104x94" />
                                     <div class="flex-grow">
-                                        <h2 class="text-gray-900 title-font font-medium">Ali</h2>
+                                        <h2 class="text-gray-900 title-font font-medium">ABULLAH CHOHAN</h2>
                                         <p class="text-white">BUSINESS ANALYLIST</p>
                                     </div>
                                 </div>
@@ -475,7 +509,8 @@ export default function All() {
                         <div className="flex flex-col text-center w-full mb-20">
                             {/* <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Master Cleanse Reliac Heirloom</h1> */}
 
-                            <p className="lg:w-2/3 mx-auto leading-relaxed text-base"> <br /><br /> Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+                            <p className="lg:w-2/3 mx-auto leading-relaxed text-base"> <br /><br />With a track record of excellence, HashStackDevelopers has successfully completed a multitude of projects across various industries. Our portfolio showcases a diverse range of achievements, highlighting our ability to deliver tailored solutions that meet and exceed our clients' expectations. Trust in our proven expertise to bring your project to life with precision and innovation.
+                            </p>
                         </div>
 
 
