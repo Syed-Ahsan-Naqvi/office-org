@@ -47,7 +47,9 @@ export default function Contact() {
                                 <p className=" hidden md:block mt-1">Obere Zahlbacher Straße 56 City Mainz /55131 / Stat /Rheinland-Pfalz, Germany  </p>
                             </div>
                             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
+                                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs ">COUNTRY</h2>
+                                <p className="leading-relaxed">Germany</p>
+                                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4 ">EMAIL</h2>
                                 <p className="text-indigo-500 leading-relaxed">example@email.com</p>
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
                                 <p className="leading-relaxed">+49 162 9775400</p>
@@ -66,7 +68,9 @@ export default function Contact() {
                                 <p className=" hidden md:block mt-1">318 RADFORD Road Nottingham NG75GP, Uk </p>
                             </div>
                             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
+                                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs ">COUNTRY</h2>
+                                <p className="leading-relaxed">United Kingdom</p>
+                                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">EMAIL</h2>
                                 <p className="text-indigo-500 leading-relaxed">example@email.com</p>
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
                                 <p className="leading-relaxed">+44 7405 000045</p>
@@ -100,26 +104,28 @@ export default function Contact() {
                 </div>
             </section>
             <section className="text-gray-600 body-font relative">
-                <div className="container px-5  mx-auto flex sm:flex-nowrap flex-wrap">
+                <div className="container px-2 md:px-5  mx-auto flex sm:flex-nowrap flex-wrap">
                     <div className=" w-[100vw] h-[80vh] md:h-[100vh] lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
 
                         <iframe className="absolute inset-0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?&amp;hl=en&amp;q=hashstack developers &amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="100%" frameborder="0"></iframe>
                         <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
                             <div className="lg:w-1/2 px-6">
                                 <h2 className=" hidden md:block title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
-                                <p className=" hidden md:block mt-1">Photo booth tattooed prism, portland taiyaki hoodie neutra typewriter</p>
+                                <p className=" hidden md:block mt-1">HashStack Developers, Mian Akber Market ibn-e-Saeed Block Canal Bank Housing Society, Harbanspura, Lahore</p>
                             </div>
-                            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
-                                <p className="text-indigo-500 leading-relaxed">example@email.com</p>
+                            <div className="lg:w-1/2 px-6 md:px-0  mt-4 lg:mt-0">
+                                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs ">COUNTRY</h2>
+                                <p className="leading-relaxed">Pakistan</p>
+                                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4 ">EMAIL</h2>
+                                <p className="text-indigo-500 leading-relaxed">hashstackdevelopers@gmail.com</p>
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
-                                <p className="leading-relaxed">123-456-7890</p>
+                                <p className="leading-relaxed">+92 300 1678560</p>
                             </div>
                         </div>
 
 
                     </div>
-                    <div className=" mt-24 md:mt-auto w-[100vw] h-[80vh] md:h-[100vh] lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+                    {/* <div className=" mt-24 md:mt-auto w-[100vw] h-[80vh] md:h-[100vh] lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
 
                         <iframe className="absolute inset-0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?&amp;hl=en&amp;q=hashstack developers &amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="100%" frameborder="0"></iframe>
                         <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
@@ -128,7 +134,9 @@ export default function Contact() {
                                 <p className=" hidden md:block mt-1">Photo booth tattooed prism, portland taiyaki hoodie neutra typewriter</p>
                             </div>
                             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
+                                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs ">COUNTRY</h2>
+                                <p className="leading-relaxed">United Kingdom</p>
+                                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4 ">EMAIL</h2>
                                 <p className="text-indigo-500 leading-relaxed">example@email.com</p>
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
                                 <p className="leading-relaxed">123-456-7890</p>
@@ -136,7 +144,7 @@ export default function Contact() {
                         </div>
 
 
-                    </div>
+                    </div> */}
 
 
                 </div>

@@ -17,12 +17,12 @@ import 'aos/dist/aos.css';
 import Btn from "./Btn"
 import { BsCodeSlash } from "react-icons/bs";
 
-import img6 from "../images/image3.jpeg"
+import img6 from "../images/1.png"
 import img9 from "../images/prog-logic2.jpeg"
-import img10 from "../images/fourdev.jpeg"
+// import img10 from "../images/fourdev.jpeg"
 import img11 from "../images/tecno.jpeg"
-import img12 from "../images/blinkers.jpeg"
-import img13 from "../images/ao.jpeg"
+// import img12 from "../images/blinkers.jpeg"
+// import img13 from "../images/ao.jpeg"
 import SideNav from './SideNav'
 import Footer from "../components/footer"
 import Particle from './Particle'
@@ -92,18 +92,18 @@ export default function All() {
 
 
                         <div className=' hidden pt-[2px]   w-full md:flex justify-center' >
-                            <span className='flex  ' ><Flag code="ca" width="30" height="5" /> &nbsp; : +44 7405 000045 </span>
-                            <span className='flex ml-12 ' ><Flag code="DE" width="30" height="5" /> &nbsp; : +49 162 9775400 </span>
-                            <span className='flex ml-12 ' ><Flag code="pak" width="30" height="5" /> &nbsp; : +123456789 </span>
+                            <span className='flex  ' ><Flag code="GB" width="30" height="5" /> &nbsp; <a href="https://web.whatsapp.com/send?phone=44 7405 000045">: +44 7405 000045</a> </span>
+                            <span className='flex ml-12 ' ><Flag code="DE" width="30" height="5" /> &nbsp; <a href="https://web.whatsapp.com/send?phone=49 162 9775400"> : +49 162 9775400</a> </span>
+                            <span className='flex ml-12 ' ><Flag code="pak" width="30" height="5" /> &nbsp; <a href="https://web.whatsapp.com/send?phone=92 3001678560">  : +92 3001678560 </a> </span>
                             {/* <span className='ml-8' >Germany: +49 162 9775400</span> */}
                         </div>
 
 
                         <marquee behavior="" direction="" className=" flex md:hidden justify-between" >
                             <div className='flex pt-[2px]' >
-                                <span className='flex  ' ><Flag code="ca" width="30" height="5" /> &nbsp; : +44 7405 000045 </span>
+                                <span className='flex  ' ><Flag code="GB" width="30" height="5" /> &nbsp; : +44 7405 000045 </span>
                                 <span className='flex ml-12 ' ><Flag code="DE" width="30" height="5" /> &nbsp; : +49 162 9775400 </span>
-                                <span className='flex ml-12 ' ><Flag code="pak" width="30" height="5" /> &nbsp; : +123456789 </span>
+                                <span className='flex ml-12 ' ><Flag code="pak" width="30" height="5" /> &nbsp; : +92 3001678560 </span>
 
                             </div>
                         </marquee>
@@ -187,7 +187,7 @@ export default function All() {
                             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-yellow-600">HASHSTACKDEVELOER
                             </h1>
                             <p className="mb-4 leading-relaxed">
-                                Welcome to HashStackDevelopers, where innovation meets excellence. Our team of experts crafts cutting-edge digital solutions tailored to your needs. Join us to turn your ideas into reality and stay ahead in the tech evolution.</p>
+                                Welcome to HashStackDevelopers, where innovation thrives. Our expert team produces digital solutions according to your needs. Join us to bring your ideas to life and stay one step ahead of technological developments.</p>
                             {/* <div className="flex justify-center"> */}
                             {/* <button className="inline-flex text-white bg-yellow-600 border-2 py-2 px-6  hover:bg-white hover:border-yellow-600 hover:text-black rounded text-lg">About Us</button> */}
                             <Link to={"/about"} >
@@ -223,7 +223,7 @@ export default function All() {
                 <br />
 
                 <p class="lg:w-2/3 px-5 text-center mx-auto leading-relaxed text-base ">
-                    Welcome to HashStackDevelopers' realm of services, where innovation knows no bounds. Let us be your compass through the digital landscape, as we craft, guide, and elevate your tech ventures to new heights.</p>
+                    Welcome to the HashStackDevelopers community, where innovation knows no bounds. Let us be your digital number as you craft, train and take your company's technology to new heights.</p>
 
                 <section className="text-gray-600 body-font">
                     <div className="container px-5 py-24 mx-auto">
@@ -265,7 +265,7 @@ export default function All() {
 
                                     <h1 className="title-font sm:text-2xl text-xl font-medium  mb-3 text-black">WEBSITE DEVELOPMENT</h1>
 
-                                    <p className="leading-relaxed mb-3 text-white">Engage and impress your audience with responsive and user-centric web applications that enhance your online presence.
+                                    <p className="leading-relaxed mb-3 text-white">Enhance your online presence by engaging your audience with responsive and user-centric web applications.
                                     </p>
                                 </div>
                             </div>
@@ -279,7 +279,7 @@ export default function All() {
                                     <br />
 
                                     <h1 className="title-font sm:text-2xl text-xl font-medium text-black mb-3">APPLICATION DEVELOPMENT</h1>
-                                    <p className="leading-relaxed mb-3 text-white ">Harness the power of mobile technology with our standout app development, available on iOS, Android, and cross-platform solutions.</p>
+                                    <p className="leading-relaxed mb-3 text-white ">Harness the power of technology with our best app development for iOS, Android and cross-platform solutions.</p>
 
                                 </div>
                             </div>
@@ -290,7 +290,7 @@ export default function All() {
                                     <br />
 
                                     <h1 className="title-font sm:text-2xl text-xl font-medium text-black mb-3 ">WORDPRESS & SHOPIFY</h1>
-                                    <p className="leading-relaxed mb-3 text-white">Elevate your digital presence with HashStackDevelopers. We expertly craft WordPress websites and seamlessly integrate Spotify, creating dynamic experiences that captivate your audience. Reach new heights in innovation with us.</p>
+                                    <p className="leading-relaxed mb-3 text-white">Promote your digital presence with HashStackDevelopers. We specialize in creating WordPress websites and integrating them with Spotify to create a great experience that engages your audience. Reach new heights in innovation with us.</p>
 
 
                                 </div>
@@ -304,7 +304,7 @@ export default function All() {
                                     <br />
 
                                     <h1 className="title-font sm:text-2xl text-xl font-medium  mb-3  text-black ">DIGITAL MARKETING</h1>
-                                    <p className="leading-relaxed mb-3 text-white ">Boost your brand with HashStackDevelopers' digital marketing. From SEO to social media, we've got you covered. Let's conquer the digital landscape.</p>
+                                    <p className="leading-relaxed mb-3 text-white ">Promote your brand with digital marketing from HashStackDevelopers. We are with you in everything from SEO to social media. Let's conquer the digital landscape.</p>
                                 </div>
                             </div>
                             <div data-aos="fade-up" data-aos-easing="ease-out-cubic"
@@ -314,7 +314,7 @@ export default function All() {
                                     <br />
 
                                     <h1 className="title-font sm:text-2xl text-xl font-medium  text-black mb-3">SEO</h1>
-                                    <p className="leading-relaxed mb-3 text-white">Amplify your online reach with HashStackDevelopers' SEO magic. Climb search rankings, connect with your audience, and thrive in the digital realm.</p>
+                                    <p className="leading-relaxed mb-3 text-white">Enhance your online presence with the SEO magic of HashStackDevelopers. Increase your search rankings, connect with your audience and succeed in the digital world.</p>
 
                                 </div>
                             </div>
@@ -325,7 +325,7 @@ export default function All() {
                                     <br />
 
                                     <h1 className="title-font sm:text-2xl text-xl font-medium  text-black mb-3 ">GRAPHIC DESIGNING</h1>
-                                    <p className="leading-relaxed mb-3 text-white">Experience captivating design with HashStackDevelopers. We transform ideas into visuals that inspire and engage, creating a lasting impact for your brand.</p>
+                                    <p className="leading-relaxed mb-3 text-white">Have fun building with HashStackDevelopers. We turn ideas into inspiring and engaging insights that make a lasting impact for your brand.</p>
 
 
                                 </div>
@@ -357,7 +357,7 @@ export default function All() {
                             </div>
                             {/*  */}
                             <br /><br />
-                            <p class="lg:w-2/3 mx-auto leading-relaxed text-base pt-10">Meet the driving force behind HashStackDevelopers – our passionate and skilled team. With diverse expertise and unwavering dedication, we collaborate to turn visions into reality. Together, we're committed to delivering exceptional results that propel your digital journey to new heights.</p>
+                            <p class="lg:w-2/3 mx-auto leading-relaxed text-base pt-10">Meet the driving force behind our dedicated and talented team, HashStackDevelopers. With our diverse skills and relentless passion, we work together to make the vision a reality. Together, we are committed to delivering outstanding results that take your digital journey to new heights.</p>
                         </div>
                         <div class="flex flex-wrap -m-2">
                             <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
@@ -418,7 +418,7 @@ export default function All() {
                                     <img alt="team" class="w-16 h-16 bg-gray-100 object-contain object-top flex-shrink-0 rounded-full mr-4" src={team6} />
                                     <div class="flex-grow">
                                         <h2 class="text-gray-900 title-font font-medium">Muhammad Faizan Imran</h2>
-                                        <p class="text-white">MARKETING - MANAGER</p>
+                                        <p class="text-white">HR - MANAGER</p>
                                     </div>
                                 </div>
                             </div>
@@ -509,7 +509,7 @@ export default function All() {
                         <div className="flex flex-col text-center w-full mb-20">
                             {/* <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Master Cleanse Reliac Heirloom</h1> */}
 
-                            <p className="lg:w-2/3 mx-auto leading-relaxed text-base"> <br /><br />With a track record of excellence, HashStackDevelopers has successfully completed a multitude of projects across various industries. Our portfolio showcases a diverse range of achievements, highlighting our ability to deliver tailored solutions that meet and exceed our clients' expectations. Trust in our proven expertise to bring your project to life with precision and innovation.
+                            <p className="lg:w-2/3 mx-auto leading-relaxed text-base"> <br /><br />With a proven track record, HashStackDevelopers has successfully completed many projects across many industries. Our products demonstrate many achievements, demonstrating our ability to provide custom solutions that meet and exceed our customers' expectations. Rely on our proven experts to bring your projects to life with precision and innovation.
                             </p>
                         </div>
 
@@ -577,7 +577,7 @@ export default function All() {
                                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="text-gray-900 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
                                         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                                     </svg>
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">    <CountUp end={150} redraw={true}>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">    <CountUp end={30} redraw={true}>
                                         {({
                                             countUpRef, start
                                         }) => (
@@ -585,7 +585,7 @@ export default function All() {
                                                 <span ref={countUpRef} />
                                             </VisibilitySensor>
                                         )}
-                                    </CountUp></h2>
+                                    </CountUp>+</h2>
                                     <p className="leading-relaxed text-white">Employee</p>
                                 </div>
                             </div>
@@ -680,7 +680,7 @@ export default function All() {
                                 <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
 
                                     <img alt="testimonial" class="w-32 h-32 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={img9}></img>
-                                    <p class="leading-relaxed text-lg">Edison  cleanse direct trade indigo juice before they sold out gentrify plaid gastropub normcore XOXO 90's pickled cindigo jean shorts. Slow-carb next level shoindigoitch ethical authentic, yr scenester sriracha forage franzen organic drinking vinegar.</p>
+                                    <p class="leading-relaxed text-lg">Programmers Logic is a technology development center where a team of developers, designers and engineers work together to create the best solutions. These companies act as architects of the digital world, transforming complex ideas into powerful consumer products, improving user experience and efficiency.</p>
                                     <span class="inline-block h-1 w-10 rounded bg-yellow-600 mt-8 mb-6"></span>
                                     <h2 class="  text-gray-900 font-medium title-font tracking-wider text-sm">PROGRAMMER LOGICS</h2>
                                     <p class="  text-gray-500">Rana Zain</p>
@@ -688,7 +688,7 @@ export default function All() {
                             </div>
                         </section></div>
                     </div>
-                    <div style={{ background: "none" }} >
+                    {/* <div style={{ background: "none" }} >
                         <div style={{ background: "white" }} >  <section class="text-gray-600 body-font">
                             <div class="container px-5 py-10 mx-auto">
                                 <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
@@ -701,16 +701,16 @@ export default function All() {
                                 </div>
                             </div>
                         </section></div>
-                    </div>
+                    </div> */}
                     <div style={{ background: "none" }} >
                         <div style={{ background: "none" }} >  <section class="text-gray-600 body-font">
                             <div class="container px-5 py-10 mx-auto">
                                 <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
 
                                     <img alt="testimonial" class="w-32 h-32 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={img6}></img>
-                                    <p class="leading-relaxed text-lg">Edison  cleanse direct trade indigo juice before they sold out gentrify plaid gastropub normcore XOXO 90's pickled cindigo jean shorts. Slow-carb next level shoindigoitch ethical authentic, yr scenester sriracha forage franzen organic drinking vinegar.</p>
+                                    <p class="leading-relaxed text-lg">Our team is experienced in software development and is ready to help develop your chosen application. We take care to create custom software solutions for you to facilitate your business processes and increase profitability.</p>
                                     <span class="inline-block h-1 w-10 rounded bg-yellow-600 mt-8 mb-6"></span>
-                                    <h2 class="  text-gray-900 font-medium title-font tracking-wider text-sm">GENERATION SOFT</h2>
+                                    <h2 class="  text-gray-900 font-medium title-font tracking-wider text-sm">Codevo Technologies</h2>
                                     <p class="  text-gray-500">Mohsin Naqvi</p>
                                 </div>
                             </div>
@@ -722,7 +722,7 @@ export default function All() {
                                 <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
 
                                     <img alt="testimonial" class="w-32 h-32 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={img11}></img>
-                                    <p class="leading-relaxed text-lg">Edison  cleanse direct trade indigo juice before they sold out gentrify plaid gastropub normcore XOXO 90's pickled cindigo jean shorts. Slow-carb next level shoindigoitch ethical authentic, yr scenester sriracha forage franzen organic drinking vinegar.</p>
+                                    <p class="leading-relaxed text-lg">Within the walls of the software company, lines of code come to life and weave an intricate tapestry of technology. Like the music of algorithms and designs, these companies drive innovation and create software solutions that support businesses, connect communities and foster progress.</p>
                                     <span class="inline-block h-1 w-10 rounded bg-yellow-600 mt-8 mb-6"></span>
                                     <h2 class="  text-gray-900 font-medium title-font tracking-wider text-sm">TECNO BRAINZ</h2>
                                     <p class="  text-gray-500">Syed Ali</p>
@@ -730,7 +730,7 @@ export default function All() {
                             </div>
                         </section></div>
                     </div>
-                    <div style={{ background: "none" }} >
+                    {/* <div style={{ background: "none" }} >
                         <div style={{ background: "none" }} >  <section class="text-gray-600 body-font">
                             <div class="container px-5 py-10 mx-auto">
                                 <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
@@ -743,8 +743,8 @@ export default function All() {
                                 </div>
                             </div>
                         </section></div>
-                    </div>
-                    <div style={{ background: "none" }} >
+                    </div> */}
+                    {/* <div style={{ background: "none" }} >
                         <div style={{ background: "none" }} >  <section class="text-gray-600 body-font">
                             <div class="container px-5 py-10 mx-auto">
                                 <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
@@ -757,7 +757,7 @@ export default function All() {
                                 </div>
                             </div>
                         </section></div>
-                    </div>
+                    </div> */}
                     {/* <div style={{ background: "none" }} >
                         <div style={{ background: "none" }} >  <section class="text-gray-600 body-font">
                             <div class="container px-5 py-10 mx-auto">

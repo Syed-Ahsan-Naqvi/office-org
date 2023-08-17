@@ -157,7 +157,7 @@ export default function footer() {
 
                     <div class="mb-6">
                         <p>
-                            Empower your digital ambitions with HashStackDevelopers. Transforming ideas into reality, one innovation at a time. Reach us at Hashstackdevelopers and let's embark on a journey of technological excellence together.
+                            Meet your digital needs with HashStackDevelopers. Turn ideas into reality, one innovation at a time. Please contact Hashstackdevelopers and let's start the journey to success together.
                         </p>
                     </div>
 
@@ -241,8 +241,7 @@ export default function footer() {
                 </div>
 
                 <div class="text-center p-4">
-                    © 2021 Copyright:
-                    <a class="text-white" href="https://tailwind-elements.com/">Tailwind Elements</a>
+                    © 2021 Copyright: <span class="text-white" >hashstackdevelopers</span>
                 </div>
             </footer>
         </div>

@@ -42,8 +42,8 @@ export default function Teamus() {
                     <div className="  container px-5 py-24 justify-around mx-auto flex flex-wrap">
                         <div className="  flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                             <div className="w-full sm:p-4 px-4 mb-6">
-                                <h1 className="title-font font-medium text-xl mb-2 text-gray-900">Moon hashtag pop-up try-hard offal truffaut</h1>
-                                <div className="leading-relaxed">Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar neutra sustainable fingerstache kickstarter.</div>
+                                <h1 className="title-font font-medium text-2xl mb-2 text-gray-900">Chaudhary Haseeb Mahmood</h1>
+                                <div className="leading-relaxed">As CEO, I have the vision to drive innovation and growth. Through cooperation and support, we achieve excellence and customer satisfaction. Together we create new business models and seize the moment.</div>
                             </div>
                             {/* <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
                                 <h2 className="title-font font-medium text-3xl text-gray-900">2.7K</h2>
@@ -72,8 +72,8 @@ export default function Teamus() {
                     <div className=" bg-yellow-600  container px-5 py-24 justify-around mx-auto flex flex-wrap">
                         <div className="  flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                             <div className="w-full sm:p-4 px-4 mb-6">
-                                <h1 className="title-font font-medium text-xl mb-2 text-gray-900">Moon hashtag pop-up try-hard offal truffaut</h1>
-                                <div className="leading-relaxed">Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar neutra sustainable fingerstache kickstarter.</div>
+                                <h1 className="title-font font-medium text-2xl mb-2 text-gray-900">Muhammad Mateen Imran</h1>
+                                <div className="leading-relaxed">As the Operations Manager, I am responsible for overseeing and improving all aspects of the company's operations. My responsibilities include developing processes, managing resources and running joint projects. I contribute to the growth and success of the company by implementing strategic ideas and promoting a culture of innovation.</div>
                             </div>
                             {/* <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
                                 <h2 className="title-font font-medium text-3xl text-gray-900">2.7K</h2>
@@ -102,8 +102,8 @@ export default function Teamus() {
                     <div className="  container px-5 py-24 justify-around mx-auto flex flex-wrap">
                         <div className="  flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                             <div className="w-full sm:p-4 px-4 mb-6">
-                                <h1 className="title-font font-medium text-xl mb-2 text-gray-900">Moon hashtag pop-up try-hard offal truffaut</h1>
-                                <div className="leading-relaxed">Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar neutra sustainable fingerstache kickstarter.</div>
+                                <h1 className="title-font font-medium text-2xl mb-2 text-gray-900">Syed Ahsan Naqvi</h1>
+                                <div className="leading-relaxed">As CIO, I lead the integration of technology for efficiency and innovation. Thanks to the integration of IT solutions, I make our organization successful in the digital age. Using data-driven insights, I guide the decisions that lead to our continued growth and success.</div>
                             </div>
                             {/* <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
                                 <h2 className="title-font font-medium text-3xl text-gray-900">2.7K</h2>
@@ -131,8 +131,8 @@ export default function Teamus() {
                     <div className=" bg-yellow-600  container px-5 py-24 justify-around mx-auto flex flex-wrap">
                         <div className="  flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                             <div className="w-full sm:p-4 px-4 mb-6">
-                                <h1 className="title-font font-medium text-xl mb-2 text-gray-900">Moon hashtag pop-up try-hard offal truffaut</h1>
-                                <div className="leading-relaxed">Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar neutra sustainable fingerstache kickstarter.</div>
+                                <h1 className="title-font font-medium text-2xl mb-2 text-gray-900">Mirza Talha Rizwan</h1>
+                                <div className="leading-relaxed">As the Marketing Manager, I direct the strategic direction of our brand with new business. By understanding the marketing process, I create marketing plans that resonate with my audience. Through creative storytelling and data analytics, I make sure our products are relevant and continue to grow.</div>
                             </div>
                             {/* <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
                                 <h2 className="title-font font-medium text-3xl text-gray-900">2.7K</h2>
@@ -161,8 +161,8 @@ export default function Teamus() {
                     <div className="  container px-5 py-24 justify-around mx-auto flex flex-wrap">
                         <div className="  flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                             <div className="w-full sm:p-4 px-4 mb-6">
-                                <h1 className="title-font font-medium text-xl mb-2 text-gray-900">Moon hashtag pop-up try-hard offal truffaut</h1>
-                                <div className="leading-relaxed">Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar neutra sustainable fingerstache kickstarter.</div>
+                                <h1 className="title-font font-medium text-2xl mb-2 text-gray-900">Muzammil Mughal</h1>
+                                <div className="leading-relaxed">As the IT Manager, I oversee operations to ensure smooth operations. My responsibilities are to manage the team, implement systems and keep the network secure. By aligning the IT strategy with business objectives, I contribute to the efficiency and security of our organization's digital environment.</div>
                             </div>
                             {/* <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
                                 <h2 className="title-font font-medium text-3xl text-gray-900">2.7K</h2>
@@ -190,8 +190,8 @@ export default function Teamus() {
                     <div className=" bg-yellow-600  container px-5 py-24 justify-around mx-auto flex flex-wrap">
                         <div className="  flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                             <div className="w-full sm:p-4 px-4 mb-6">
-                                <h1 className="title-font font-medium text-xl mb-2 text-gray-900">Moon hashtag pop-up try-hard offal truffaut</h1>
-                                <div className="leading-relaxed">Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar neutra sustainable fingerstache kickstarter.</div>
+                                <h1 className="title-font font-medium text-2xl mb-2 text-gray-900">Muhammad Faizan Imran</h1>
+                                <div className="leading-relaxed">As the HR Manager, I lead the development and implementation of HR strategies to create a motivated and productive workforce. My responsibilities include talent acquisition, staff development and promoting quality work. With effective communication and strategic HR strategies, I realize the full potential of human capital and contribute to the success of the organization.</div>
                             </div>
                             {/* <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
                                 <h2 className="title-font font-medium text-3xl text-gray-900">2.7K</h2>

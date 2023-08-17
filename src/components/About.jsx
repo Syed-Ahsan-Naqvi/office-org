@@ -80,7 +80,8 @@ export default function About() {
                                 <p data-aos="fade-up" data-aos-easing="ease-out-cubic"
                                     data-aos-duration="2000" className="mb-8 leading-relaxed">
 
-                                    HashStack Developers, where innovation merges seamlessly with technology. We're not just a software house; we're architects of digital solutions that redefine industries. Our team thrives on turning ideas into reality, crafting custom software that empowers businesses to conquer the challenges of tomorrow. With an unwavering commitment to quality and a passion for pushing boundaries, we specialize in transforming concepts into cutting-edge applications. At HashStack Developers, we believe in code that not only functions flawlessly but also enriches user experiences. Join us on this journey of creativity, technology, and limitless possibilities. Your vision is our code.
+                                    HashStack Developers where innovation meets technology seamlessly. We are not just a software company; We are also a software company. We are the architects of digital solutions that are redefining industries. Our team is dedicated to turning ideas into reality by creating custom software that helps businesses face the challenges of tomorrow. With our ongoing commitment to excellence and a passion for pushing the boundaries, we are experts at turning content into cutting-edge applications. At HashStack Developers, we believe that code not only works flawlessly, but also enriches the user experience.
+                                    Join us on a journey of creativity, technology and infinity. Your vision is our guide.
 
                                 </p>
                                 {/* <div data-aos="fade-up" data-aos-easing="ease-out-cubic"
@@ -222,16 +223,16 @@ export default function About() {
                     <div className="container px-5 py-24 mx-auto">
                         <div className="flex flex-col text-center w-full mb-20">
                             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Welcome to HashStack Developers Gallery</h1>
-                            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">HashStack Developers' visual realm. Our gallery is a symphony of pixels, showcasing the alchemy of creativity and technology. Dive into a snapshot of our software house, where innovation comes to life.</p>
+                            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Visual response for HashStack developers. Our gallery is a pixel symphony that reveals the alchemy of creativity and technology. Get an in-depth picture of our software company where innovation happens.</p>
                         </div>
                         <div className=" flex flex-wrap -m-4">
                             <div className="lg:w-1/4 sm:w-1/2 p-4 ">
                                 <div className="flex relative w-full h-[430px] sm:h-[60vh] ">
                                     <img alt="gallery" className="absolute inset-0 w-full h-full " src={img1} />
                                     <div className="px-8 py-10 relative  w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                        <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-                                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-                                        <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                        <h2 className="tracking-widest text-base title-font font-medium text-indigo-500 mb-1">THE INDEPENDENCE DAY</h2>
+                                        {/* <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Independence Day</h1> */}
+                                        <p className="leading-relaxed">Happy Independence Day! On this special day, we celebrate the spirit of freedom and the sacrifices of countless people who fought tirelessly for the freedom of our country. This is the time to reflect.</p>
                                     </div>
                                 </div>
                             </div>
@@ -239,9 +240,9 @@ export default function About() {
                                 <div className="flex relative w-full h-[430px] sm:h-[60vh] ">
                                     <img alt="gallery" className="absolute inset-0 w-full h-full " src={img2} />
                                     <div className="px-8 py-10 relative  w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                        <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-                                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-                                        <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                        <h2 className="tracking-widest text-base title-font font-medium text-indigo-500 mb-1">THE NEW YEAR DAY</h2>
+                                        {/* <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1> */}
+                                        <p className="leading-relaxed">When the clock strikes midnight and the calendar turns over a new page, we wake up at the start of a new year filled with hope and potential. The New Year is a time of renewal and new beginnings, setting new goals and embracing new experiences.</p>
                                     </div>
                                 </div>
                             </div>
@@ -249,9 +250,9 @@ export default function About() {
                                 <div className="flex relative w-full h-[430px] sm:h-[60vh] ">
                                     <img alt="gallery" className="absolute inset-0 w-full h-full " src={img12} />
                                     <div className="px-8 py-10 relative  w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                        <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-                                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-                                        <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                        <h2 className="tracking-widest text-base title-font font-medium text-indigo-500 mb-1">THE QUAID DAY</h2>
+                                        {/* <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1> */}
+                                        <p className="leading-relaxed">Quaid Day, also known as Quaid Azam Day, is a holy holiday to commemorate the extraordinary life and leadership of Pakistan's founding father, Muhammad Ali Jinnah.</p>
                                     </div>
                                 </div>
                             </div>
@@ -260,9 +261,9 @@ export default function About() {
                                 <div className="flex relative w-full h-[430px] sm:h-[60vh] ">
                                     <img alt="gallery" className="absolute inset-0 w-full h-full " src={img4} />
                                     <div className="px-8 py-10 relative  w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                        <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-                                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-                                        <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                        <h2 className="tracking-widest text-base title-font font-medium text-indigo-500 mb-1">RAMADAN KAREEM</h2>
+                                        {/* <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1> */}
+                                        <p className="leading-relaxed">Ramadan is a holy and holy month celebrated by Muslims all over the world. This is a time for spiritual reflection, self-discipline, and more commitment. During the month of Ramadan, Muslims fast from morning to evening without eating or drinking.</p>
                                     </div>
                                 </div>
                             </div>
@@ -271,9 +272,9 @@ export default function About() {
                                 <div className="flex relative w-full h-[430px] sm:h-[60vh] ">
                                     <img alt="gallery" className="absolute inset-0 w-full h-full " src={img9} />
                                     <div className="px-8 py-10 relative  w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                        <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-                                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-                                        <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                        <h2 className="tracking-widest text-base title-font font-medium text-indigo-500 mb-1">Eid Milad Un Nabi</h2>
+                                        {/* <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1> */}
+                                        <p className="leading-relaxed">Eid Milad un-Nabi, also known as Mawlid al-Nabi or the Prophet's Birthday, is a joyous occasion celebrated by Muslims to honor and commemorate the birth of the Prophet Muhammad (peace be upon him). It is a time of spiritual reflection, gratitude, and expressions of love for the Prophet.</p>
                                     </div>
                                 </div>
                             </div>
@@ -281,9 +282,9 @@ export default function About() {
                                 <div className="flex relative w-full h-[430px] sm:h-[60vh] ">
                                     <img alt="gallery" className="absolute inset-0 w-full h-full " src={img10} />
                                     <div className="px-8 py-10 relative  w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                        <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-                                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-                                        <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                        <h2 className="tracking-widest text-base title-font font-medium text-indigo-500 mb-1">THE ALLAMA IQBAL DAY</h2>
+                                        {/* <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1> */}
+                                        <p className="leading-relaxed">Allama Iqbal Day commemorates the poet, philosopher and intellectual Dr. It is a day to honor and honor Allama Muhammad Iqbal.</p>
                                     </div>
                                 </div>
                             </div>
@@ -291,9 +292,9 @@ export default function About() {
                                 <div className="flex relative w-full h-[430px] sm:h-[60vh] ">
                                     <img alt="gallery" className="absolute inset-0 w-full h-full " src={img13} />
                                     <div className="px-8 py-10 relative  w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                        <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-                                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-                                        <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                        <h2 className="tracking-widest text-base title-font font-medium text-indigo-500 mb-1">HASHSTACK SERVICES</h2>
+                                        {/* <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1> */}
+                                        <p className="leading-relaxed">HashStack Developers, where innovation merges seamlessly with technology. We're not just a software house; we're architects of digital solutions that redefine industries.</p>
                                     </div>
                                 </div>
                             </div>
@@ -301,9 +302,9 @@ export default function About() {
                                 <div className="flex relative w-full h-[430px] sm:h-[60vh] ">
                                     <img alt="gallery" className="absolute inset-0 w-full h-full " src={img14} />
                                     <div className="px-8 py-10 relative  w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                                        <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
-                                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-                                        <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                        <h2 className="tracking-widest text-base title-font font-medium text-indigo-500 mb-1">THE HASHSTACK</h2>
+                                        {/* <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1> */}
+                                        <p className="leading-relaxed">HashStackDevelopers is a combination of innovation and performance. Our expert team produces digital solutions according to your needs. Join us to bring your ideas to life and stay one step ahead of technological developments.</p>
                                     </div>
                                 </div>
                             </div>

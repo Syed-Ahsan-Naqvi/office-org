@@ -57,13 +57,13 @@ export default function ServicesPage() {
 
                             <div className="flex flex-col text-center w-full mb-20">
                                 <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-yellow-600">Welcome to HashStack Developers Services</h1>
-                                <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Greetings! At HashStack Developers, we're dedicated to propelling your business forward. Our range of services, from web development and mobile apps to custom software solutions, ensures you stay at the forefront of innovation. Experience seamless UI/UX design, robust security, and strategic guidance on your digital journey. Let's turn your ideas into reality – together.</p>
+                                <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Hello! At HashStack Developers, we are committed to moving your business forward. Our services range from web development and mobile applications to software solutions, ensuring you are always at the forefront of innovation. Experience seamless UI/UX design, powerful security and strategic guidance on your digital journey. Let's turn your ideas into reality together.</p>
                             </div>
 
                             <div className="  flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                                 <div className="w-full sm:p-4 px-4 mb-6">
                                     <h1 className="title-font font-medium text-3xl mb-2 text-yellow-600">Website Development</h1>
-                                    <div className="leading-relaxed">POur skilled team designs and develops user-friendly and responsive web applications that deliver exceptional user experiences across devices. With HashStackDevelopers, your online presence will be both visually appealing and highly functional.</div>
+                                    <div className="leading-relaxed">Our team is skilled in designing and building user-friendly and responsive web applications that offer a great user experience. With HashStackDevelopers, your online presence will be both visible and functional.</div>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
                                     <h2 className="title-font font-medium text-3xl text-gray-900">150+</h2>
@@ -94,7 +94,7 @@ export default function ServicesPage() {
                             <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                                 <div className="w-full sm:p-4 px-4 mb-6">
                                     <h1 className="title-font font-medium text-3xl mb-2 text-gray-900">Application Development</h1>
-                                    <div className="leading-relaxed">Harness the power of mobile technology with our expertise in developing captivating and feature-rich mobile applications. Whether it's iOS, Android, or cross-platform, HashStackDevelopers ensures your app stands out in the crowded app landscape.</div>
+                                    <div className="leading-relaxed">Harness the power of mobile technology with our expertise in creating interactive and effective mobile apps. Whether iOS, Android or cross-platform, HashStackDevelopers makes your app stand out in the crowded app environment.</div>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
                                     <h2 className="title-font font-medium text-3xl text-gray-900">90+</h2>
@@ -125,7 +125,7 @@ export default function ServicesPage() {
                             <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                                 <div className="w-full sm:p-4 px-4 mb-6">
                                     <h1 className="title-font font-medium text-3xl mb-2 text-yellow-600">Wordpress & Shopify</h1>
-                                    <div className="leading-relaxed">Experience the power of WordPress & Shopify with HashStackDevelopers. Our team specializes in creating stunning, functional websites on the world's most popular content management system. From custom themes and plugins to seamless e-commerce integration, we elevate your online presence to new heights.</div>
+                                    <div className="leading-relaxed">Learn the power of WordPress and Shopify with HashStackDevelopers. Our team specializes in creating beautiful, functional websites in the world's most popular content management systems. From custom themes and plugins to seamless eCommerce integration, we take your online presence to new heights.</div>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
                                     <h2 className="title-font font-medium text-3xl text-gray-900">300+</h2>
@@ -156,7 +156,7 @@ export default function ServicesPage() {
                             <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                                 <div className="w-full sm:p-4 px-4 mb-6">
                                     <h1 className="title-font font-medium text-3xl mb-2 text-gray-900">Digital Marketing</h1>
-                                    <div className="leading-relaxed">HashStackDevelopers' dynamic digital marketing solutions. Our strategies encompass SEO, social media, content creation, and analytics to ensure your online presence shines brightly and drives real results. Experience the power of tailored marketing campaigns that connect, engage, and propel your business forward.</div>
+                                    <div className="leading-relaxed">Dynamic digital marketing solutions from HashStackDevelopers. Our strategy covers search engine optimization, social media, content creation and analytics to ensure your online presence shines and delivers real results. Learn the power of a tailored marketing plan that connects, connects and moves your business forward.</div>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
                                     <h2 className="title-font font-medium text-3xl text-gray-900">130+</h2>
@@ -187,7 +187,7 @@ export default function ServicesPage() {
                             <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                                 <div className="w-full sm:p-4 px-4 mb-6">
                                     <h1 className="title-font font-medium text-3xl mb-2 text-yellow-600">Search Engine Optimization</h1>
-                                    <div className="leading-relaxed">HashStackDevelopers' SEO mastery. We optimize your digital presence for top search engine rankings, driving organic growth and maximizing your reach. Dominate search results and connect with your target audience like never before.</div>
+                                    <div className="leading-relaxed">HashStack developers know SEO. We optimize your digital presence to reach the top search rankings, drive organic growth and increase your reach. Manage search results and connect with your audience like never before.</div>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
                                     <h2 className="title-font font-medium text-3xl text-gray-900">67+</h2>
@@ -218,7 +218,7 @@ export default function ServicesPage() {
                             <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                                 <div className="w-full sm:p-4 px-4 mb-6">
                                     <h1 className="title-font font-medium text-3xl mb-2 text-gray-900">Graphics Designing</h1>
-                                    <div className="leading-relaxed">HashStackDevelopers' graphic design prowess. We craft visually stunning solutions that captivate, communicate, and elevate your brand. Let's bring your vision to life through striking design.</div>
+                                    <div className="leading-relaxed">Graphic design capabilities of HashStackDevelopers. We produce visual solutions that attract, communicate and enhance your brand. Let's bring your vision to life with visual design</div>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
                                     <h2 className="title-font font-medium text-3xl text-gray-900">300+</h2>
