@@ -14,6 +14,7 @@ import img7 from "../images/image3-removebg-preview.png"
 import img8 from "../images/image4-removebg-preview.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import '../style/test.css'
 import Btn from "./Btn"
 import { BsCodeSlash } from "react-icons/bs";
 
@@ -99,14 +100,14 @@ export default function All() {
                         </div>
 
 
-                        <marquee behavior="" direction="" className=" flex md:hidden justify-between" >
-                            <div className='flex pt-[2px]' >
-                                <span className='flex  ' ><Flag code="GB" width="30" height="5" /> &nbsp; : +44 7405 000045 </span>
-                                <span className='flex ml-12 ' ><Flag code="DE" width="30" height="5" /> &nbsp; : +49 162 9775400 </span>
-                                <span className='flex ml-12 ' ><Flag code="pak" width="30" height="5" /> &nbsp; : +92 3001678560 </span>
+                        <div className="  flex md:hidden justify-between" >
+                            <div className='flex pt-[5px]' >
+                                <span className='flex text-xs  ' ><Flag code="GB" width="17" height="5" /> &nbsp; <a href="https://web.whatsapp.com/send?phone=44 7405 000045">: +447405000045 </a> </span>
+                                <span className='flex text-xs ml-2 ' ><Flag code="DE" width="17" height="5" /> &nbsp; <a href="https://web.whatsapp.com/send?phone=49 162 9775400"> : +491629775400</a> </span>
+                                <span className='flex text-xs ml-2 ' ><Flag code="pak" width="17" height="5" /> &nbsp; <a href="https://web.whatsapp.com/send?phone=92 3001678560">  : +92 3001678560 </a> </span>
 
                             </div>
-                        </marquee>
+                        </div>
                     </div>
                 </div>
             </div>
