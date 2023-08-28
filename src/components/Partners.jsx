@@ -50,7 +50,7 @@ export default function Contact() {
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs ">COUNTRY</h2>
                                 <p className="leading-relaxed">Germany</p>
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4 ">EMAIL</h2>
-                                <p className="text-indigo-500 leading-relaxed">hashstackdevelopers.com</p>
+                                <p className="text-indigo-500 leading-relaxed">hashstackdevelopers@gmail.com</p>
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
                                 <p className="leading-relaxed">+49 173 3819311</p>
                             </div>
@@ -71,7 +71,7 @@ export default function Contact() {
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs ">COUNTRY</h2>
                                 <p className="leading-relaxed">United Kingdom</p>
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">EMAIL</h2>
-                                <p className="text-indigo-500 leading-relaxed">hashstackdevelopers.com</p>
+                                <p className="text-indigo-500 leading-relaxed">hashstackdevelopers@gmail.com</p>
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
                                 <p className="leading-relaxed">+44 7405 000045</p>
                             </div>
