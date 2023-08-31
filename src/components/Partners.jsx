@@ -50,7 +50,7 @@ export default function Contact() {
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs ">COUNTRY</h2>
                                 <p className="leading-relaxed">Germany</p>
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4 ">EMAIL</h2>
-                                <p className="text-indigo-500 leading-relaxed">hashstackdevelopers@gmail.com</p>
+                                <p className="text-indigo-500 leading-relaxed text-sm ">hashstackdevelopers@gmail.com</p>
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
                                 <p className="leading-relaxed">+49 173 3819311</p>
                             </div>
@@ -71,7 +71,7 @@ export default function Contact() {
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs ">COUNTRY</h2>
                                 <p className="leading-relaxed">United Kingdom</p>
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">EMAIL</h2>
-                                <p className="text-indigo-500 leading-relaxed">hashstackdevelopers@gmail.com</p>
+                                <p className="text-indigo-500 leading-relaxed text-sm ">hashstackdevelopers@gmail.com</p>
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
                                 <p className="leading-relaxed">+44 7405 000045</p>
                             </div>
@@ -171,7 +171,7 @@ export default function Contact() {
                             <textarea id="message" name="message" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
                         </div>
                         <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Deliver</button>
-                        <p className="text-xs text-gray-500 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.</p>
+                        {/* <p className="text-xs text-gray-500 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.</p> */}
                     </div>
                 </div>
             </div>

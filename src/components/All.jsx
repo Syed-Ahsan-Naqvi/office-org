@@ -375,7 +375,7 @@ export default function All() {
                                     <img alt="team" class="w-16 h-16 object-cover object-top bg-gray-100 rounded-full mr-4" src={team2} />
                                     <div class="flex-grow">
                                         <h2 class="text-gray-900 title-font font-medium">Muhammad Mateen Imran</h2>
-                                        <p class="text-white">FOUNDER COO</p>
+                                        <p class="text-white">FOUNDER CEO</p>
                                     </div>
                                 </div>
                             </div>
@@ -384,7 +384,7 @@ export default function All() {
                                     <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={team3} />
                                     <div class="flex-grow">
                                         <h2 class="text-gray-900 title-font font-medium">Syed Ahsan Naqvi</h2>
-                                        <p class="text-white">CIO</p>
+                                        <p class="text-white">Engineering Manager</p>
                                     </div>
                                 </div>
                             </div>
@@ -524,7 +524,7 @@ export default function All() {
                                     </svg>
                                     <h2 className="title-font font-medium text-3xl text-gray-900">
                                         <div className='inline-block' >
-                                            <CountUp end={5} redraw={true}>
+                                            <CountUp end={250} redraw={true}>
                                                 {({
                                                     countUpRef, start
                                                 }) => (
@@ -532,7 +532,9 @@ export default function All() {
                                                         <span ref={countUpRef} />
                                                     </VisibilitySensor>
                                                 )}
-                                            </CountUp></div>K</h2>
+                                            </CountUp>
+                                        </div>+</h2>
+                                    {/* </div></h2> */}
                                     <p className="leading-relaxed text-white">Projects </p>
                                 </div>
                             </div>
@@ -543,7 +545,7 @@ export default function All() {
                                         <circle cx="9" cy="7" r="4"></circle>
                                         <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
                                     </svg>
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">    <CountUp end={5} redraw={true}>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">    <CountUp end={700} redraw={true}>
                                         {({
                                             countUpRef, start
                                         }) => (
@@ -551,7 +553,10 @@ export default function All() {
                                                 <span ref={countUpRef} />
                                             </VisibilitySensor>
                                         )}
-                                    </CountUp>K</h2>
+                                    </CountUp>
+                                        {/* K */}
+                                        +
+                                    </h2>
                                     <p className="leading-relaxed text-white">Happy Customer</p>
                                 </div>
                             </div>
@@ -561,7 +566,7 @@ export default function All() {
                                         <path d="M3 18v-6a9 9 0 0118 0v6"></path>
                                         <path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"></path>
                                     </svg>
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">    <CountUp end={15} redraw={true}>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">    <CountUp end={6} redraw={true}>
                                         {({
                                             countUpRef, start
                                         }) => (
@@ -569,7 +574,7 @@ export default function All() {
                                                 <span ref={countUpRef} />
                                             </VisibilitySensor>
                                         )}
-                                    </CountUp></h2>
+                                    </CountUp>+</h2>
                                     <p className="leading-relaxed text-white">Departments </p>
                                 </div>
                             </div>
@@ -578,7 +583,7 @@ export default function All() {
                                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="text-gray-900 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
                                         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                                     </svg>
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">    <CountUp end={30} redraw={true}>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">    <CountUp end={35} redraw={true}>
                                         {({
                                             countUpRef, start
                                         }) => (

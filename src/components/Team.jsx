@@ -13,6 +13,9 @@ import img7 from "../images/image3-removebg-preview.png"
 import img8 from "../images/image4-removebg-preview.png"
 import img9 from "../images/muzammil.jpeg"
 import img11 from "../images/faizan.jpeg"
+import img18 from "../images/abdullah.jpeg"
+import img19 from "../images/osama.jpeg"
+
 
 
 
@@ -73,7 +76,7 @@ export default function Teamus() {
                         <div className="  flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                             <div className="w-full sm:p-4 px-4 mb-6">
                                 <h1 className="title-font font-medium text-2xl mb-2 text-gray-900">Muhammad Mateen Imran</h1>
-                                <div className="leading-relaxed">As the Operations Manager, I am responsible for overseeing and improving all aspects of the company's operations. My responsibilities include developing processes, managing resources and running joint projects. I contribute to the growth and success of the company by implementing strategic ideas and promoting a culture of innovation.</div>
+                                <div className="leading-relaxed  ">As founder and CEO, my journey has been defined by visionary leadership and an unwavering commitment to driving our company's success. Based on innovation, I foster a culture of collaboration that encourages growth and strengthens our team. With strategic thinking and a transformative approach, I embrace challenges as opportunities to impact sustainability, leverage industry experience and insight, and build a legacy of excellence.</div>
                             </div>
                             {/* <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
                                 <h2 className="title-font font-medium text-3xl text-gray-900">2.7K</h2>
@@ -103,7 +106,7 @@ export default function Teamus() {
                         <div className="  flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
                             <div className="w-full sm:p-4 px-4 mb-6">
                                 <h1 className="title-font font-medium text-2xl mb-2 text-gray-900">Syed Ahsan Naqvi</h1>
-                                <div className="leading-relaxed">As CIO, I lead the integration of technology for efficiency and innovation. Thanks to the integration of IT solutions, I make our organization successful in the digital age. Using data-driven insights, I guide the decisions that lead to our continued growth and success.</div>
+                                <div className="leading-relaxed">Engineering managers are skilled in managing technical innovation and developing partnerships. With experience in leadership and project management, I guide the creation of innovative solutions by fostering continuous improvement. By empowering our team and using open communication and creative problem solving, I ensure that we consistently exceed industry standards, delivering outstanding results.</div>
                             </div>
                             {/* <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
                                 <h2 className="title-font font-medium text-3xl text-gray-900">2.7K</h2>
@@ -212,6 +215,64 @@ export default function Teamus() {
                         </div>
                         <div className="lg:w-1/4 sm:w-1/3 h-[430px] sm:h-[60vh] w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
                             <img className=" relative object-cover object-top w-full h-full" src={img11} alt="stats" />
+                        </div>
+                    </div>
+                </section>
+                <section className="  text-gray-600 body-font">
+                    <div className="  container px-5 py-24 justify-around mx-auto flex flex-wrap">
+                        <div className="  flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+                            <div className="w-full sm:p-4 px-4 mb-6">
+                                <h1 className="title-font font-medium text-2xl mb-2 text-gray-900">Abdullah Ahmed</h1>
+                                <div className="leading-relaxed">I am a programmer with experience in creating software solutions using different languages. Experienced throughout the development cycle, strong algorithmic problem solving, and experience with both front-end (React, Angular) and back-end (Flask, Django) web technologies.</div>
+                            </div>
+                            {/* <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">2.7K</h2>
+                                <p className="leading-relaxed">Users</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">1.8K</h2>
+                                <p className="leading-relaxed">Subscribes</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">35</h2>
+                                <p className="leading-relaxed">Downloads</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">4</h2>
+                                <p className="leading-relaxed">Products</p>
+                            </div> */}
+                        </div>
+                        <div className="lg:w-1/4 sm:w-1/3 h-[430px] sm:h-[60vh] w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
+                            <img className=" relative object-top object-cover  w-full h-full" src={img18} alt="stats" />
+                        </div>
+                    </div>
+                </section>
+                <section className="  text-gray-600 body-font">
+                    <div className=" bg-yellow-600  container px-5 py-24 justify-around mx-auto flex flex-wrap">
+                        <div className="  flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+                            <div className="w-full sm:p-4 px-4 mb-6">
+                                <h1 className="title-font font-medium text-2xl mb-2 text-gray-900">Osama Ramzan</h1>
+                                <div className="leading-relaxed">Experienced advertising professionals with a proven track record of creating effective campaigns that promote brands and drive growth across multiple platforms. Skilled in strategic planning, consumer behavior analysis, and creative content development to optimize brand visibility and engagement. Dedicated to staying ahead of market trends and delivering results that resonate.</div>
+                            </div>
+                            {/* <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">2.7K</h2>
+                                <p className="leading-relaxed">Users</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">1.8K</h2>
+                                <p className="leading-relaxed">Subscribes</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">35</h2>
+                                <p className="leading-relaxed">Downloads</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">4</h2>
+                                <p className="leading-relaxed">Products</p>
+                            </div> */}
+                        </div>
+                        <div className="lg:w-1/4 sm:w-1/3 h-[430px] sm:h-[60vh] w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
+                            <img className=" relative object-cover object-top w-full h-full" src={img19} alt="stats" />
                         </div>
                     </div>
                 </section>
