@@ -21,7 +21,7 @@ import { BsCodeSlash } from "react-icons/bs";
 import img6 from "../images/1.png"
 import img9 from "../images/prog-logic2.jpeg"
 // import img10 from "../images/fourdev.jpeg"
-import img11 from "../images/tecno.jpeg"
+// import img11 from "../images/tecno.jpeg"
 // import img12 from "../images/blinkers.jpeg"
 // import img13 from "../images/ao.jpeg"
 import SideNav from './SideNav'
@@ -33,16 +33,19 @@ import 'react-awesome-slider/dist/styles.css';
 import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 
-import team1 from "../images/haseeb4.jpeg"
+// import team1 from "../images/haseeb4.jpeg"
 import team2 from "../images/mateen2.jpeg"
 import team3 from "../images/ahsan.jpeg"
 import team4 from "../images/talha3.jpeg"
 import team5 from "../images/dig2.jpeg"
 import team6 from "../images/faizan.jpeg"
+import team89 from "../images/ayesha.jpg"
 
 
 import "../style/test.css"
 import Flag from 'react-world-flags'
+
+// import Add from "./Add"
 
 export default function All() {
     useEffect(() => {
@@ -51,6 +54,11 @@ export default function All() {
 
     }, []);
     const AutoplaySlider = withAutoplay(AwesomeSlider);
+
+    const model = () => {
+
+    }
+    model()
 
     // const location = useLocation()
     // const toe = useRef();
@@ -83,7 +91,7 @@ export default function All() {
     return (
 
         <div className=' overscroll-y-none overscroll-x-none ' >
-
+            {/* <Add /> */}
             {/* headerBar Starts */}
 
             <div className='h-8 w-full bg-yellow-600 absolute z-10 ' >
@@ -95,7 +103,7 @@ export default function All() {
                         <div className=' hidden pt-[2px]   w-full md:flex justify-center' >
                             <span className='flex  ' ><Flag code="GB" width="30" height="5" /> &nbsp; <a href="https://web.whatsapp.com/send?phone=44 7405 000045">: +44 7405 000045</a> </span>
                             <span className='flex ml-12 ' ><Flag code="DE" width="30" height="5" /> &nbsp; <a href="https://web.whatsapp.com/send?phone=491733819311"> : +49 173 3819311</a> </span>
-                            <span className='flex ml-12 ' ><Flag code="pak" width="30" height="5" /> &nbsp; <a href="https://web.whatsapp.com/send?phone=92 3001678560">  : +92 3001678560 </a> </span>
+                            <span className='flex ml-12 ' ><Flag code="pak" width="30" height="5" /> &nbsp; <a href="https://web.whatsapp.com/send?phone=92 3210006260">  : +92 3210006260 </a> </span>
                             {/* <span className='ml-8' >Germany: +49 162 9775400</span> */}
                         </div>
 
@@ -104,7 +112,7 @@ export default function All() {
                             <div className='flex pt-[5px]' >
                                 <span className='flex text-xs  ' ><Flag code="GB" width="17" height="5" /> &nbsp; <a href="whatsapp://send?phone=447405000045">: +44 7405 000045 </a> </span>
                                 <span className='flex text-xs ml-2 ' ><Flag code="DE" width="17" height="5" /> &nbsp; <a href="whatsapp://send?phone=491733819311"> : +49 173 3819311</a> </span>
-                                <span className='flex text-xs ml-2 ' ><Flag code="pak" width="17" height="5" /> &nbsp; <a href="whatsapp://send?phone=923001678560">  : +92 3001678560 </a> </span>
+                                <span className='flex text-xs ml-2 ' ><Flag code="pak" width="17" height="5" /> &nbsp; <a href="whatsapp://send?phone=923210006260">  : +92 3210006260 </a> </span>
 
                             </div>
                         </div>
@@ -161,7 +169,7 @@ export default function All() {
                     <span className=' hidden md:block text-center text-white  text-2xl font-bold pl-2 pr-2 md:pl-0 md:pr-0 '  > <span className='  text-2xl md:text-5xl   text-yellow-600 font-bold'>LET'S JOIN</span> The  New Universe Of Technology</span>
                     <p className='text-center text-white mt-4 text-xl'> We Develop Innovative <span className='text-yellow-600'> &</span> Creative Product <span className='text-yellow-600'> &</span> Services That Provide Total Communication <span className='text-yellow-600'> &</span> Information Solution</p>
                     <div className=' text-center mt-12 relative '>
-                        <Link to={"/about"} >    <button className="  relative focus:outline-none text-white  bg-yellow-600 hover:bg-yellow-600 focus:ring-4 focus:ring-yellow-300  rounded-lg text-xl px-5 py-2.5 mr-2 mb-2 dark:focus:ring-yellow-900 font-bold">learn More</button></Link>
+                        <Link to={"/about"} >    <button className="  relative focus:outline-none text-white  bg-yellow-600 hover:bg-yellow-600 focus:ring-4 focus:ring-yellow-300  rounded-lg text-xl px-5 py-2.5 mr-2 mb-2 dark:focus:ring-yellow-900 font-bold">Learn More</button></Link>
                         <Link to={"/contact"} >  <button className=" relative text-black hover:text-stone-50 bg-white  focus:ring-4 focus:ring-blue-300  rounded-lg text-xl px-5 py-2.5 mr-2 mb-2   dark:hover:bg-black focus:outline-none dark:focus:ring-blue-800 font-bold">Contact Us</button> </Link  >
                         {/* <button className="  relative focus:outline-none text-white  bg-yellow-600 hover:bg-yellow-600 focus:ring-4 focus:ring-yellow-300  rounded-lg text-xl px-5 py-2.5 mr-2 mb-2 dark:focus:ring-yellow-900 font-bold">About Us</button> */}
                     </div>
@@ -361,7 +369,7 @@ export default function All() {
                             <p class="lg:w-2/3 mx-auto leading-relaxed text-base pt-10">Meet the driving force behind our dedicated and talented team, HashStackDevelopers. With our diverse skills and relentless passion, we work together to make the vision a reality. Together, we are committed to delivering outstanding results that take your digital journey to new heights.</p>
                         </div>
                         <div class="flex flex-wrap -m-2">
-                            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            {/* <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                                 <div data-aos="flip-down" data-aos-duration="2000" class=" team1 h-full flex items-center border-gray-200 bg-yellow-600 border p-4 rounded-lg relative">
                                     <img alt="team" class="w-16 h-16  rounded-full mr-4" src={team1} />
                                     <div class="flex-grow">
@@ -369,7 +377,7 @@ export default function All() {
                                         <p class="text-white">FOUNDER CEO</p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
                                 <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 bg-yellow-600 border p-4 rounded-lg relative ">
                                     <img alt="team" class="w-16 h-16 object-cover object-top bg-gray-100 rounded-full mr-4" src={team2} />
@@ -420,6 +428,15 @@ export default function All() {
                                     <div class="flex-grow">
                                         <h2 class="text-gray-900 title-font font-medium">Muhammad Faizan Imran</h2>
                                         <p class="text-white">HR - MANAGER</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                                <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 bg-yellow-600 border p-4 rounded-lg relative ">
+                                    <img alt="team" class="w-16 h-16 bg-gray-100  object-top flex-shrink-0 rounded-full mr-4" src={team89} />
+                                    <div class="flex-grow">
+                                        <h2 class="text-gray-900 title-font font-medium">Ayesha Sheikh</h2>
+                                        <p class="text-white">Accountant</p>
                                     </div>
                                 </div>
                             </div>
@@ -524,7 +541,7 @@ export default function All() {
                                     </svg>
                                     <h2 className="title-font font-medium text-3xl text-gray-900">
                                         <div className='inline-block' >
-                                            <CountUp end={250} redraw={true}>
+                                            <CountUp end={200} redraw={true}>
                                                 {({
                                                     countUpRef, start
                                                 }) => (
@@ -545,7 +562,7 @@ export default function All() {
                                         <circle cx="9" cy="7" r="4"></circle>
                                         <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
                                     </svg>
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">    <CountUp end={700} redraw={true}>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">    <CountUp end={190} redraw={true}>
                                         {({
                                             countUpRef, start
                                         }) => (
@@ -583,7 +600,7 @@ export default function All() {
                                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="text-gray-900 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
                                         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                                     </svg>
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">    <CountUp end={35} redraw={true}>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">    <CountUp end={25} redraw={true}>
                                         {({
                                             countUpRef, start
                                         }) => (
@@ -722,7 +739,7 @@ export default function All() {
                             </div>
                         </section></div>
                     </div>
-                    <div style={{ background: "none" }} >
+                    {/* <div style={{ background: "none" }} >
                         <div style={{ background: "none" }} >  <section class="text-gray-600 body-font">
                             <div class="container px-5 py-10 mx-auto">
                                 <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
@@ -735,7 +752,7 @@ export default function All() {
                                 </div>
                             </div>
                         </section></div>
-                    </div>
+                    </div> */}
                     {/* <div style={{ background: "none" }} >
                         <div style={{ background: "none" }} >  <section class="text-gray-600 body-font">
                             <div class="container px-5 py-10 mx-auto">

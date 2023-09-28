@@ -9,7 +9,7 @@ export default function footer() {
                     <p className=' text-2xl md:text-5xl text-yellow-600'> <span className='font-extrabold'>HASHSTACK  </span>DEVELOPERS</p>
                     <br />
                     <div class="flex justify-center mb-6">
-                        <a href="https://www.facebook.com/hashstackdevelopers?mibextid=ZbWKwL" type="button" class="rounded-full border-2 border-yellow-600 text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+                        <a href="https://www.facebook.com/profile.php?id=61551055655714" type="button" class="rounded-full border-2 border-yellow-600 text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
                             <svg aria-hidden="true"
                                 focusable="false"
                                 data-prefix="fab"

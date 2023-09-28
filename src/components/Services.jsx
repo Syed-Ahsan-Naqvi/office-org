@@ -66,19 +66,19 @@ export default function ServicesPage() {
                                     <div className="leading-relaxed">Our team is skilled in designing and building user-friendly and responsive web applications that offer a great user experience. With HashStackDevelopers, your online presence will be both visible and functional.</div>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">150+</h2>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">30+</h2>
                                     <p className="leading-relaxed">Projects</p>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">45</h2>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">5+</h2>
                                     <p className="leading-relaxed">Active Projects</p>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">75+</h2>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">25+</h2>
                                     <p className="leading-relaxed">Complete Projects</p>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">5 star</h2>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">4.8</h2>
                                     <p className="leading-relaxed">Service Ranking</p>
                                 </div>
                             </div>
@@ -97,19 +97,19 @@ export default function ServicesPage() {
                                     <div className="leading-relaxed">Harness the power of mobile technology with our expertise in creating interactive and effective mobile apps. Whether iOS, Android or cross-platform, HashStackDevelopers makes your app stand out in the crowded app environment.</div>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">90+</h2>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">20+</h2>
                                     <p className="leading-relaxed">Projects</p>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">28</h2>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">4+</h2>
                                     <p className="leading-relaxed">Active Projects</p>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">65</h2>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">16+</h2>
                                     <p className="leading-relaxed">Complete Projects</p>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">4</h2>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">4.7</h2>
                                     <p className="leading-relaxed">Service Ranking</p>
                                 </div>
                             </div>
@@ -128,19 +128,19 @@ export default function ServicesPage() {
                                     <div className="leading-relaxed">Learn the power of WordPress and Shopify with HashStackDevelopers. Our team specializes in creating beautiful, functional websites in the world's most popular content management systems. From custom themes and plugins to seamless eCommerce integration, we take your online presence to new heights.</div>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">300+</h2>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">30+</h2>
                                     <p className="leading-relaxed">Projects</p>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">53</h2>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">3+</h2>
                                     <p className="leading-relaxed">Active Projects </p>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">35</h2>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">27+</h2>
                                     <p className="leading-relaxed">Complete Projects</p>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">5</h2>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">4.8</h2>
                                     <p className="leading-relaxed">Service Ranking</p>
                                 </div>
                             </div>
@@ -159,19 +159,19 @@ export default function ServicesPage() {
                                     <div className="leading-relaxed">Dynamic digital marketing solutions from HashStackDevelopers. Our strategy covers search engine optimization, social media, content creation and analytics to ensure your online presence shines and delivers real results. Learn the power of a tailored marketing plan that connects, connects and moves your business forward.</div>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">130+</h2>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">50+</h2>
                                     <p className="leading-relaxed">Projects</p>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">64</h2>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">30+</h2>
                                     <p className="leading-relaxed">Active Projects </p>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">100+</h2>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">20+</h2>
                                     <p className="leading-relaxed">Complete Projects</p>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">4</h2>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">4.8</h2>
                                     <p className="leading-relaxed">Service Ranking</p>
                                 </div>
                             </div>
@@ -190,19 +190,19 @@ export default function ServicesPage() {
                                     <div className="leading-relaxed">HashStack developers know SEO. We optimize your digital presence to reach the top search rankings, drive organic growth and increase your reach. Manage search results and connect with your audience like never before.</div>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">67+</h2>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">20+</h2>
                                     <p className="leading-relaxed">Projects</p>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">38</h2>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">5+</h2>
                                     <p className="leading-relaxed">Active Projects </p>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">75+</h2>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">15+</h2>
                                     <p className="leading-relaxed">Complete Projects</p>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">5</h2>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">4.7</h2>
                                     <p className="leading-relaxed">Service Ranking</p>
                                 </div>
                             </div>
@@ -221,19 +221,19 @@ export default function ServicesPage() {
                                     <div className="leading-relaxed">Graphic design capabilities of HashStackDevelopers. We produce visual solutions that attract, communicate and enhance your brand. Let's bring your vision to life with visual design</div>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">300+</h2>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">50+</h2>
                                     <p className="leading-relaxed">Projects</p>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">100</h2>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">10+</h2>
                                     <p className="leading-relaxed">Active Projects </p>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">75+</h2>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">40+</h2>
                                     <p className="leading-relaxed">Complete Projects</p>
                                 </div>
                                 <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                                    <h2 className="title-font font-medium text-3xl text-gray-900">5</h2>
+                                    <h2 className="title-font font-medium text-3xl text-gray-900">4.9</h2>
                                     <p className="leading-relaxed">Service Ranking</p>
                                 </div>
                             </div>

@@ -50,7 +50,7 @@ export default function Contact() {
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs ">COUNTRY</h2>
                                 <p className="leading-relaxed">Germany</p>
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4 ">EMAIL</h2>
-                                <p className="text-indigo-500 leading-relaxed text-sm ">hashstackdevelopers@gmail.com</p>
+                                <p className="text-indigo-500 leading-relaxed text-sm "><a href="mailto:hashstackdevelopers@gmail.com">hashstackdevelopers@gmail.com</a></p>
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
                                 <p className="leading-relaxed">+49 173 3819311</p>
                             </div>
@@ -71,7 +71,7 @@ export default function Contact() {
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs ">COUNTRY</h2>
                                 <p className="leading-relaxed">United Kingdom</p>
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">EMAIL</h2>
-                                <p className="text-indigo-500 leading-relaxed text-sm ">hashstackdevelopers@gmail.com</p>
+                                <p className="text-indigo-500 leading-relaxed text-sm "><a href="mailto:hashstackdevelopers@gmail.com">hashstackdevelopers@gmail.com</a></p>
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
                                 <p className="leading-relaxed">+44 7405 000045</p>
                             </div>
@@ -111,13 +111,13 @@ export default function Contact() {
                         <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
                             <div className="lg:w-1/2 px-6">
                                 <h2 className=" hidden md:block title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
-                                <p className=" hidden md:block mt-1">HashStack Developers, Mian Akber Market ibn-e-Saeed Block Canal Bank Housing Society, Harbanspura, Lahore</p>
+                                <p className=" hidden md:block mt-1">Canal bank road near Askari School, Muslimabad, Lahore</p>
                             </div>
                             <div className="lg:w-1/2 px-6 md:px-0  mt-4 lg:mt-0">
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs ">COUNTRY</h2>
                                 <p className="leading-relaxed">Pakistan</p>
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4 ">EMAIL</h2>
-                                <p className="text-indigo-500 leading-relaxed">hashstackdevelopers@gmail.com</p>
+                                <p className="text-indigo-500 leading-relaxed"><a href="mailto:hashstackdevelopers@gmail.com">hashstackdevelopers@gmail.com</a></p>
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
                                 <p className="leading-relaxed">+92 300 1678560</p>
                             </div>
@@ -157,7 +157,7 @@ export default function Contact() {
                     {/* <div className="lg:w-1/2 md:w-1/2 bg-white flex  flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"> */}
                     <div className="lg:w-1/2 md:w-1/2 bg-white flex  flex-col  px-3 md:p-px  w-full md:py-8 mt-24 ">
                         <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
-                        <p className="leading-relaxed mb-5 text-gray-600">Post-ironic portland shabby chic echo park, banjo fashion axe</p>
+                        <p className="leading-relaxed mb-5 text-gray-600">Please enter your details here!</p>
                         <div className="relative mb-4">
                             <label for="name" className="leading-7 text-sm text-gray-600">Name</label>
                             <input type="text" id="name" name="name" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
