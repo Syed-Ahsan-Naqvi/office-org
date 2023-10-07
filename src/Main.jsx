@@ -7,26 +7,26 @@ import Team from "./components/Team"
 import Partners from "./components/Partners"
 import FaQ from "./components/FaQ"
 import News from "./components/News"
-import team3 from "./images/image3-removebg-preview.png"
+// import team3 from "./images/image3-removebg-preview.png"
 
 
 
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 
-const HelloWOrld = "kasjdnaksjndkjasndkasnjkd"
+// const HelloWOrld = "kasjdnaksjndkjasndkasnjkd"
 
 export default function Main() {
 
     return (
         <>
-            <Helmet>
+            {/* <Helmet>
                 <meta charSet="utf-8" />
                 <title>Hashstackdevelopers</title>
                 <link rel="canonical" href="./images/arooj.png" />
                 <link rel="icon" type="image/png" href={team3} />
                 <meta name='description' content={HelloWOrld} />
 
-            </Helmet>
+            </Helmet> */}
 
 
             <BrowserRouter>
