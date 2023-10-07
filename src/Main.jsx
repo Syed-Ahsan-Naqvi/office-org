@@ -23,6 +23,7 @@ export default function Main() {
                 <title>Hashstackdevelopers</title>
                 <link rel="canonical" href="./images/arooj.png" />
                 <link rel="icon" type="image/png" href={team3} />
+                <meta name='description' content='Beginner friendly page for learning React Helmet.' />
 
             </Helmet>
 
