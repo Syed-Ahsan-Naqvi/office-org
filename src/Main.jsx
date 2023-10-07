@@ -10,9 +10,10 @@ import News from "./components/News"
 import team3 from "./images/image3-removebg-preview.png"
 
 
+
 import { Helmet } from "react-helmet";
 
-
+const HelloWOrld = "kasjdnaksjndkjasndkasnjkd"
 
 export default function Main() {
 
@@ -23,7 +24,7 @@ export default function Main() {
                 <title>Hashstackdevelopers</title>
                 <link rel="canonical" href="./images/arooj.png" />
                 <link rel="icon" type="image/png" href={team3} />
-                <meta property='og:description' content='Beginner friendly page for learning React Helmet.' />
+                <meta name='description' content={HelloWOrld} />
 
             </Helmet>
 
