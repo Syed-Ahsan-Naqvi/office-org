@@ -80,7 +80,7 @@ export default function About() {
                                 <p data-aos="fade-up" data-aos-easing="ease-out-cubic"
                                     data-aos-duration="2000" className="mb-8 leading-relaxed">
 
-                                    HashStack Developers where innovation meets technology seamlessly. We are not just a software company; We are also a software company. We are the architects of digital solutions that are redefining industries. Our team is dedicated to turning ideas into reality by creating custom software that helps businesses face the challenges of tomorrow. With our ongoing commitment to excellence and a passion for pushing the boundaries, we are experts at turning content into cutting-edge applications. At HashStack Developers, we believe that code not only works flawlessly, but also enriches the user experience.
+                                    HashStack Developers where innovation meets technology seamlessly. We are not just a software company, We are the architects of digital solutions that are redefining industries. Our team is dedicated to turning ideas into reality by creating custom software that helps businesses face the challenges of tomorrow. With our ongoing commitment to excellence and a passion for pushing the boundaries, we are experts at turning content into cutting-edge applications. At HashStack Developers, we believe that code not only works flawlessly, but also enriches the user experience.
                                     Join us on a journey of creativity, technology and infinity. Your vision is our guide.
 
                                 </p>
