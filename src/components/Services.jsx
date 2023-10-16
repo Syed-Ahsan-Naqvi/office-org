@@ -46,7 +46,7 @@ export default function ServicesPage() {
 
                     <div className='bg-black h-[100vh] flex justify-center items-center '>
                         <h1 data-aos="fade-up" data-aos-easing="ease-out-cubic"
-                            data-aos-duration="2000" className='text-center text-white  text-2xl font-bold '  > <span className='text-5xl text-yellow-600 font-bold'>Our Services</span> </h1>
+                            data-aos-duration="2000" className='text-center text-white  text-2xl font-bold '  > <span className='text-5xl text-yellow-600 font-bold'>OUR SERVICES</span> </h1>
                     </div>
 
 
