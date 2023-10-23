@@ -15,7 +15,7 @@ import img9 from "../images/muzammil.jpeg"
 import img11 from "../images/faizan.jpeg"
 import img18 from "../images/abdullah.jpeg"
 import img19 from "../images/osama.jpeg"
-
+import team89 from "../images/arooj.png"
 
 
 
@@ -29,9 +29,13 @@ export default function Teamus() {
         // <div className='w-screen h-screen bg-black' >
         <div>
             <div className='  '>
-                <SideNav />
+                <div className='relative z-20' >
+                    <SideNav />
+                </div>
                 <div className='absolute' >
-                    <Btn />
+                    <div className='absolute z-10' >
+                        <Btn />
+                    </div>
                     <Particle />
                 </div>
 
@@ -264,6 +268,35 @@ export default function Teamus() {
                     </div>
                 </section>
 
+                <section className="  text-gray-600 body-font">
+                    <div className=" bg-yellow-600 container px-5 py-24 justify-around mx-auto flex flex-wrap">
+                        <div className="  flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+                            <div className="w-full sm:p-4 px-4 mb-6">
+                                <h1 className="title-font font-medium text-2xl mb-2 text-gray-900">Arooj Raja</h1>
+                                <div className="leading-relaxed">As a dedicated Project Manager, I bring a wealth of experience in planning, executing, and closing projects with precision. My ability to streamline workflows, foster strong team dynamics, and meet strict deadlines has consistently resulted in successful project outcomes. I am passionate about driving efficiency, harnessing technology, and exceeding expectations. Let me lead your projects to success with my proven skills and unwavering commitment.</div>
+                            </div>
+                            {/* <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">2.7K</h2>
+                                <p className="leading-relaxed">Users</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">1.8K</h2>
+                                <p className="leading-relaxed">Subscribes</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">35</h2>
+                                <p className="leading-relaxed">Downloads</p>
+                            </div>
+                            <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                                <h2 className="title-font font-medium text-3xl text-gray-900">4</h2>
+                                <p className="leading-relaxed">Products</p>
+                            </div> */}
+                        </div>
+                        <div className="lg:w-1/4 sm:w-1/3 h-[430px] sm:h-[60vh] w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
+                            <img className=" relative object-top object-cover  w-full h-full" src={team89} alt="stats" />
+                        </div>
+                    </div>
+                </section>
 
 
 

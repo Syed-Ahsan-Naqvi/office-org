@@ -17,9 +17,13 @@ export default function Contact() {
     return (
         // <div classNameNameNameName='w-screen h-screen bg-black' >
         <div className='overflow-hidden' >
-            <SideNav />
+            <div className='relative z-20' >
+                <SideNav />
+            </div>
             <div className='absolute' >
-                <Btn />
+                <div className='absolute z-10' >
+                    <Btn />
+                </div>
                 <Particle />
 
             </div>
@@ -52,7 +56,9 @@ export default function Contact() {
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4 ">EMAIL</h2>
                                 <p className="text-indigo-500 leading-relaxed text-sm "><a href="mailto:hashstackdevelopers@gmail.com">hashstackdevelopers@gmail.com</a></p>
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
-                                <p className="leading-relaxed">+49 173 3819311</p>
+                                {/* <p className="leading-relaxed">+49 173 3819311</p> */}
+                                <span className='hidden md:flex'><a href="https://web.whatsapp.com/send?phone=49 173 3819311">+49 173 3819311</a></span>
+                                <span className='flex md:hidden'><a href="whatsapp://send?phone=49 173 3819311">+49 173 3819311</a></span>
                             </div>
                         </div>
 
@@ -73,7 +79,9 @@ export default function Contact() {
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">EMAIL</h2>
                                 <p className="text-indigo-500 leading-relaxed text-sm "><a href="mailto:hashstackdevelopers@gmail.com">hashstackdevelopers@gmail.com</a></p>
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
-                                <p className="leading-relaxed">+44 7405 000045</p>
+                                {/* <p className="leading-relaxed">+44 7405 000045</p> */}
+                                <span className='hidden md:flex'><a href="https://web.whatsapp.com/send?phone=447438234534">+44 7438 234534</a></span>
+                                <span className='flex md:hidden'><a href="whatsapp://send?phone=447438234534">+44 7438 234534</a></span>
                             </div>
                         </div>
 
@@ -119,7 +127,9 @@ export default function Contact() {
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4 ">EMAIL</h2>
                                 <p className="text-indigo-500 leading-relaxed"><a href="mailto:hashstackdevelopers@gmail.com">hashstackdevelopers@gmail.com</a></p>
                                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
-                                <p className="leading-relaxed">+92 300 1678560</p>
+                                {/* <p className="leading-relaxed">+92 300 1678560</p> */}
+                                <span className='hidden md:flex'><a href="https://web.whatsapp.com/send?phone=92 321 0006260">+92 321 0006260</a></span>
+                                <span className='flex md:hidden'><a href="whatsapp://send?phone=92 321 0006260">+92 321 0006260</a></span>
                             </div>
                         </div>
 

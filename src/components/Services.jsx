@@ -35,10 +35,14 @@ export default function ServicesPage() {
             {/* <div className='w-screen h-screen bg-black' > */}
             <div >
                 <div className='  '>
-                    <SideNav />
+                    <div className='relative z-20' >
+                        <SideNav />
+                    </div>
                     <div className='absolute' >
                         <div className="text-yellow-600" >
-                            <Btn />
+                            <div className='absolute z-10' >
+                                <Btn />
+                            </div>
                             <Particle />
                         </div>
                     </div>

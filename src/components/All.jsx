@@ -18,7 +18,7 @@ import '../style/test.css'
 import Btn from "./Btn"
 import { BsCodeSlash } from "react-icons/bs";
 
-import img6 from "../images/1.png"
+import img6 from "../images/codevo1.jpeg"
 import img9 from "../images/prog-logic2.jpeg"
 // import img10 from "../images/fourdev.jpeg"
 // import img11 from "../images/tecno.jpeg"
@@ -39,7 +39,7 @@ import team3 from "../images/ahsan.jpeg"
 import team4 from "../images/talha3.jpeg"
 import team5 from "../images/dig2.jpeg"
 import team6 from "../images/faizan.jpeg"
-import team89 from "../images/ayesha.jpg"
+import team89 from "../images/arooj.png"
 
 
 import "../style/test.css"
@@ -101,20 +101,25 @@ export default function All() {
 
 
                         <div className=' hidden pt-[2px]   w-full md:flex justify-center' >
-                            <span className='flex  ' ><Flag code="GB" width="30" height="5" /> &nbsp; <a href="https://web.whatsapp.com/send?phone=44 7405 000045">: +44 7405 000045</a> </span>
+                            <span className='flex  ' ><Flag code="GB" width="30" height="5" /> &nbsp; <a href="https://web.whatsapp.com/send?phone=447438234534">: +44 7438 234534</a> </span>
+                            {/* <span className='flex  ' ><Flag code="usa" width="30" height="5" /> &nbsp; <a href="https://web.whatsapp.com/send?phone=1(716) 218-3204">: +1(716) 218-3204</a> </span> */}
                             <span className='flex ml-12 ' ><Flag code="DE" width="30" height="5" /> &nbsp; <a href="https://web.whatsapp.com/send?phone=491733819311"> : +49 173 3819311</a> </span>
-                            <span className='flex ml-12 ' ><Flag code="pak" width="30" height="5" /> &nbsp; <a href="https://web.whatsapp.com/send?phone=92 3210006260">  : +92 3210006260 </a> </span>
+                            <span className='flex ml-12 ' ><Flag code="pak" width="30" height="5" /> &nbsp; <a href="https://web.whatsapp.com/send?phone=92 3210006260">  : +92 321 0006260 </a> </span>
+                            {/* <span className='flex ml-12 ' ><Flag code="pak" width="30" height="5" /> &nbsp; <a href="https://web.whatsapp.com/send?phone=92 3210006260">  : +92 3210006260 </a> </span> */}
                             {/* <span className='ml-8' >Germany: +49 162 9775400</span> */}
                         </div>
 
 
                         <div className="  flex md:hidden justify-between" >
+                            {/* <marquee behavior="" direction=""> */}
                             <div className='flex pt-[5px]' >
-                                <span className='flex text-xs  ' ><Flag code="GB" width="17" height="5" /> &nbsp; <a href="whatsapp://send?phone=447405000045">: +44 7405 000045 </a> </span>
+                                <span className='flex text-xs  ' ><Flag code="GB" width="17" height="5" /> &nbsp; <a href="whatsapp://send?phone=447438234534">: +44 7438 234534 </a> </span>
+                                {/* <span className='flex text-xs  ' ><Flag code="usa" width="17" height="5" /> &nbsp; <a href="whatsapp://send?phone=1(716) 218-3204">: +1(716) 218-3204 </a> </span> */}
                                 <span className='flex text-xs ml-2 ' ><Flag code="DE" width="17" height="5" /> &nbsp; <a href="whatsapp://send?phone=491733819311"> : +49 173 3819311</a> </span>
-                                <span className='flex text-xs ml-2 ' ><Flag code="pak" width="17" height="5" /> &nbsp; <a href="whatsapp://send?phone=923210006260">  : +92 3210006260 </a> </span>
-
+                                <span className='flex text-xs ml-2 ' ><Flag code="pak" width="17" height="5" /> &nbsp; <a href="whatsapp://send?phone=923210006260">  : +92 321 0006260 </a> </span>
+                                {/* <span className='flex text-xs ml-2 ' ><Flag code="pak" width="17" height="5" /> &nbsp; <a href="whatsapp://send?phone=923210006260">  : +92 3210006260 </a> </span> */}
                             </div>
+                            {/* </marquee> */}
                         </div>
                     </div>
                 </div>
@@ -193,7 +198,7 @@ export default function All() {
                             <img className="object-cover object-center rounded" alt="hero" src={img7} />
                         </div>
                         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center ">
-                            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-yellow-600">HASHSTACKDEVELOER
+                            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-yellow-600">HASHSTACKDEVELOPERS
                             </h1>
                             <p className="mb-4 leading-relaxed">
                                 Welcome to HashStackDevelopers, where innovation thrives. Our expert team produces digital solutions according to your needs. Join us to bring your ideas to life and stay one step ahead of technological developments.</p>
@@ -392,7 +397,7 @@ export default function All() {
                                     <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={team3} />
                                     <div class="flex-grow">
                                         <h2 class="text-gray-900 title-font font-medium">Syed Ahsan Naqvi</h2>
-                                        <p class="text-white">Engineering Manager</p>
+                                        <p class="text-white">ENGINEERING MANAGER</p>
                                     </div>
                                 </div>
                             </div>
@@ -435,8 +440,8 @@ export default function All() {
                                 <div data-aos="flip-down" data-aos-duration="2000" class="h-full team1 flex items-center border-gray-200 bg-yellow-600 border p-4 rounded-lg relative ">
                                     <img alt="team" class="w-16 h-16 bg-gray-100  object-top flex-shrink-0 rounded-full mr-4" src={team89} />
                                     <div class="flex-grow">
-                                        <h2 class="text-gray-900 title-font font-medium">Ayesha Sheikh</h2>
-                                        <p class="text-white">Accountant</p>
+                                        <h2 class="text-gray-900 title-font font-medium">Arooj Raja</h2>
+                                        <p class="text-white">PROJECT MANAGER</p>
                                     </div>
                                 </div>
                             </div>
