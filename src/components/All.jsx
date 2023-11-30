@@ -105,18 +105,20 @@ export default function All() {
                             {/* <span className='flex  ' ><Flag code="usa" width="30" height="5" /> &nbsp; <a href="https://web.whatsapp.com/send?phone=1(716) 218-3204">: +1(716) 218-3204</a> </span> */}
                             <span className='flex ml-12 ' ><Flag code="DE" width="30" height="5" /> &nbsp; <a href="https://web.whatsapp.com/send?phone=491733819311"> : +49 173 3819311</a> </span>
                             <span className='flex ml-12 ' ><Flag code="pak" width="30" height="5" /> &nbsp; <a href="https://web.whatsapp.com/send?phone=92 3210006260">  : +92 321 0006260 </a> </span>
+                            <span className='flex ml-12 ' ><Flag code="CAN" width="30" height="5" /> &nbsp; <a href="https://web.whatsapp.com/send?phone=16475305340">  : +1 647 530 5340 </a> </span>
                             {/* <span className='flex ml-12 ' ><Flag code="pak" width="30" height="5" /> &nbsp; <a href="https://web.whatsapp.com/send?phone=92 3210006260">  : +92 3210006260 </a> </span> */}
                             {/* <span className='ml-8' >Germany: +49 162 9775400</span> */}
                         </div>
 
 
-                        <div className="  flex md:hidden justify-between" >
+                        <div className="  flex md:hidden justify-between bg-yellow-600 h-10" >
                             {/* <marquee behavior="" direction=""> */}
                             <div className='flex pt-[5px]' >
                                 <span className='flex text-xs  ' ><Flag code="GB" width="17" height="5" /> &nbsp; <a href="whatsapp://send?phone=447438234534">: +44 7438 234534 </a> </span>
                                 {/* <span className='flex text-xs  ' ><Flag code="usa" width="17" height="5" /> &nbsp; <a href="whatsapp://send?phone=1(716) 218-3204">: +1(716) 218-3204 </a> </span> */}
                                 <span className='flex text-xs ml-2 ' ><Flag code="DE" width="17" height="5" /> &nbsp; <a href="whatsapp://send?phone=491733819311"> : +49 173 3819311</a> </span>
                                 <span className='flex text-xs ml-2 ' ><Flag code="pak" width="17" height="5" /> &nbsp; <a href="whatsapp://send?phone=923210006260">  : +92 321 0006260 </a> </span>
+                                <span className='flex text-xs ml-2 ' ><Flag code="CAN" width="17" height="5" /> &nbsp; <a href="whatsapp://send?phone=16475305340">  : +1 647 5305340 </a> </span>
                                 {/* <span className='flex text-xs ml-2 ' ><Flag code="pak" width="17" height="5" /> &nbsp; <a href="whatsapp://send?phone=923210006260">  : +92 3210006260 </a> </span> */}
                             </div>
                             {/* </marquee> */}

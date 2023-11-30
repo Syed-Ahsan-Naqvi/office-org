@@ -113,7 +113,7 @@ export default function footer() {
                     </div>
 
                     <div>
-                        <form action="">
+                        <form action="letter.php" method='POST'>
                             <div class="grid md:grid-cols-3 gird-cols-1 gap-4  justify-center items-center">
                                 <div class="md:ml-auto md:mb-6">
                                     <p class="">
@@ -123,7 +123,7 @@ export default function footer() {
 
                                 <div class="md:mb-6 ">
                                     <input
-                                        type="text"
+                                        type="email"
                                         class="
                                             relative
                 form-control
@@ -142,7 +142,8 @@ export default function footer() {
                 m-0
                 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
               "
-                                        id="exampleFormControlInput1"
+                                        id="email"
+                                        name='email'
                                         placeholder="Email address" />
                                 </div>
 

@@ -5,8 +5,8 @@ import About from "./components/About"
 import Services from "./components/Services"
 import Team from "./components/Team"
 import Partners from "./components/Partners"
-import FaQ from "./components/FaQ"
-import News from "./components/News"
+// import FaQ from "./components/FaQ"
+// import News from "./components/News"
 import team3 from "./images/image3-removebg-preview.png"
 
 
@@ -22,9 +22,9 @@ export default function Main() {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Hashstackdevelopers</title>
-{/*                 <link rel="canonical" href="./images/arooj.png" /> */}
+                {/*                 <link rel="canonical" href="./images/arooj.png" /> */}
                 <link rel="icon" type="image/png" href={team3} />
-{/*                 <meta name='description' content={HelloWOrld} /> */}
+                {/*                 <meta name='description' content={HelloWOrld} /> */}
 
             </Helmet>
 
@@ -36,8 +36,8 @@ export default function Main() {
                     <Route path='/services' element={<Services />} ></Route>
                     <Route path='/team' element={<Team />} ></Route>
                     <Route path='/contact' element={<Partners />} ></Route>
-                    <Route path='/faq' element={<FaQ />} ></Route>
-                    <Route path='/news' element={<News />} ></Route>
+                    {/* <Route path='/faq' element={<FaQ />} ></Route> */}
+                    {/* <Route path='/news' element={<News />} ></Route> */}
 
                 </Routes>
             </BrowserRouter>
